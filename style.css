@@ -10,6 +10,7 @@
   --line: #e5e0d8;
   --dark: #111111;
   --sale: #8a2d20;
+  --warning: #9a7a2f;
 }
 
 body {
@@ -147,6 +148,29 @@ h1 {
   box-shadow: 0 8px 24px rgba(0,0,0,0.04);
 }
 
+.thumb {
+  aspect-ratio: 4 / 3;
+  background: #ece7df;
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+}
+
+.thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.no-image {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 13px;
+  letter-spacing: .08em;
+}
+
 .card-body {
   padding: 17px;
 }
@@ -178,6 +202,11 @@ h1 {
 .badge.sale {
   background: var(--sale);
   color: #fff;
+}
+
+.badge.warning {
+  background: #f5ead0;
+  color: var(--warning);
 }
 
 .name {

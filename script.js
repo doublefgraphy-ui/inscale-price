@@ -124,7 +124,9 @@ function makeSearchText(item) {
     item.material,
     item.color,
     item.origin,
-    item.note
+    item.note,
+    item.matched_name,
+    item.product_code
   ].join(" ").toLowerCase();
 }
 
@@ -142,24 +144,31 @@ function renderProducts(items) {
 
   items.forEach((item) => {
     const sale = item.dpSale ? `<span class="badge sale">DP SALE</span>` : "";
-    const links = [];
+    const unmatched = item.match_status === "new_or_unmatched"
+      ? `<span class="badge warning">정보 확인 필요</span>`
+      : "";
+    const image = item.image
+      ? `<div class="thumb"><img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.name)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'no-image\\'>NO IMAGE</div>'"></div>`
+      : `<div class="thumb"><div class="no-image">NO IMAGE</div></div>`;
 
+    const links = [];
     if (item.url) {
       links.push(`<a class="link-primary" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">Info Link</a>`);
     }
-
     if (item.more_image) {
       links.push(`<a class="link-secondary" href="${escapeHTML(item.more_image)}" target="_blank" rel="noopener">More Image</a>`);
     }
 
     productList.insertAdjacentHTML("beforeend", `
       <article class="card">
+        ${image}
         <div class="card-body">
           <div class="meta">
             <span class="badge dark">${escapeHTML(clean(item.floor))}</span>
             <span class="badge">${escapeHTML(clean(item.location))}</span>
             <span class="badge">${escapeHTML(clean(item.category))}</span>
             ${sale}
+            ${unmatched}
           </div>
 
           <h2 class="name">${escapeHTML(clean(item.name))}</h2>
