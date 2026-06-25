@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INSCALE SHOWROOM PRICE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+  <header class="topbar">
+    <a class="brand-home" href="#top" aria-label="맨 위로 이동">
+      <p class="eyebrow">INSCALE SHOWROOM</p>
+      <h1>PRICE & SPEC</h1>
+    </a>
+    <button id="resetBtn" class="reset-btn" type="button">초기화</button>
+  </header>
+
+  <main class="wrap">
+    <section class="search-panel">
+      <input id="searchInput" type="search" placeholder="상품명, 브랜드, 디자이너, 소재, 사이즈 검색" autocomplete="off" />
+
+      <nav class="floor-tabs" aria-label="층별 필터">
+        <button class="floor-btn is-active" type="button" data-floor="">전체</button>
+        <button class="floor-btn" type="button" data-floor="B1">B1</button>
+        <button class="floor-btn" type="button" data-floor="1F">1F</button>
+        <button class="floor-btn" type="button" data-floor="2F">2F</button>
+        <button class="floor-btn" type="button" data-floor="3F">3F</button>
+        <button class="floor-btn" type="button" data-floor="4F">4F</button>
+        <button class="floor-btn sale" type="button" data-sale="DP SALE">DP SALE</button>
+      </nav>
+
+      <div class="summary">
+        <span id="countText">불러오는 중...</span>
+        <span class="hint">쇼룸 가격표에 있는 제품만 표시됩니다.</span>
+      </div>
+    </section>
+
+    <section id="productList" class="product-list"></section>
+
+    <section id="emptyState" class="empty-state" hidden>
+      검색 결과가 없습니다.
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>INSCALE internal showroom price list</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
