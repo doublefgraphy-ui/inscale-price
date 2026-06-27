@@ -27,40 +27,47 @@ body {
 .topbar {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 20;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   gap: 12px;
   padding: 18px 22px;
-  background: rgba(244, 242, 239, 0.94);
+  background: rgba(244, 242, 239, 0.95);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--line);
 }
 
 .brand-home {
-  display: inline-block;
-  color: var(--text);
-  text-decoration: none;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
   cursor: pointer;
+  color: var(--text);
 }
 
-.brand-home:hover .eyebrow,
-.brand-home:hover h1 {
+.brand-home:hover {
   opacity: 0.72;
 }
 
 .eyebrow {
+  display: block;
   margin: 0 0 3px;
+  color: var(--muted);
   font-size: 11px;
   letter-spacing: 0.14em;
-  color: var(--muted);
+  font-weight: 700;
 }
 
-h1 {
+.title {
+  display: block;
   margin: 0;
   font-size: 22px;
+  line-height: 1.05;
   letter-spacing: -0.03em;
+  font-weight: 900;
 }
 
 .reset-btn {
@@ -342,7 +349,7 @@ h1 {
     padding: 15px;
   }
 
-  h1 {
+  .title {
     font-size: 19px;
   }
 

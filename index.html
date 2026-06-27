@@ -1,17 +1,18 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>INSCALE SHOWROOM PRICE</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body id="top">
   <header class="topbar">
-    <a class="brand-home" href="#top" aria-label="맨 위로 이동">
-      <p class="eyebrow">INSCALE SHOWROOM</p>
-      <h1>PRICE & SPEC</h1>
-    </a>
+    <button class="brand-home" id="homeBtn" type="button" aria-label="맨 위로 이동">
+      <span class="eyebrow">INSCALE SHOWROOM</span>
+      <span class="title">PRICE &amp; SPEC</span>
+    </button>
+
     <button id="resetBtn" class="reset-btn" type="button">초기화</button>
   </header>
 
@@ -22,21 +23,21 @@
         type="search"
         placeholder="상품명, 브랜드, 디자이너, 소재, 사이즈 검색"
         autocomplete="off"
-      />
+      >
 
       <nav class="floor-tabs" aria-label="층별 필터">
-        <button class="floor-btn is-active" type="button" data-floor="">전체</button>
-        <button class="floor-btn" type="button" data-floor="B1">B1</button>
-        <button class="floor-btn" type="button" data-floor="1F">1F</button>
-        <button class="floor-btn" type="button" data-floor="2F">2F</button>
-        <button class="floor-btn" type="button" data-floor="3F">3F</button>
-        <button class="floor-btn" type="button" data-floor="4F">4F</button>
-        <button class="floor-btn sale" type="button" data-sale="DP SALE">DP SALE</button>
+        <button class="floor-btn is-active" type="button" data-type="all">전체</button>
+        <button class="floor-btn" type="button" data-type="floor" data-value="B1">B1</button>
+        <button class="floor-btn" type="button" data-type="floor" data-value="1F">1F</button>
+        <button class="floor-btn" type="button" data-type="floor" data-value="2F">2F</button>
+        <button class="floor-btn" type="button" data-type="floor" data-value="3F">3F</button>
+        <button class="floor-btn" type="button" data-type="floor" data-value="4F">4F</button>
+        <button class="floor-btn sale" type="button" data-type="sale">DP SALE</button>
       </nav>
 
       <div class="summary">
         <span id="countText">불러오는 중...</span>
-        <span class="hint">INSCALE showroom stable v1.0</span>
+        <span class="hint">INSCALE showroom rebuild v2</span>
       </div>
     </section>
 
