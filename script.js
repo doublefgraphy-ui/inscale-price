@@ -107,21 +107,9 @@ function isDPSale(item) {
 
 function makeSearchText(item) {
   return [
-    item.floor,
-    item.location,
-    item.brand,
-    item.name,
-    item.category,
-    item.price,
-    item.display,
-    item.description,
-    item.designer,
-    item.size,
-    item.material,
-    item.color,
-    item.origin,
-    item.note,
-    item.product_code
+    item.floor, item.location, item.brand, item.name, item.category,
+    item.price, item.display, item.description, item.designer, item.size,
+    item.material, item.color, item.origin, item.note, item.product_code
   ].join(" ").toLowerCase();
 }
 

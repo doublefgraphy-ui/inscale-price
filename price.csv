@@ -1,11 +1,11 @@
-﻿floor,location,brand,name,category,price,display,description,designer,size,material,color,origin,image,url,more_image,note,product_code,matched_name,matched_brand,match_status,match_method,match_score
+﻿floor,location,brand,name,category,price,display,description,designer,size,material,color,origin,image,url,more_image,note,product_code,product_no,matched_name,matched_brand,match_status,match_method,match_score
 B1,B1,Montana,Panton Wire Single,Chair,280000,전시중,"Design : Verner Panton
 
 Size : W348*D188*H348
 
 Material : Chrome, Lacquered Steel
 
-Color : Chrome, Black, Pine",Verner Panton,W348*D188*H348,"Chrome, Lacquered Steel","Chrome, Black, Pine",,https://inscale.co.kr/web/product/big/202606/6d295c3a84b3395272cf5d4865be27e6.jpg,https://inscale.co.kr/product/detail.html?product_no=828,,,P0000BFW,Panton wire single Pine,MONTANA,matched,product_code,1
+Color : Chrome, Black, Pine",Verner Panton,W348*D188*H348,"Chrome, Lacquered Steel","Chrome, Black, Pine",,https://inscale.co.kr/web/product/big/202606/6d295c3a84b3395272cf5d4865be27e6.jpg,https://inscale.co.kr/product/detail.html?product_no=828,,,P0000BFW,828,Panton wire single Pine,MONTANA,matched,product_code,1
 B1,B1,Vitra,Uten.Silo I,Living Acc,653000,전시중,"Design : Dorothee Becker
 
 Material : ABS plastic ,Nickle-plated metal
@@ -14,7 +14,7 @@ Color : Black
 
 Size : 670 x 870 ( Model - l )
 
-Made in Germany",Dorothee Becker,670 x 870 ( Model - l ),"ABS plastic ,Nickle-plated metal",Black,Germany,https://inscale.co.kr/web/product/big/202606/c294404b65bc5e80b4710c16b0c871fe.jpg,https://inscale.co.kr/product/utensilo-model-i-japanese-red/713/category/84/display/1/,,,P0000BED,Uten.Silo Model - I Black,VITRA,matched,product_code,1
+Made in Germany",Dorothee Becker,670 x 870 ( Model - l ),"ABS plastic ,Nickle-plated metal",Black,Germany,https://inscale.co.kr/web/product/big/202606/c294404b65bc5e80b4710c16b0c871fe.jpg,https://inscale.co.kr/product/utensilo-model-i-japanese-red/713/category/84/display/1/,,,P0000BED,713,Uten.Silo Model - I Black,VITRA,matched,product_code,1
 B1,B1,Artek,Side Table 915,Table,1930000,전시중,"Color : White
 
 Size : W490 x D590 x H590
@@ -23,21 +23,21 @@ Frame : Birch, clear lacquer
 
 Shelves : Birch, White lacquer
 
-Made in Finland",,W490 x D590 x H590,,White,Finland,https://inscale.co.kr/web/product/big/202307/4fd4ed9c8def7c782cde9ff784776e86.jpg,https://inscale.co.kr/product/side-table-915-white-lacquered/179/category/85/display/1/,,,P00000GX,SIDE TABLE 915,ARTEK,matched,product_code,1
+Made in Finland",,W490 x D590 x H590,,White,Finland,https://inscale.co.kr/web/product/big/202307/4fd4ed9c8def7c782cde9ff784776e86.jpg,https://inscale.co.kr/product/side-table-915-white-lacquered/179/category/85/display/1/,,,P00000GX,179,SIDE TABLE 915,ARTEK,matched,product_code,1
 B1,B1,Artek,Icon A331 Beehive Poster,Product,74000,전시중,"Designer : Greige
 
 Material : Recycled paper
 
 Size : W50 x H70cm
 
-액자 미포함",Greige,W50 x H70cm,Recycled paper,,,https://inscale.co.kr/web/product/big/202606/aaa754cf4a07ba95bcf0b318e97cddff.jpg,https://inscale.co.kr/product/detail.html?product_no=787,,,P0000BEH,Icon A331 Beehive Poster,ARTEK,matched,product_code,1
+액자 미포함",Greige,W50 x H70cm,Recycled paper,,,https://inscale.co.kr/web/product/big/202606/aaa754cf4a07ba95bcf0b318e97cddff.jpg,https://inscale.co.kr/product/detail.html?product_no=787,,,P0000BEH,787,Icon A331 Beehive Poster,ARTEK,matched,product_code,1
 B1,B1,Artek,Icon Stool 60 Poster,Stool & Bench,570000,전시중,"Designer : Greige
 
 Material : Recycled paper
 
 Size : W50 x H70cm
 
-액자 미포함",Greige,W50 x H70cm,Recycled paper,,,https://inscale.co.kr/web/product/big/202606/591215fff8e488a21b0cd5907d0f05f9.jpg,https://inscale.co.kr/product/detail.html?product_no=788,,,P0000BEI,Icon Stool 60 Poster,ARTEK,matched,product_code,1
+액자 미포함",Greige,W50 x H70cm,Recycled paper,,,https://inscale.co.kr/web/product/big/202606/591215fff8e488a21b0cd5907d0f05f9.jpg,https://inscale.co.kr/product/detail.html?product_no=788,,,P0000BEI,788,Icon Stool 60 Poster,ARTEK,matched,product_code,1
 B1,B1,Vitra,Tabouret Metallique - Bleu Marcoule,Product,1170000,전시중,"Designer : Jean Prouve
 
 Color : Bleu Marcoule
@@ -46,7 +46,7 @@ Material : Bent sheet steel(powder-coated finish), Plastic glides
 
 Size : Ø380 x H445
 
-Made in Germany",Jean Prouve,Ø380 x H445,"Bent sheet steel(powder-coated finish), Plastic glides",Bleu Marcoule,Germany,https://inscale.co.kr/web/product/big/202311/2013392706d20d7bb6bdac9d24689f48.jpg,https://inscale.co.kr/product/tabouret-metallique-bleu-marcoule/422/category/84/display/1/,,,P00000QG,Tabouret Metallique - Bleu Marcoule,VITRA,matched,product_code,1
+Made in Germany",Jean Prouve,Ø380 x H445,"Bent sheet steel(powder-coated finish), Plastic glides",Bleu Marcoule,Germany,https://inscale.co.kr/web/product/big/202311/2013392706d20d7bb6bdac9d24689f48.jpg,https://inscale.co.kr/product/tabouret-metallique-bleu-marcoule/422/category/84/display/1/,,,P00000QG,422,Tabouret Metallique - Bleu Marcoule,VITRA,matched,product_code,1
 B1,B1,Vitra,"100th Anniversary Edition 
 Heart Cone Chair",Chair,6450000,전시중,"Designer : Verner Panton
 
@@ -56,21 +56,21 @@ Color : Blue
 
 Size : W1030 x D625 x H890
 
-Made in Germany",Verner Panton,W1030 x D625 x H890,"Polyurethane foam, Steel",Blue,Germany,https://inscale.co.kr/web/product/big/202602/5b88e83ccd5048459731987740d9c45e.jpg,https://inscale.co.kr/product/100th-anniversary-edition-heart-cone-chair/732/category/84/display/1/,,,P0000BCE,100th Anniversary Edition Heart Cone Chair,VITRA,matched,product_code,1
+Made in Germany",Verner Panton,W1030 x D625 x H890,"Polyurethane foam, Steel",Blue,Germany,https://inscale.co.kr/web/product/big/202602/5b88e83ccd5048459731987740d9c45e.jpg,https://inscale.co.kr/product/100th-anniversary-edition-heart-cone-chair/732/category/84/display/1/,,,P0000BCE,732,100th Anniversary Edition Heart Cone Chair,VITRA,matched,product_code,1
 B1,B1,Vitra,SCREEN 100C,Product,3760000,전시중,"Designer : Alvar Aalto
 
 Material : Solid Pine
 
 Size : W2000 X H1300
 
-Made in Finland",Alvar Aalto,W2000 X H1300,Solid Pine,,Finland,https://inscale.co.kr/web/product/big/202606/8a21f75aebe262a4fd07d92ab08ccfc7.jpg,https://inscale.co.kr/product/screen-100c/789/category/118/display/1/,,,P0000BEJ,screen 100C,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W2000 X H1300,Solid Pine,,Finland,https://inscale.co.kr/web/product/big/202606/8a21f75aebe262a4fd07d92ab08ccfc7.jpg,https://inscale.co.kr/product/screen-100c/789/category/118/display/1/,,,P0000BEJ,789,screen 100C,ARTEK,matched,product_code,1
 B1,B1,Vitra,Cork Family Type C,Product,800000,전시중,"Designer : Jasper Morrison
 
 Material : Pure cork, lathe-turned, untreated surface
 
 Size : 310 x H330mm
 
-Made in Germany",Jasper Morrison,310 x H330mm,"Pure cork, lathe-turned, untreated surface",,Germany,https://inscale.co.kr/web/product/big/202606/34058f0b2cfd42adc8a383d99d355e3d.jpg,https://inscale.co.kr/product/detail.html?product_no=790,,,P0000BCV,Cork Family Type C,VITRA,matched,product_code,1
+Made in Germany",Jasper Morrison,310 x H330mm,"Pure cork, lathe-turned, untreated surface",,Germany,https://inscale.co.kr/web/product/big/202606/34058f0b2cfd42adc8a383d99d355e3d.jpg,https://inscale.co.kr/product/detail.html?product_no=790,,,P0000BCV,790,Cork Family Type C,VITRA,matched,product_code,1
 B1,B1,Vitra,"All Plastic Chair 
 Brick red",Chair,570000,전시중,"Designer : Jasper Morrison
 
@@ -80,7 +80,7 @@ Color : Brick red
 
 Size : W425 x D460 x H445-720
 
-Made in Germany",Jasper Morrison,W425 x D460 x H445-720,Polypropylene,Brick red,Germany,https://inscale.co.kr/web/product/big/202606/c8f3c9984bce4a5b375b76cd0ad39a7c.jpg,https://inscale.co.kr/product/all-plastic-chair-brick-red/40/category/84/display/1/,,,P00000BO,All Plastic Chair Brick red,VITRA,matched,product_code,1
+Made in Germany",Jasper Morrison,W425 x D460 x H445-720,Polypropylene,Brick red,Germany,https://inscale.co.kr/web/product/big/202606/c8f3c9984bce4a5b375b76cd0ad39a7c.jpg,https://inscale.co.kr/product/all-plastic-chair-brick-red/40/category/84/display/1/,,,P00000BO,40,All Plastic Chair Brick red,VITRA,matched,product_code,1
 B1,B1,Vitra,"All Plastic Chair 
 Ivy",Chair,570000,전시중,"Designer : Jasper Morrison
 
@@ -90,7 +90,7 @@ Color : Ivy
 
 Size : W425 x D460 x H445-720
 
-Made in Germany",Jasper Morrison,W425 x D460 x H445-720,Polypropylene,Ivy,Germany,https://inscale.co.kr/web/product/big/202308/23597ac51a5d362a6aaf7caba06d157b.jpg,https://inscale.co.kr/product/all-plastic-chair-ivy/38/category/84/display/1/,,,P00000BM,All Plastic Chair Ivy,VITRA,matched,product_code,1
+Made in Germany",Jasper Morrison,W425 x D460 x H445-720,Polypropylene,Ivy,Germany,https://inscale.co.kr/web/product/big/202308/23597ac51a5d362a6aaf7caba06d157b.jpg,https://inscale.co.kr/product/all-plastic-chair-ivy/38/category/84/display/1/,,,P00000BM,38,All Plastic Chair Ivy,VITRA,matched,product_code,1
 B1,B1,Vitra,"All Plastic Chair 
 White",Chair,570000,전시중,"Designer : Jasper Morrison
 
@@ -100,7 +100,7 @@ Color : White
 
 Size : W425 x D460 x H445-720
 
-Made in Germany",Jasper Morrison,W425 x D460 x H445-720,Polypropylene,White,Germany,https://inscale.co.kr/web/product/big/202311/9b28c48fb6657d253a66a5cd26327548.jpg,https://inscale.co.kr/product/all-plastic-chair-white/39/category/84/display/1/,,,P00000BN,All Plastic Chair - White,VITRA,matched,product_code,1
+Made in Germany",Jasper Morrison,W425 x D460 x H445-720,Polypropylene,White,Germany,https://inscale.co.kr/web/product/big/202311/9b28c48fb6657d253a66a5cd26327548.jpg,https://inscale.co.kr/product/all-plastic-chair-white/39/category/84/display/1/,,,P00000BN,39,All Plastic Chair - White,VITRA,matched,product_code,1
 B1,B1,Artemide,Shogun,Product,1720000,전시중,"Designer : Mario Botta
 
 Material : Aluminium, Steel
@@ -109,7 +109,7 @@ Color : White & Black
 
 Size : 32 x H59.5cm
 
-Made in Italy",Mario Botta,32 x H59.5cm,"Aluminium, Steel",White & Black,Italy,https://inscale.co.kr/web/product/big/202606/32a72e0c5a86f9429ef061350e757897.jpg,https://inscale.co.kr/product/detail.html?product_no=791,,,P0000BEL,Shogun,ARTEMIDE,matched,product_code,1
+Made in Italy",Mario Botta,32 x H59.5cm,"Aluminium, Steel",White & Black,Italy,https://inscale.co.kr/web/product/big/202606/32a72e0c5a86f9429ef061350e757897.jpg,https://inscale.co.kr/product/detail.html?product_no=791,,,P0000BEL,791,Shogun,ARTEMIDE,matched,product_code,1
 B1,B1,Artek,Atelier Chair Green lacquered,Chair,960000,전시중,"Designer : TAF Studio
 
 Material : Solid beech / Beech veneer
@@ -118,7 +118,7 @@ Color : Green lacquer
 
 Size : W460 x H470 x H455-780
 
-Made in Germany",TAF Studio,W460 x H470 x H455-780,Solid beech / Beech veneer,Green lacquer,Germany,https://inscale.co.kr/web/product/big/202308/034b5d55329c0e55831906aa6bf16275.jpg,https://inscale.co.kr/product/detail.html?product_no=33,,,P00000BH,Atelier Chair Green,ARTEK,matched,product_code,1
+Made in Germany",TAF Studio,W460 x H470 x H455-780,Solid beech / Beech veneer,Green lacquer,Germany,https://inscale.co.kr/web/product/big/202308/034b5d55329c0e55831906aa6bf16275.jpg,https://inscale.co.kr/product/detail.html?product_no=33,,,P00000BH,33,Atelier Chair Green,ARTEK,matched,product_code,1
 B1,B1,Artek,Atelier Chair Dark red lacquered,Chair,960000,전시중,"Designer : TAF Studio
 
 Material : Solid beech / Beech veneer
@@ -127,7 +127,7 @@ Color : Green lacquer
 
 Size : W460 x H470 x H455-780
 
-Made in Germany",TAF Studio,W460 x H470 x H455-780,Solid beech / Beech veneer,Green lacquer,Germany,https://inscale.co.kr/web/product/big/202308/73456da8fc5e9cbdfb08078f10034f6a.jpg,https://inscale.co.kr/product/detail.html?product_no=32,,,P00000BG,Atelier Chair Dark red,ARTEK,matched,product_code,1
+Made in Germany",TAF Studio,W460 x H470 x H455-780,Solid beech / Beech veneer,Green lacquer,Germany,https://inscale.co.kr/web/product/big/202308/73456da8fc5e9cbdfb08078f10034f6a.jpg,https://inscale.co.kr/product/detail.html?product_no=32,,,P00000BG,32,Atelier Chair Dark red,ARTEK,matched,product_code,1
 B1,B1,Artek,Pendant Light JL341 Brass,Lighting,1690000,전시중,"Designer : Juha Leiviska
 
 Material : Shade, reflectors-Hand spun aluminium
@@ -136,7 +136,7 @@ Cable : White plastic cable, length 2 m
 
 Size : Ø560 x H170
 
-Made in Poland",Juha Leiviska,Ø560 x H170,"Shade, reflectors-Hand spun aluminium",,Poland,https://inscale.co.kr/web/product/big/202505/4c7584042865e40ff3d8abbca86f9d4e.jpg,https://inscale.co.kr/product/pendant-light-jl341-brass/692/category/85/display/1/,,,P0000BAQ,Pendant Light JL341,ARTEK,matched,product_code,1
+Made in Poland",Juha Leiviska,Ø560 x H170,"Shade, reflectors-Hand spun aluminium",,Poland,https://inscale.co.kr/web/product/big/202505/4c7584042865e40ff3d8abbca86f9d4e.jpg,https://inscale.co.kr/product/pendant-light-jl341-brass/692/category/85/display/1/,,,P0000BAQ,692,Pendant Light JL341,ARTEK,matched,product_code,1
 B1,B1,Vitra,Asterisk Clock,Living Acc,616000,전시중,"Designer : George Nelson
 
 Material : Various types of wood and metal
@@ -145,42 +145,42 @@ Color : Black
 
 Size : Ø250
 
-Made in Germany",George Nelson,Ø250,Various types of wood and metal,Black,Germany,https://inscale.co.kr/web/product/big/202308/658b81fc13122424185fc77c1f6901ae.jpg,https://inscale.co.kr/product/asterisk-clock/213/category/118/display/1/,,,P00000IF,Asterisk Clock,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø250,Various types of wood and metal,Black,Germany,https://inscale.co.kr/web/product/big/202308/658b81fc13122424185fc77c1f6901ae.jpg,https://inscale.co.kr/product/asterisk-clock/213/category/118/display/1/,,,P00000IF,213,Asterisk Clock,VITRA,matched,product_code,1
 B1,B1,Vitra,Wall Clocks Star,Lighting,900000,전시중,"Designer : George Nelson
 
 Material : Various types of wood and metal
 
 Size : Ø610
 
-Made in Germany",George Nelson,Ø610,Various types of wood and metal,,Germany,https://inscale.co.kr/web/product/big/202308/afd48c861cb2bfa6dd046ed5529ee83a.jpg,https://inscale.co.kr/product/wall-clocks-star/212/category/118/display/1/,,,P00000IE,Wall Clocks Star,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø610,Various types of wood and metal,,Germany,https://inscale.co.kr/web/product/big/202308/afd48c861cb2bfa6dd046ed5529ee83a.jpg,https://inscale.co.kr/product/wall-clocks-star/212/category/118/display/1/,,,P00000IE,212,Wall Clocks Star,VITRA,matched,product_code,1
 B1,B1,Vitra,Wall Clocks Turbine,Lighting,1269000,전시중,"Designer : George Nelson
 
 Material : Various types of wood and metal
 
 Size : Ø750
 
-Made in Germany",George Nelson,Ø750,Various types of wood and metal,,Germany,https://inscale.co.kr/web/product/big/202308/69e0607ce10c7c8485ce034d5925e513.jpg,https://inscale.co.kr/product/wall-clocks-turbine/211/category/84/display/1/,,,P00000ID,Wall Clocks Turbine,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø750,Various types of wood and metal,,Germany,https://inscale.co.kr/web/product/big/202308/69e0607ce10c7c8485ce034d5925e513.jpg,https://inscale.co.kr/product/wall-clocks-turbine/211/category/84/display/1/,,,P00000ID,211,Wall Clocks Turbine,VITRA,matched,product_code,1
 B1,B1,Vitra,Sunburst Clock Black-Brass,Living Acc,900000,전시중,"Designer : George Nelson
 
 Material : Wood, Metal, Brass
 
 Size : Ø470 mm
 
-Made in Germany",George Nelson,Ø470 mm,"Wood, Metal, Brass",,Germany,https://inscale.co.kr/web/product/big/202606/275c61ff8390947b6f3de45ca4d3edf1.jpg,https://inscale.co.kr/product/detail.html?product_no=792,,,P0000BEM,Sunburst Clock Black-Brass,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø470 mm,"Wood, Metal, Brass",,Germany,https://inscale.co.kr/web/product/big/202606/275c61ff8390947b6f3de45ca4d3edf1.jpg,https://inscale.co.kr/product/detail.html?product_no=792,,,P0000BEM,792,Sunburst Clock Black-Brass,VITRA,matched,product_code,1
 B1,B1,Vitra,Eye Wall Clock,Lighting,900000,전시중,"Designer : George Nelson
 
 Material : Wood, Metal, Brass
 
 Size : 760 x 340 mm
 
-Made in Germany",George Nelson,760 x 340 mm,"Wood, Metal, Brass",,Germany,https://inscale.co.kr/web/product/big/202606/aacfe150391742ea4cf59f24942bf31b.jpg,https://inscale.co.kr/product/detail.html?product_no=793,,,P0000BEN,Eye Wall Clock,VITRA,matched,product_code,1
+Made in Germany",George Nelson,760 x 340 mm,"Wood, Metal, Brass",,Germany,https://inscale.co.kr/web/product/big/202606/aacfe150391742ea4cf59f24942bf31b.jpg,https://inscale.co.kr/product/detail.html?product_no=793,,,P0000BEN,793,Eye Wall Clock,VITRA,matched,product_code,1
 B1,B1,Vitra,Ball Clock Black-Brass,Living Acc,814000,전시중,"Designer : George Nelson
 
 Material : Wood, Metal, Brass
 
 Size : Ø330 mm
 
-Made in Germany",George Nelson,Ø330 mm,"Wood, Metal, Brass",,Germany,https://inscale.co.kr/web/product/big/202606/4a97d5cc7393c58cc98823273916f164.jpg,https://inscale.co.kr/product/detail.html?product_no=794,,,P0000BEO,Ball Clock Black-Brass,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø330 mm,"Wood, Metal, Brass",,Germany,https://inscale.co.kr/web/product/big/202606/4a97d5cc7393c58cc98823273916f164.jpg,https://inscale.co.kr/product/detail.html?product_no=794,,,P0000BEO,794,Ball Clock Black-Brass,VITRA,matched,product_code,1
 B1,B1,Vitra,Tabouret Bois Natural Solid Oak,Product,1370000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Material : Natural oak, Sheet metal
@@ -189,7 +189,7 @@ Color : Natural solid oak
 
 Size : 35x H45cm
 
-Made in Germany",Ronan & Erwan Bouroullec,35x H45cm,"Natural oak, Sheet metal",Natural solid oak,Germany,https://inscale.co.kr/web/product/big/202606/b9d807ce0fac0e8fcac9646781c3d0cf.jpg,https://inscale.co.kr/product/detail.html?product_no=795,,,P0000BEP,Tabouret Bois Natural Solid Oak,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,35x H45cm,"Natural oak, Sheet metal",Natural solid oak,Germany,https://inscale.co.kr/web/product/big/202606/b9d807ce0fac0e8fcac9646781c3d0cf.jpg,https://inscale.co.kr/product/detail.html?product_no=795,,,P0000BEP,795,Tabouret Bois Natural Solid Oak,VITRA,matched,product_code,1
 B1,B1,Flos,Ceramique Down Rust Red,Product,1665000,전시중,"Designer : Ronan Bouroullec
 
 Material : Ceramic, Polycarbonate
@@ -198,14 +198,14 @@ Color : Rust Red
 
 Size : ø22 x 20.5 x H49cm
 
-Made in Italy",Ronan Bouroullec,ø22 x 20.5 x H49cm,"Ceramic, Polycarbonate",Rust Red,Italy,https://inscale.co.kr/web/product/big/202606/e926eba18d632f5ae07c9885705e2505.jpg,https://inscale.co.kr/product/detail.html?product_no=805,,,P0000BEZ,Ceramique Down Rust Red,FLOS,matched,product_code,1
+Made in Italy",Ronan Bouroullec,ø22 x 20.5 x H49cm,"Ceramic, Polycarbonate",Rust Red,Italy,https://inscale.co.kr/web/product/big/202606/e926eba18d632f5ae07c9885705e2505.jpg,https://inscale.co.kr/product/detail.html?product_no=805,,,P0000BEZ,805,Ceramique Down Rust Red,FLOS,matched,product_code,1
 B1,B1,Marset,Ginger,Lighting,900000,전시중,"Designer : Joan Gaspar
 
 Material : Oak / Lacquered black matte metal
 
 Size : Ø195 x H300
 
-Made in Spain",Joan Gaspar,Ø195 x H300,Oak / Lacquered black matte metal,,Spain,https://inscale.co.kr/web/product/big/202410/4aa110c9b270a3599416da0b3eec0e1c.jpg,https://inscale.co.kr/product/ginger-portable-oak/664/category/110/display/1/,,,P00000ZO,Ginger Portable Oak,CASSINA,matched,product_code,1
+Made in Spain",Joan Gaspar,Ø195 x H300,Oak / Lacquered black matte metal,,Spain,https://inscale.co.kr/web/product/big/202410/4aa110c9b270a3599416da0b3eec0e1c.jpg,https://inscale.co.kr/product/ginger-portable-oak/664/category/110/display/1/,,,P00000ZO,664,Ginger Portable Oak,CASSINA,matched,product_code,1
 B1,B1,Artek,[90 Anniversary Edition] Artek + Marimekko Bench 153B Seireeni,Stool & Bench,1220000,전시중,"Designer : Alvar Aalto, Marimekko
 
 Legs & Seat : Solid Birch
@@ -214,7 +214,7 @@ Seat Top : Birch Venner
 
 Size : W72.5 x D40 x H44.5
 
-Made in Finland","Alvar Aalto, Marimekko",W72.5 x D40 x H44.5,,,Finland,https://inscale.co.kr/web/product/big/202512/f8da6e0876a1df14d6533a382ee1241b.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-bench-153b-seireeni/712/category/85/display/1/,,,P0000BBK,[90 Anniversary Edition] Artek + Marimekko Bench 153B Seireeni,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Marimekko",W72.5 x D40 x H44.5,,,Finland,https://inscale.co.kr/web/product/big/202512/f8da6e0876a1df14d6533a382ee1241b.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-bench-153b-seireeni/712/category/85/display/1/,,,P0000BBK,712,[90 Anniversary Edition] Artek + Marimekko Bench 153B Seireeni,ARTEK,matched,product_code,1
 B1,B1,Artek,Aalto Table Half Round 96 - White HPL,Table,3450000,전시중,"Designer : Alvar Aalto
 
 Base : Solid birch
@@ -223,7 +223,7 @@ Material : White HPL
 
 Size : W150 x D75 x H74 cm
 
-Made in Finland",Alvar Aalto,W150 x D75 x H74 cm,White HPL,,Finland,https://inscale.co.kr/web/product/big/202606/60503b0bef360d382943b3b2f951de3f.jpg,https://inscale.co.kr/product/aalto-table-half-round-96-white-hpl/771/category/85/display/1/,,,P0000BDR,Aalto Table Half Round 96 - White HPL,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W150 x D75 x H74 cm,White HPL,,Finland,https://inscale.co.kr/web/product/big/202606/60503b0bef360d382943b3b2f951de3f.jpg,https://inscale.co.kr/product/aalto-table-half-round-96-white-hpl/771/category/85/display/1/,,,P0000BDR,771,Aalto Table Half Round 96 - White HPL,ARTEK,matched,product_code,1
 B1,B1,Vitra,Vitra Wooden Doll No.9 - Super Large,Product,3709000,전시중,"Design : Alexander Girard
 
 Product : No.9 - Super Large
@@ -232,7 +232,7 @@ Material : Solid fir, hand painted
 
 Size : W820-825 x W275 x D185
 
-Made in Germany",Alexander Girard,W820-825 x W275 x D185,"Solid fir, hand painted",,Germany,https://inscale.co.kr/web/product/big/202606/a14c50eafd2d70aaad7e19a3b8f44b1d.jpg,https://inscale.co.kr/product/vitra-wooden-doll-no9-super-large/807/category/110/display/1/,,,P0000BFB,Vitra Wooden Doll No.9 - Super Large,VITRA,matched,product_code,1
+Made in Germany",Alexander Girard,W820-825 x W275 x D185,"Solid fir, hand painted",,Germany,https://inscale.co.kr/web/product/big/202606/a14c50eafd2d70aaad7e19a3b8f44b1d.jpg,https://inscale.co.kr/product/vitra-wooden-doll-no9-super-large/807/category/110/display/1/,,,P0000BFB,807,Vitra Wooden Doll No.9 - Super Large,VITRA,matched,product_code,1
 B1,B1,Artek,"[90 Anniversary Edition] 
 Artek + Marimekko Round Table 90D Seireeni",Table,1280000,전시중,"Designer : Alvar Aalto, Marimekko
 
@@ -244,7 +244,7 @@ Top Surface : Birch Venner
 
 Size : W48 x H44
 
-Made in Finland","Alvar Aalto, Marimekko",W48 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/e5b1d1535331521dc96fb90faab083a3.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-round-table-90d-seireeni/710/category/85/display/1/,,,P0000BBI,[90 Anniversary Edition] Artek + Marimekko Round Table 90D Seireeni,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Marimekko",W48 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/e5b1d1535331521dc96fb90faab083a3.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-round-table-90d-seireeni/710/category/85/display/1/,,,P0000BBI,710,[90 Anniversary Edition] Artek + Marimekko Round Table 90D Seireeni,ARTEK,matched,product_code,1
 B1,B1,Vitra,"Desk Clocks Night 
 Black",Table,801000,전시중,"Designer : George Nelson
 
@@ -254,7 +254,7 @@ Color : Black
 
 Size : Ø108 x H148
 
-Made in Germany",George Nelson,Ø108 x H148,"Brass, Acrylic glass, Polyurethane, Solid walnut",Black,Germany,https://inscale.co.kr/web/product/big/202308/3ddd6be8fb616099a97f5aac8eece75c.jpg,https://inscale.co.kr/product/desk-clocks-night/214/category/84/display/1/,,,P00000IG,Desk Clocks Night Black,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø108 x H148,"Brass, Acrylic glass, Polyurethane, Solid walnut",Black,Germany,https://inscale.co.kr/web/product/big/202308/3ddd6be8fb616099a97f5aac8eece75c.jpg,https://inscale.co.kr/product/desk-clocks-night/214/category/84/display/1/,,,P00000IG,214,Desk Clocks Night Black,VITRA,matched,product_code,1
 B1,B1,Artek,"E60 Stool 
 Birch/White Lacquered",Stool & Bench,570000,전시중,"Designer : Alvar Aalto
 
@@ -264,7 +264,7 @@ Color : Birch/White Lacquered
 
 Size : W380 x H380
 
-Made in Finland",Alvar Aalto,W380 x H380,Birch,Birch/White Lacquered,Finland,https://inscale.co.kr/web/product/big/202606/9c92c66d98c3d98aaa3f90011043cfed.jpg,https://inscale.co.kr/product/detail.html?product_no=808,,,P0000BFC,E60 Stool Birch/White Lacquered,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W380 x H380,Birch,Birch/White Lacquered,Finland,https://inscale.co.kr/web/product/big/202606/9c92c66d98c3d98aaa3f90011043cfed.jpg,https://inscale.co.kr/product/detail.html?product_no=808,,,P0000BFC,808,E60 Stool Birch/White Lacquered,ARTEK,matched,product_code,1
 B1,B1,Vitra,"Metal Wall Relief 
 Magic Snake",Lighting,456000,전시중,"Designer : Alexander Girard
 
@@ -272,7 +272,7 @@ Material : Powder-coated sheet metal
 
 Size : 966 x 99 x 17 mm
 
-Made in Poland",Alexander Girard,966 x 99 x 17 mm,Powder-coated sheet metal,,Poland,https://inscale.co.kr/web/product/big/202512/9f6d8476a2042fc6f61def8002faeafd.jpg,https://inscale.co.kr/product/metal-wall-relief-magic-snake/715/category/84/display/1/,,,P0000BBN,Metal Wall Relief Magic Snake,VITRA,matched,product_code,1
+Made in Poland",Alexander Girard,966 x 99 x 17 mm,Powder-coated sheet metal,,Poland,https://inscale.co.kr/web/product/big/202512/9f6d8476a2042fc6f61def8002faeafd.jpg,https://inscale.co.kr/product/metal-wall-relief-magic-snake/715/category/84/display/1/,,,P0000BBN,715,Metal Wall Relief Magic Snake,VITRA,matched,product_code,1
 B1,B1,Vitra,"Metal Wall Relief 
 Little Heart Red",Lighting,370000,전시중,"Designer : Alexander Girard
 
@@ -280,7 +280,7 @@ Material : Powder-coated sheet metal
 
 Size : 270 x 42 x H240mm
 
-Made in Poland",Alexander Girard,270 x 42 x H240mm,Powder-coated sheet metal,,Poland,https://inscale.co.kr/web/product/big/202606/472efac87c8ff12834a877f6dea93daa.jpg,https://inscale.co.kr/product/detail.html?product_no=809,,,P0000BFD,Metal Wall Relief Little Heart Red,VITRA,matched,product_code,1
+Made in Poland",Alexander Girard,270 x 42 x H240mm,Powder-coated sheet metal,,Poland,https://inscale.co.kr/web/product/big/202606/472efac87c8ff12834a877f6dea93daa.jpg,https://inscale.co.kr/product/detail.html?product_no=809,,,P0000BFD,809,Metal Wall Relief Little Heart Red,VITRA,matched,product_code,1
 B1,B1,Vitra,"Corniches D-grey 
 (S,M,L)",Product,"₩148,000(S)
 ₩185,000(M)
@@ -294,7 +294,7 @@ Size : S : 144 x 210 x H116 /
 M : 148 x 352 x H88 / 
 L : 219 x 455 x H86
 
-Made in Germany",Ronan & Erwan Bouroullec,S : 144 x 210 x H116 /,"SA plastic, high-gloss surface",Dark Grey,Germany,https://inscale.co.kr/web/product/big/202606/d25db1c056430281722ddd0a8a8431a1.jpg,https://inscale.co.kr/product/detail.html?product_no=217,,,P00000IJ,"Corniches D-grey (S,M,L)",VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,S : 144 x 210 x H116 /,"SA plastic, high-gloss surface",Dark Grey,Germany,https://inscale.co.kr/web/product/big/202606/d25db1c056430281722ddd0a8a8431a1.jpg,https://inscale.co.kr/product/detail.html?product_no=217,,,P00000IJ,217,"Corniches D-grey (S,M,L)",VITRA,matched,product_code,1
 B1,B1,Vitra,Vitra Wooden Doll - Little Devil,Product,247000,전시중,"Design : Alexander Girard
 
 Product : Little Devil
@@ -303,7 +303,7 @@ Material : Solid fir, hand painted
 
 Size : W45 x H140
 
-Made in Germany",Alexander Girard,W45 x H140,"Solid fir, hand painted",,Germany,https://inscale.co.kr/web/product/big/202312/23a78a909636f0f70c468dc6cb16443d.jpg,https://inscale.co.kr/product/detail.html?product_no=528,,,P00000UI,Vitra Wooden Doll - Little Devil,VITRA,matched,product_code,1
+Made in Germany",Alexander Girard,W45 x H140,"Solid fir, hand painted",,Germany,https://inscale.co.kr/web/product/big/202312/23a78a909636f0f70c468dc6cb16443d.jpg,https://inscale.co.kr/product/detail.html?product_no=528,,,P00000UI,528,Vitra Wooden Doll - Little Devil,VITRA,matched,product_code,1
 B1,B1,Vitra,Vitra Wooden Doll - NO.9,Product,247000,전시중,"Design : Alexander Girard
 
 Product : No.9
@@ -312,7 +312,7 @@ Material : Solid fir, hand painted
 
 Size : W60 x H205
 
-Made in Germany",Alexander Girard,W60 x H205,"Solid fir, hand painted",,Germany,https://inscale.co.kr/web/product/big/202312/3f44fd997b538c90034dbe379c766a19.jpg,https://inscale.co.kr/product/detail.html?product_no=525,,,P00000UF,Vitra Wooden Doll - NO.9,VITRA,matched,product_code,1
+Made in Germany",Alexander Girard,W60 x H205,"Solid fir, hand painted",,Germany,https://inscale.co.kr/web/product/big/202312/3f44fd997b538c90034dbe379c766a19.jpg,https://inscale.co.kr/product/detail.html?product_no=525,,,P00000UF,525,Vitra Wooden Doll - NO.9,VITRA,matched,product_code,1
 B1,B1,Vitra,Desk Clocks Night Brass,Table,801000,전시중,"Designer : George Nelson
 
 Material : Brass, Acrylic glass, Polyurethane, Solid walnut
@@ -321,7 +321,7 @@ Color : Brass
 
 Size : Ø108 x H148
 
-Made in Germany",George Nelson,Ø108 x H148,"Brass, Acrylic glass, Polyurethane, Solid walnut",Brass,Germany,https://inscale.co.kr/web/product/big/202606/29a0c0a560ae27b3493160487007f96a.jpg,https://inscale.co.kr/product/detail.html?product_no=810,,,P0000BFE,Desk Clocks Night Brass,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø108 x H148,"Brass, Acrylic glass, Polyurethane, Solid walnut",Brass,Germany,https://inscale.co.kr/web/product/big/202606/29a0c0a560ae27b3493160487007f96a.jpg,https://inscale.co.kr/product/detail.html?product_no=810,,,P0000BFE,810,Desk Clocks Night Brass,VITRA,matched,product_code,1
 B1,B1,Artek,[90 Anniversary Edition] Artek + Marimekko Stool 60 Seireeni,Stool & Bench,570000,전시중,"Designer : Alvar Aalto, Marimekko
 
 Legs : Solid Birch
@@ -330,7 +330,7 @@ Seat : Birch Veneer
 
 Size : W38 x H44
 
-Made in Finland","Alvar Aalto, Marimekko",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/26851213170e287e43d0f2e4523ceba5.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-stool-60-seireeni/709/category/85/display/1/,,,P0000BBH,[90 Anniversary Edition] Artek + Marimekko Stool 60 Seireeni,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Marimekko",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/26851213170e287e43d0f2e4523ceba5.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-stool-60-seireeni/709/category/85/display/1/,,,P0000BBH,709,[90 Anniversary Edition] Artek + Marimekko Stool 60 Seireeni,ARTEK,matched,product_code,1
 B1,B1,Artek,[90 Anniversary Edition] Artek + Marimekko Stool 60 Kivet,Stool & Bench,570000,전시중,"Designer : Alvar Aalto, Marimekko
 
 Legs : Solid Birch
@@ -339,7 +339,7 @@ Seat : Birch Veneer
 
 Size : W38 x H44
 
-Made in Finland","Alvar Aalto, Marimekko",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/f622db6ef6604c041be6173a1d606805.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-stool-60-kivet/708/category/85/display/1/,,,P0000BBG,[90 Anniversary Edition] Artek + Marimekko Stool 60 Kivet,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Marimekko",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/f622db6ef6604c041be6173a1d606805.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-stool-60-kivet/708/category/85/display/1/,,,P0000BBG,708,[90 Anniversary Edition] Artek + Marimekko Stool 60 Kivet,ARTEK,matched,product_code,1
 B1,B1,Artek,[90 Anniversary Edition] Artek + Marimekko Stool 60 Lokki,Stool & Bench,570000,전시중,"Designer : Alvar Aalto, Marimekko
 
 Legs : Solid Birch
@@ -348,7 +348,7 @@ Seat : Birch Veneer
 
 Size : W38 x H44
 
-Made in Finland","Alvar Aalto, Marimekko",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/b5b29dd881c7d69b38e6264f4ef7eab4.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-stool-60-lokki/707/category/85/display/1/,,,P0000BBF,[90 Anniversary Edition] Artek + Marimekko Stool 60 Lokki,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Marimekko",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202512/b5b29dd881c7d69b38e6264f4ef7eab4.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-stool-60-lokki/707/category/85/display/1/,,,P0000BBF,707,[90 Anniversary Edition] Artek + Marimekko Stool 60 Lokki,ARTEK,matched,product_code,1
 B1,B1,Artek,[90 Anniversary Edition] Artek + Marimekko Bench 153B Kivet,Stool & Bench,1220000,전시중,"Designer : Alvar Aalto, Marimekko
 
 Legs & Seat : Solid Birch
@@ -357,7 +357,7 @@ Seat Top : Birch Venner
 
 Size : W72.5 x D40 x H44.5
 
-Made in Finland","Alvar Aalto, Marimekko",W72.5 x D40 x H44.5,,,Finland,https://inscale.co.kr/web/product/big/202512/9c4ded08fa93f927a4a12d47e79b3f1e.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-bench-153b-kivet/711/category/85/display/1/,,,P0000BBJ,[90 Anniversary Edition] Artek + Marimekko Bench 153B Kivet,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Marimekko",W72.5 x D40 x H44.5,,,Finland,https://inscale.co.kr/web/product/big/202512/9c4ded08fa93f927a4a12d47e79b3f1e.jpg,https://inscale.co.kr/product/90-anniversary-edition-artek-marimekko-bench-153b-kivet/711/category/85/display/1/,,,P0000BBJ,711,[90 Anniversary Edition] Artek + Marimekko Bench 153B Kivet,ARTEK,matched,product_code,1
 B1,B1,Vitra,"Metal Side Table
 Large",Table,1390000,전시중,"Designer : Ronan & Erwan Bouroullec
 
@@ -367,7 +367,7 @@ Color : White
 
 Size : W700 x D315 x H335
 
-Made in Germany",Ronan & Erwan Bouroullec,W700 x D315 x H335,"Bent and welded sheet steel, Polyamide",White,Germany,https://inscale.co.kr/web/product/big/202308/682202c42f7c7209fb5d644bbc875b72.jpg,https://inscale.co.kr/product/metal-side-table-l/198/category/84/display/1/,,,P00000HQ,Metal Side Table,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,W700 x D315 x H335,"Bent and welded sheet steel, Polyamide",White,Germany,https://inscale.co.kr/web/product/big/202308/682202c42f7c7209fb5d644bbc875b72.jpg,https://inscale.co.kr/product/metal-side-table-l/198/category/84/display/1/,,,P00000HQ,198,Metal Side Table,VITRA,matched,product_code,1
 B1,B1,Vitra,Metal Side Table M,Table,1180000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Material : Bent and welded sheet steel, Polyamide
@@ -376,7 +376,7 @@ Color : White
 
 Size : W400 x D400 x H445
 
-Made in Germany",Ronan & Erwan Bouroullec,W400 x D400 x H445,"Bent and welded sheet steel, Polyamide",White,Germany,https://inscale.co.kr/web/product/big/202308/29b42a697586aac29caf6f8a966fc97a.jpg,https://inscale.co.kr/product/metal-side-table-m/197/category/84/display/1/,,,P00000HP,Metal Side Table M,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,W400 x D400 x H445,"Bent and welded sheet steel, Polyamide",White,Germany,https://inscale.co.kr/web/product/big/202308/29b42a697586aac29caf6f8a966fc97a.jpg,https://inscale.co.kr/product/metal-side-table-m/197/category/84/display/1/,,,P00000HP,197,Metal Side Table M,VITRA,matched,product_code,1
 B1,B1,Vitra,Eames Elephant Large Black,Living Acc,543000,전시중,"Designer : Charles & Ray Eames
 
 Color : Black
@@ -385,7 +385,7 @@ Material : Dyed-through polypropylene, Matt finish
 
 Size : 785 x 410 x H415mm
 
-Made in Germany",Charles & Ray Eames,785 x 410 x H415mm,"Dyed-through polypropylene, Matt finish",Black,Germany,https://inscale.co.kr/web/product/big/202606/6a40cd95a0acbd1b1cc52d4834389076.jpg,https://inscale.co.kr/product/eames-elephant-large-black/811/category/110/display/1/,,,P0000BFF,Eames Elephant Large Black,VITRA,matched,product_code,1
+Made in Germany",Charles & Ray Eames,785 x 410 x H415mm,"Dyed-through polypropylene, Matt finish",Black,Germany,https://inscale.co.kr/web/product/big/202606/6a40cd95a0acbd1b1cc52d4834389076.jpg,https://inscale.co.kr/product/eames-elephant-large-black/811/category/110/display/1/,,,P0000BFF,811,Eames Elephant Large Black,VITRA,matched,product_code,1
 B1,B1,Vitra,Tabouret Metallique - Blanc Colombe,Product,1170000,전시중,"Designer : Jean Prouve
 
 Color : Prouve Blanc Colombe (Ecru)
@@ -394,7 +394,7 @@ Material : Bent sheet steel(powder-coated finish), Plastic glides
 
 Size : Ø380 x H445
 
-Made in Germany",Jean Prouve,Ø380 x H445,"Bent sheet steel(powder-coated finish), Plastic glides",Prouve Blanc Colombe (Ecru),Germany,https://inscale.co.kr/web/product/big/202311/6cf33f9a0700c7fd7821263034df8054.jpg,https://inscale.co.kr/product/tabouret-metallique-blanc-colombe/423/category/84/display/1/,,,P00000QH,Tabouret Metallique - Blanc Colombe,VITRA,matched,product_code,1
+Made in Germany",Jean Prouve,Ø380 x H445,"Bent sheet steel(powder-coated finish), Plastic glides",Prouve Blanc Colombe (Ecru),Germany,https://inscale.co.kr/web/product/big/202311/6cf33f9a0700c7fd7821263034df8054.jpg,https://inscale.co.kr/product/tabouret-metallique-blanc-colombe/423/category/84/display/1/,,,P00000QH,423,Tabouret Metallique - Blanc Colombe,VITRA,matched,product_code,1
 B1,B1,Artek,"Chair 66 
 white HPL",Chair,830000,전시중,"Designer : Alvar Aalto
 
@@ -404,7 +404,7 @@ Seat : White Laminate
 
 Size : W390 x D420 x H455 or 435 - 800
 
-Made in Finland",Alvar Aalto,W390 x D420 x H455 or 435 - 800,Legs and Backrest in natural Lacquered Birch,,Finland,https://inscale.co.kr/web/product/big/202410/e2a723d5232f04b30180f6ed9027b159.jpg,https://inscale.co.kr/product/chair-66-white-hpl/650/category/85/display/1/,,,P00000ZA,Chair 66,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W390 x D420 x H455 or 435 - 800,Legs and Backrest in natural Lacquered Birch,,Finland,https://inscale.co.kr/web/product/big/202410/e2a723d5232f04b30180f6ed9027b159.jpg,https://inscale.co.kr/product/chair-66-white-hpl/650/category/85/display/1/,,,P00000ZA,650,Chair 66,ARTEK,matched,product_code,1
 B1,B1,Artek,"Chair 66 
 Black Lacquerd",Chair,940000,전시중,"Designer : Alvar Aalto
 
@@ -414,7 +414,7 @@ Color : Black lacquered
 
 Size : W390 x D420 x H455 - 800
 
-Made in Finland",Alvar Aalto,W390 x D420 x H455 - 800,"Solid birch, Birch plywood, Birch veneer",Black lacquered,Finland,https://inscale.co.kr/web/product/big/202606/8c773879cb63fce90fa2f59b17d1ff32.jpg,https://inscale.co.kr/product/chair-66-black-lacquerd/764/category/85/display/1/,,,P0000BDK,Chair 66,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W390 x D420 x H455 - 800,"Solid birch, Birch plywood, Birch veneer",Black lacquered,Finland,https://inscale.co.kr/web/product/big/202606/8c773879cb63fce90fa2f59b17d1ff32.jpg,https://inscale.co.kr/product/chair-66-black-lacquerd/764/category/85/display/1/,,,P0000BDK,764,Chair 66,ARTEK,matched,product_code,1
 B1,B1,Artek,Chair 66 Birch/Black Linoleum,Chair,830000,전시중,"Designer : Alvar Aalto
 
 Material : Solid birch, Birch plywood, Linoelum
@@ -423,7 +423,7 @@ Color : Black & Birch
 
 Size : W390 x D420 x H455 - 800
 
-Made in Finland",Alvar Aalto,W390 x D420 x H455 - 800,"Solid birch, Birch plywood, Linoelum",Black & Birch,Finland,https://inscale.co.kr/web/product/big/202606/caeac6e3c80c67c449afc95528d793c9.jpg,https://inscale.co.kr/product/chair-66-birchblack-linoleum/765/category/85/display/1/,,,P0000BDL,Chair 66,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W390 x D420 x H455 - 800,"Solid birch, Birch plywood, Linoelum",Black & Birch,Finland,https://inscale.co.kr/web/product/big/202606/caeac6e3c80c67c449afc95528d793c9.jpg,https://inscale.co.kr/product/chair-66-birchblack-linoleum/765/category/85/display/1/,,,P0000BDL,765,Chair 66,ARTEK,matched,product_code,1
 B1,B1,Artek,"Chair 66 
 Wild Birch",Chair,730000,전시중,"Designer : Alvar Aalto
 
@@ -433,7 +433,7 @@ Color : Wild Birch
 
 Size : W390 x D420 x H455 - 800
 
-Made in Finland",Alvar Aalto,W390 x D420 x H455 - 800,"Wild birch, Birch plywood, Birch veneer",Wild Birch,Finland,https://inscale.co.kr/web/product/big/202606/f1816e2c0c32f6096f1efab5c704c808.jpg,https://inscale.co.kr/product/chair-66-wild-birch/766/category/85/display/1/,,,P0000BDM,Chair 66,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W390 x D420 x H455 - 800,"Wild birch, Birch plywood, Birch veneer",Wild Birch,Finland,https://inscale.co.kr/web/product/big/202606/f1816e2c0c32f6096f1efab5c704c808.jpg,https://inscale.co.kr/product/chair-66-wild-birch/766/category/85/display/1/,,,P0000BDM,766,Chair 66,ARTEK,matched,product_code,1
 B1,B1,Artek,"[90 Anniversary Edition] 
 Artek + Moomin Stool 60",Stool & Bench,806000,전시중,"Designer : Alvar Aalto, Tove Jansson
 
@@ -445,7 +445,7 @@ Illustrations : Laser Engraved
 
 Size : W38 x H44
 
-Made in Finland","Alvar Aalto, Tove Jansson",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202507/10748615f0d1b32b85791c624d429f5c.jpg,https://inscale.co.kr/product/detail.html?product_no=696,,,P0000BAU,[90 Anniversary Edition] Artek + Moomin Stool 60,ARTEK,matched,product_code,1
+Made in Finland","Alvar Aalto, Tove Jansson",W38 x H44,,,Finland,https://inscale.co.kr/web/product/big/202507/10748615f0d1b32b85791c624d429f5c.jpg,https://inscale.co.kr/product/detail.html?product_no=696,,,P0000BAU,696,[90 Anniversary Edition] Artek + Moomin Stool 60,ARTEK,matched,product_code,1
 B1,B1,Artek,Cabinet 250,Storage,5200000,전시중,"Designer : Alvar Aalto
 
 Leg : Solid birch, Honey Stained
@@ -454,7 +454,7 @@ Shelf : Birch veneer, Honey stained
 
 Size : W950 x D400 x H1000
 
-Made in Finland",Alvar Aalto,W950 x D400 x H1000,,,Finland,https://inscale.co.kr/web/product/big/202511/ec019de1632d6ba970894b3828cb2c40.jpg,https://inscale.co.kr/product/cabinet-250/703/category/85/display/1/,,,P0000BBB,Cabinet 250,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W950 x D400 x H1000,,,Finland,https://inscale.co.kr/web/product/big/202511/ec019de1632d6ba970894b3828cb2c40.jpg,https://inscale.co.kr/product/cabinet-250/703/category/85/display/1/,,,P0000BBB,703,Cabinet 250,ARTEK,matched,product_code,1
 B1,B1,Artek,Rope Chair Black,Chair,1140000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Frame : Steel, Black powder coating
@@ -463,7 +463,7 @@ Seat : Ash veneer, Black lacquer
 
 Back and armrests : Flax rope, Black
 
-Color : Black",Ronan & Erwan Bouroullec,,,Black,,https://inscale.co.kr/web/product/big/202308/1fd86730b98cf34305210261af6730b5.jpg,https://inscale.co.kr/product/rope-chair-black-lacquered/31/category/85/display/1/,,,P00000BF,Rope Chair Black,ARTEK,matched,product_code,1
+Color : Black",Ronan & Erwan Bouroullec,,,Black,,https://inscale.co.kr/web/product/big/202308/1fd86730b98cf34305210261af6730b5.jpg,https://inscale.co.kr/product/rope-chair-black-lacquered/31/category/85/display/1/,,,P00000BF,31,Rope Chair Black,ARTEK,matched,product_code,1
 B1,B1,Artek,"KAARI TABLE ROUND 
 Black Linoleum-oak",Table,2570000,전시중,"Designer : Alvar Aalto
 
@@ -475,7 +475,7 @@ Braces : Flat rolled steel
 
 Size : W80 x D75 x H74 cm
 
-Made in Finland",Alvar Aalto,W80 x D75 x H74 cm,,,Finland,https://inscale.co.kr/web/product/big/202606/c5b2df0172c797558e91ea90f5c54fce.jpg,https://inscale.co.kr/product/detail.html?product_no=812,,,P0000BFG,KAARI TABLE ROUND,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W80 x D75 x H74 cm,,,Finland,https://inscale.co.kr/web/product/big/202606/c5b2df0172c797558e91ea90f5c54fce.jpg,https://inscale.co.kr/product/detail.html?product_no=812,,,P0000BFG,812,KAARI TABLE ROUND,ARTEK,matched,product_code,1
 B1,B1,"Louis
 Poulsen",PH 2/1,Product,1806000,전시중,"Designer : Poul Henningsen
 
@@ -485,13 +485,13 @@ Color : Brass
 
 Size : Ø200 * H355
 
-Made in DENMARK",Poul Henningsen,Ø200 * H355,"Opal glass, metallised brass",Brass,DENMARK,https://inscale.co.kr/web/product/big/202309/ff0b822f203b8636b0e45b348176f023.jpg,https://inscale.co.kr/product/detail.html?product_no=377,,,P00000ON,PH 2/1,자체브랜드,matched,product_code,1
+Made in DENMARK",Poul Henningsen,Ø200 * H355,"Opal glass, metallised brass",Brass,DENMARK,https://inscale.co.kr/web/product/big/202309/ff0b822f203b8636b0e45b348176f023.jpg,https://inscale.co.kr/product/detail.html?product_no=377,,,P00000ON,377,PH 2/1,자체브랜드,matched,product_code,1
 B1,B1,Artek,"Artek 90 
 Anniversary Poster",Product,74000,전시중,"Designer : Inka Bell
 
 Size : W50 x H70cm
 
-액자 미포함",Inka Bell,W50 x H70cm,,,,https://inscale.co.kr/web/product/big/202603/b9ccd41e33a54c217dcfebd377bcc5e1.jpg,https://inscale.co.kr/product/artek-90-anniversary-poster/737/category/118/display/1/,,,P0000BCJ,Artek 90 Anniversary Poster,ARTEK,matched,product_code,1
+액자 미포함",Inka Bell,W50 x H70cm,,,,https://inscale.co.kr/web/product/big/202603/b9ccd41e33a54c217dcfebd377bcc5e1.jpg,https://inscale.co.kr/product/artek-90-anniversary-poster/737/category/118/display/1/,,,P0000BCJ,737,Artek 90 Anniversary Poster,ARTEK,matched,product_code,1
 B1,B1,Artek,Wall Shelf 112,Lighting,810000,전시중,"Designer : Alvar Aalto
 
 Color : Natural lacquered
@@ -500,7 +500,7 @@ Material : Form-bent solid birch lamella, Solid birch frame, Birch veneer
 
 Size : W900 x D270 x H245
 
-Made in Finland",Alvar Aalto,W900 x D270 x H245,"Form-bent solid birch lamella, Solid birch frame, Birch veneer",Natural lacquered,Finland,https://inscale.co.kr/web/product/big/202311/3c8c5aaf82d2c3ed7f3c37641398d377.jpg,https://inscale.co.kr/product/wall-shelf-112-natural-lacquered/439/category/85/display/1/,,,P00000QX,Wall Shelf 112,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W900 x D270 x H245,"Form-bent solid birch lamella, Solid birch frame, Birch veneer",Natural lacquered,Finland,https://inscale.co.kr/web/product/big/202311/3c8c5aaf82d2c3ed7f3c37641398d377.jpg,https://inscale.co.kr/product/wall-shelf-112-natural-lacquered/439/category/85/display/1/,,,P00000QX,439,Wall Shelf 112,ARTEK,matched,product_code,1
 B1,B1,Vitra,"Metal Wall Relief
 International Love Heart",Lighting,703000,전시중,"Designer : Alexander Girard
 
@@ -508,7 +508,7 @@ Material : Powder-coated sheet metal
 
 Size : 600 x 485
 
-Made in Poland",Alexander Girard,600 x 485,Powder-coated sheet metal,,Poland,https://inscale.co.kr/web/product/big/202606/48c1e379e4b5344a0d9bca6d98e1b88e.jpg,https://inscale.co.kr/product/detail.html?product_no=813,,,P0000BFH,Metal Wall Relief International Love Heart,VITRA,matched,product_code,1
+Made in Poland",Alexander Girard,600 x 485,Powder-coated sheet metal,,Poland,https://inscale.co.kr/web/product/big/202606/48c1e379e4b5344a0d9bca6d98e1b88e.jpg,https://inscale.co.kr/product/detail.html?product_no=813,,,P0000BFH,813,Metal Wall Relief International Love Heart,VITRA,matched,product_code,1
 B1,B1,Vitra,Wiggle Side Chair,Chair,1800000,전시중,"Designer : Frank Gehry
 
 Material : Corrugated cardboard, Hardboard
@@ -517,7 +517,7 @@ Color : Natural
 
 Size : 610 x 350 x H870mm
 
-Made in Germany",Frank Gehry,610 x 350 x H870mm,"Corrugated cardboard, Hardboard",Natural,Germany,https://inscale.co.kr/web/product/big/202606/9c1aef5b2da1f7b1e3b29e37cea3495c.jpg,https://inscale.co.kr/product/detail.html?product_no=814,,,P0000BFI,Wiggle Side Chair,VITRA,matched,product_code,1
+Made in Germany",Frank Gehry,610 x 350 x H870mm,"Corrugated cardboard, Hardboard",Natural,Germany,https://inscale.co.kr/web/product/big/202606/9c1aef5b2da1f7b1e3b29e37cea3495c.jpg,https://inscale.co.kr/product/detail.html?product_no=814,,,P0000BFI,814,Wiggle Side Chair,VITRA,matched,product_code,1
 B1,B1,Vitra,Wiggle Stool,Stool & Bench,960000,전시중,"Designer : Frank Gehry
 
 Material : Corrugated cardboard, Hardboard
@@ -526,7 +526,7 @@ Color : Natural
 
 Size : W400 x D430 x H406
 
-Made in Germany",Frank Gehry,W400 x D430 x H406,"Corrugated cardboard, Hardboard",Natural,Germany,https://inscale.co.kr/web/product/big/202308/6edf5512d1a19ed9551b4cfae3874e70.jpg,https://inscale.co.kr/product/wiggle-stool/100/category/84/display/1/,,,P00000DW,Wiggle Stool,VITRA,matched,product_code,1
+Made in Germany",Frank Gehry,W400 x D430 x H406,"Corrugated cardboard, Hardboard",Natural,Germany,https://inscale.co.kr/web/product/big/202308/6edf5512d1a19ed9551b4cfae3874e70.jpg,https://inscale.co.kr/product/wiggle-stool/100/category/84/display/1/,,,P00000DW,100,Wiggle Stool,VITRA,matched,product_code,1
 B1,B1,Herman miller,Eames Hang-It-All Dark Blue,Product,640000,전시중,"Design : Charles & Ray Eames
 
 Coat hook : Maple
@@ -535,7 +535,7 @@ Frame : Dark Blue powder coated steel
 
 Size : W501 x D165 x H367
 
-Made in USA",Charles & Ray Eames,W501 x D165 x H367,,,USA,https://inscale.co.kr/web/product/big/202402/101bf4bb64ad9536e0c8e66b3d4fb2cb.jpg,https://inscale.co.kr/product/detail.html?product_no=605,,,P00000XH,Eames Hang-It-All (Maple/Dark Blue),HERMAN MILLER,matched,product_code,1
+Made in USA",Charles & Ray Eames,W501 x D165 x H367,,,USA,https://inscale.co.kr/web/product/big/202402/101bf4bb64ad9536e0c8e66b3d4fb2cb.jpg,https://inscale.co.kr/product/detail.html?product_no=605,,,P00000XH,605,Eames Hang-It-All (Maple/Dark Blue),HERMAN MILLER,matched,product_code,1
 B1,B1,Flos,"Gatto Piccolo
 [단종]",Product,900000,전시중,"Design : Achille & Pier
 
@@ -543,7 +543,7 @@ Material : Cocoon resin, Steel
 
 Size : Ø210*H310
 
-Made in Italy",Achille & Pier,Ø210*H310,"Cocoon resin, Steel",,Italy,https://inscale.co.kr/web/product/big/202606/153659533089cda43ac4d1b9d1a8af0d.jpg,https://inscale.co.kr/product/detail.html?product_no=815,,,P0000BFJ,Gatto Piccolo,FLOS,matched,product_code,1
+Made in Italy",Achille & Pier,Ø210*H310,"Cocoon resin, Steel",,Italy,https://inscale.co.kr/web/product/big/202606/153659533089cda43ac4d1b9d1a8af0d.jpg,https://inscale.co.kr/product/detail.html?product_no=815,,,P0000BFJ,815,Gatto Piccolo,FLOS,matched,product_code,1
 B1,B1,Vitra,Nuage - S,Storage,210000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Material : Ceramic, Rubber stoppers.
@@ -552,7 +552,7 @@ Color : Ivory , Matt finish
 
 Size : 195 * 80
 
-Made in Germany",Ronan & Erwan Bouroullec,195 * 80,"Ceramic, Rubber stoppers.","Ivory , Matt finish",Germany,https://inscale.co.kr/web/product/big/202308/f445b851ea831175e6735e5c68488f53.jpg,https://inscale.co.kr/product/nuage-s/25/category/84/display/1/,,,P000000Z,Nuage - S,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,195 * 80,"Ceramic, Rubber stoppers.","Ivory , Matt finish",Germany,https://inscale.co.kr/web/product/big/202308/f445b851ea831175e6735e5c68488f53.jpg,https://inscale.co.kr/product/nuage-s/25/category/84/display/1/,,,P000000Z,25,Nuage - S,VITRA,matched,product_code,1
 B1,B1,Vitra,Nuage - M,Storage,272000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Material : Ceramic, Rubber stoppers.
@@ -561,7 +561,7 @@ Color : Ivory , Matt finish
 
 Size : 195 * 160
 
-Made in Germany",Ronan & Erwan Bouroullec,195 * 160,"Ceramic, Rubber stoppers.","Ivory , Matt finish",Germany,https://inscale.co.kr/web/product/big/202308/24060ffae020b04964a07fee6026d088.jpg,https://inscale.co.kr/product/nuage-m/26/category/84/display/1/,,,P00000BA,Nuage - M,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,195 * 160,"Ceramic, Rubber stoppers.","Ivory , Matt finish",Germany,https://inscale.co.kr/web/product/big/202308/24060ffae020b04964a07fee6026d088.jpg,https://inscale.co.kr/product/nuage-m/26/category/84/display/1/,,,P00000BA,26,Nuage - M,VITRA,matched,product_code,1
 B1,B1,Vitra,Nuage - L,Storage,333000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Material : Ceramic, Rubber stoppers.
@@ -570,7 +570,7 @@ Color : Ivory , Matt finish
 
 Size : 195 * 270
 
-Made in Germany",Ronan & Erwan Bouroullec,195 * 270,"Ceramic, Rubber stoppers.","Ivory , Matt finish",Germany,https://inscale.co.kr/web/product/big/202308/ad502756c1a4d0c599dd15144728972d.jpg,https://inscale.co.kr/product/nuage-l/27/category/84/display/1/,,,P00000BB,Nuage - L,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,195 * 270,"Ceramic, Rubber stoppers.","Ivory , Matt finish",Germany,https://inscale.co.kr/web/product/big/202308/ad502756c1a4d0c599dd15144728972d.jpg,https://inscale.co.kr/product/nuage-l/27/category/84/display/1/,,,P00000BB,27,Nuage - L,VITRA,matched,product_code,1
 B1,B1,Martinelli Luce,Pipistrello Large,Product,3400000,전시중,"Design : Gae Aulenti
 
 Material : Stainless steel, Opal white methacrylate
@@ -579,7 +579,7 @@ Color : Black
 
 Size : Ø550 x H660 - 860
 
-Made in Italy",Gae Aulenti,Ø550 x H660 - 860,"Stainless steel, Opal white methacrylate",Black,Italy,https://inscale.co.kr/web/product/big/202309/fdc42f950733a82830cd4fe50fc5dd54.jpg,https://inscale.co.kr/product/pipistrello-large/362/category/119/display/1/,,,P00000NY,Pipistrello Large,Martinelli luce,matched,product_code,1
+Made in Italy",Gae Aulenti,Ø550 x H660 - 860,"Stainless steel, Opal white methacrylate",Black,Italy,https://inscale.co.kr/web/product/big/202309/fdc42f950733a82830cd4fe50fc5dd54.jpg,https://inscale.co.kr/product/pipistrello-large/362/category/119/display/1/,,,P00000NY,362,Pipistrello Large,Martinelli luce,matched,product_code,1
 B1,B1,Vitra,Colour Frame Mirror - Small,Mirror,974000,전시중,"Designer : Julie Richoz
 
 Material : Glass, Lacquered ash
@@ -588,7 +588,7 @@ Color : Blue / Orange
 
 Size : 385 x 480
 
-Made in Germany",Julie Richoz,385 x 480,"Glass, Lacquered ash",Blue / Orange,Germany,https://inscale.co.kr/web/product/big/202406/29b2285b41fb582894bdcb15084fdfc4.jpg,https://inscale.co.kr/product/colour-frame-mirror-small/609/category/84/display/1/,,,P00000XL,Colour Frame Mirror - Small,VITRA,matched,product_code,1
+Made in Germany",Julie Richoz,385 x 480,"Glass, Lacquered ash",Blue / Orange,Germany,https://inscale.co.kr/web/product/big/202406/29b2285b41fb582894bdcb15084fdfc4.jpg,https://inscale.co.kr/product/colour-frame-mirror-small/609/category/84/display/1/,,,P00000XL,609,Colour Frame Mirror - Small,VITRA,matched,product_code,1
 B1,B1,Vitra,Colour Frame Mirror - Medium,Mirror,1368000,전시중,"Designer : Julie Richoz
 
 Material : Glass, Lacquered ash
@@ -597,7 +597,7 @@ Color : Green / Pink
 
 Size : 910 x 480
 
-Made in Germany",Julie Richoz,910 x 480,"Glass, Lacquered ash",Green / Pink,Germany,https://inscale.co.kr/web/product/big/202406/a31c56ab82d54ba59474869a29d56613.jpg,https://inscale.co.kr/product/colour-frame-mirror-medium/612/category/84/display/1/,,,P00000XO,Colour Frame Mirror - Medium,VITRA,matched,product_code,1
+Made in Germany",Julie Richoz,910 x 480,"Glass, Lacquered ash",Green / Pink,Germany,https://inscale.co.kr/web/product/big/202406/a31c56ab82d54ba59474869a29d56613.jpg,https://inscale.co.kr/product/colour-frame-mirror-medium/612/category/84/display/1/,,,P00000XO,612,Colour Frame Mirror - Medium,VITRA,matched,product_code,1
 B1,B1,Vitra,Colour Frame Mirror - Large,Mirror,1762000,전시중,"Designer : Julie Richoz
 
 Material : Glass, Lacquered ash
@@ -606,7 +606,7 @@ Color : Neutral
 
 Size : 1400 x 580
 
-Made in Germany",Julie Richoz,1400 x 580,"Glass, Lacquered ash",Neutral,Germany,https://inscale.co.kr/web/product/big/202406/45591e14321b8f9b3d2b697ce43c018f.jpg,https://inscale.co.kr/product/colour-frame-mirror-large/614/category/84/display/1/,,,P00000XQ,Colour Frame Mirror - Large,VITRA,matched,product_code,1
+Made in Germany",Julie Richoz,1400 x 580,"Glass, Lacquered ash",Neutral,Germany,https://inscale.co.kr/web/product/big/202406/45591e14321b8f9b3d2b697ce43c018f.jpg,https://inscale.co.kr/product/colour-frame-mirror-large/614/category/84/display/1/,,,P00000XQ,614,Colour Frame Mirror - Large,VITRA,matched,product_code,1
 B1,B1,CASSINA,Riflesso,Product,18230000,전시중,"Designer : Charlotte Perriand
 
 Door : Natural Anodized Aluminum
@@ -615,7 +615,7 @@ Material : Container unit painted wood exterior black Interior Burgundy, Black L
 
 Size : W2010 x D440 x H700
 
-Made in Italy",Charlotte Perriand,W2010 x D440 x H700,"Container unit painted wood exterior black Interior Burgundy, Black Low Feet",,Italy,https://inscale.co.kr/web/product/big/202311/e18263f295037cd205fff0d4965a52f3.jpg,https://inscale.co.kr/product/riflesso/461/category/116/display/1/,,,P00000RT,Riflesso,CASSINA,matched,product_code,1
+Made in Italy",Charlotte Perriand,W2010 x D440 x H700,"Container unit painted wood exterior black Interior Burgundy, Black Low Feet",,Italy,https://inscale.co.kr/web/product/big/202311/e18263f295037cd205fff0d4965a52f3.jpg,https://inscale.co.kr/product/riflesso/461/category/116/display/1/,,,P00000RT,461,Riflesso,CASSINA,matched,product_code,1
 B1,B1,Martinelli Luce,Pipistrello Medio,Product,2610000,전시중,"Design : Gae Aulenti
 
 Material : Stainless steel, Opal white methacrylate
@@ -624,19 +624,19 @@ Color : White
 
 Size : Ø400 x H500 - 620
 
-Made in Italy",Gae Aulenti,Ø400 x H500 - 620,"Stainless steel, Opal white methacrylate",White,Italy,https://inscale.co.kr/web/product/big/202309/5dab652b2168a6ee19f2691e1136241e.jpg,https://inscale.co.kr/product/pipistrello-medio/361/category/119/display/1/,,,P00000NX,Pipistrello Medio,Martinelli luce,matched,product_code,1
+Made in Italy",Gae Aulenti,Ø400 x H500 - 620,"Stainless steel, Opal white methacrylate",White,Italy,https://inscale.co.kr/web/product/big/202309/5dab652b2168a6ee19f2691e1136241e.jpg,https://inscale.co.kr/product/pipistrello-medio/361/category/119/display/1/,,,P00000NX,361,Pipistrello Medio,Martinelli luce,matched,product_code,1
 B1,B1,NEMO,LAMPE DE MARSEILLE,Lighting,2000000,전시중,"Design : Le Corbusier
 
 Size : Ø500*H400/ Stem : W1660
 Color : Grey / Internal whitewash
-Material : Steel,  Aluminium",Le Corbusier,Ø500*H400/ Stem : W1660,"Steel, Aluminium",Grey / Internal whitewash,,https://inscale.co.kr/web/product/big/202606/8b73e3d87b8515d544c63b513b5216fb.jpg,https://inscale.co.kr/product/lampe-de-marseille-grey/816/category/119/display/1/,,,P0000BFK,Lampe De Marseille Grey,NEMO,matched,product_code,1
+Material : Steel,  Aluminium",Le Corbusier,Ø500*H400/ Stem : W1660,"Steel, Aluminium",Grey / Internal whitewash,,https://inscale.co.kr/web/product/big/202606/8b73e3d87b8515d544c63b513b5216fb.jpg,https://inscale.co.kr/product/lampe-de-marseille-grey/816/category/119/display/1/,,,P0000BFK,816,Lampe De Marseille Grey,NEMO,matched,product_code,1
 B1,B1,CASSINA,526 Nuage,Storage,13630000,전시중,"Designer : Charlotte Perriand
 
 Material : Natural Oak, Mat Black Partition
 
 Size : W3100 x D34
 
-Made in Italy",Charlotte Perriand,W3100 x D34,"Natural Oak, Mat Black Partition",,Italy,https://inscale.co.kr/web/product/big/202406/d965c626cf3ff8bfec413103355be866.jpg,https://inscale.co.kr/product/526-nuage/619/category/87/display/1/,,,P00000XV,526 Nuage,CASSINA,matched,product_code,1
+Made in Italy",Charlotte Perriand,W3100 x D34,"Natural Oak, Mat Black Partition",,Italy,https://inscale.co.kr/web/product/big/202406/d965c626cf3ff8bfec413103355be866.jpg,https://inscale.co.kr/product/526-nuage/619/category/87/display/1/,,,P00000XV,619,526 Nuage,CASSINA,matched,product_code,1
 B1,B1,Vitra,Anagram Sofa,Sofa,9460000,전시중,"Designer : Panter&Tourron
 
 Body : Webbed aluminium frame
@@ -649,7 +649,7 @@ Color : F100.Nubia : ivory
 
 Size : W1800 x D900ｍｍ
 
-Made in Europe",Panter&Tourron,W1800 x D900ｍｍ,,F100.Nubia : ivory,Europe,https://inscale.co.kr/web/product/big/202606/43f647d6ca61e1f578e045009d130494.jpg,https://inscale.co.kr/product/anagram-sofa/817/category/111/display/1/,,,P0000BFL,Anagram Sofa,VITRA,matched,product_code,1
+Made in Europe",Panter&Tourron,W1800 x D900ｍｍ,,F100.Nubia : ivory,Europe,https://inscale.co.kr/web/product/big/202606/43f647d6ca61e1f578e045009d130494.jpg,https://inscale.co.kr/product/anagram-sofa/817/category/111/display/1/,,,P0000BFL,817,Anagram Sofa,VITRA,matched,product_code,1
 B1,B1,CASSINA,KANGAROO,Product,8490000,전시중,"Designer : Pierre Jeanneret
 
 Material : Solid teak, Woven Viennese cane
@@ -658,7 +658,7 @@ Color : Solid teak
 
 Size : W580 * D760 * H340 - 610
 
-Made in Italy",Pierre Jeanneret,W580 * D760 * H340 - 610,"Solid teak, Woven Viennese cane",Solid teak,Italy,https://inscale.co.kr/web/product/big/202309/4a98ab73712cba74dac3cec0b2a16bcf.jpg,https://inscale.co.kr/product/kangaroo/383/category/87/display/1/,,,P00000OT,KANGAROO Solid teak,CASSINA,matched,product_code,1
+Made in Italy",Pierre Jeanneret,W580 * D760 * H340 - 610,"Solid teak, Woven Viennese cane",Solid teak,Italy,https://inscale.co.kr/web/product/big/202309/4a98ab73712cba74dac3cec0b2a16bcf.jpg,https://inscale.co.kr/product/kangaroo/383/category/87/display/1/,,,P00000OT,383,KANGAROO Solid teak,CASSINA,matched,product_code,1
 B1,B1,VITRA,Isamu Noguchi Coffee Table Limited Oak,Table,5410000,전시중,"Designer : Isamu Noguchi
 
 Material : Heavy glass, Walnut
@@ -667,7 +667,7 @@ Color : Oak
 
 Size : W1280 x D920 x H400
 
-Made in Germany",Isamu Noguchi,W1280 x D920 x H400,"Heavy glass, Walnut",Oak,Germany,https://inscale.co.kr/web/product/big/202606/dfc5e2882c7da0c1c865f6b4c864636c.jpg,https://inscale.co.kr/product/%EC%9E%AC%EA%B3%A0%EB%B3%B4%EC%9C%A0-isamu-noguchi-coffee-table-limited-oak/756/category/84/display/1/,,,P0000BDC,Coffee Table -,VITRA,matched,product_code,1
+Made in Germany",Isamu Noguchi,W1280 x D920 x H400,"Heavy glass, Walnut",Oak,Germany,https://inscale.co.kr/web/product/big/202606/dfc5e2882c7da0c1c865f6b4c864636c.jpg,https://inscale.co.kr/product/%EC%9E%AC%EA%B3%A0%EB%B3%B4%EC%9C%A0-isamu-noguchi-coffee-table-limited-oak/756/category/84/display/1/,,,P0000BDC,756,Coffee Table -,VITRA,matched,product_code,1
 B1,B1,Artek,[90 years of Artek] Stool X602 Limited Edition,Stool & Bench,2830000,전시중,"Designer : Alvar Aalto
 
 Material : Curly Birch
@@ -676,7 +676,7 @@ Color : Honey/Honey
 
 Size : W45 x D45 x H45
 
-Made in Finland",Alvar Aalto,W45 x D45 x H45,Curly Birch,Honey/Honey,Finland,https://inscale.co.kr/web/product/big/202606/83c0a8d971778965b2b5bf07e4799659.jpg,https://inscale.co.kr/product/detail.html?product_no=818,,,P0000BFM,E60 Stool Birch/White Lacquered,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W45 x D45 x H45,Curly Birch,Honey/Honey,Finland,https://inscale.co.kr/web/product/big/202606/83c0a8d971778965b2b5bf07e4799659.jpg,https://inscale.co.kr/product/detail.html?product_no=818,,,P0000BFM,818,E60 Stool Birch/White Lacquered,ARTEK,matched,product_code,1
 B1,B1,VITRA,"Asterisk Clock 
 Brass",Living Acc,678000,전시중,"Designer : George Nelson
 
@@ -686,7 +686,7 @@ Color : Brass
 
 Size : Ø250
 
-Made in Germany",George Nelson,Ø250,Various types of wood and metal,Brass,Germany,https://inscale.co.kr/web/product/big/202606/71e90ebc68246ac2f4f9d2eb86c55135.jpg,https://inscale.co.kr/product/detail.html?product_no=819,,,P0000BFN,Asterisk Clock,VITRA,matched,product_code,1
+Made in Germany",George Nelson,Ø250,Various types of wood and metal,Brass,Germany,https://inscale.co.kr/web/product/big/202606/71e90ebc68246ac2f4f9d2eb86c55135.jpg,https://inscale.co.kr/product/detail.html?product_no=819,,,P0000BFN,819,Asterisk Clock,VITRA,matched,product_code,1
 B1,B1,CASSINA,"LC3 ArmChair
 Grade-Y Black",Chair,13200000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
 
@@ -698,12 +698,12 @@ Frame : Chrome
 
 Size : W990 x D730 x H410 - 630
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W990 x D730 x H410 - 630,Feather Padding,,Italy,https://inscale.co.kr/web/product/big/202606/019927aef795f2935272eb9b66fc5d01.jpg,https://inscale.co.kr/product/detail.html?product_no=820,,,P0000BFO,LC3 Arm Chair,CASSINA,matched,product_code,1
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W990 x D730 x H410 - 630,Feather Padding,,Italy,https://inscale.co.kr/web/product/big/202606/019927aef795f2935272eb9b66fc5d01.jpg,https://inscale.co.kr/product/detail.html?product_no=820,,,P0000BFO,820,LC3 Arm Chair,CASSINA,matched,product_code,1
 B1,B1,Vitra,ToolBox,Product,69000,전시중,"Design : Arik Levy
 
 Size : W327*D167*H81
 
-Material:  ABS plastic",Arik Levy,W327*D167*H81,ABS plastic,,,https://inscale.co.kr/web/product/big/202307/027bbb072ebbef8fe1fe6cba07a25249.jpg,https://inscale.co.kr/product/toolbox/221/category/84/display/1/,,,P00000IN,TOOLBOX,VITRA,matched,product_code,1
+Material:  ABS plastic",Arik Levy,W327*D167*H81,ABS plastic,,,https://inscale.co.kr/web/product/big/202307/027bbb072ebbef8fe1fe6cba07a25249.jpg,https://inscale.co.kr/product/toolbox/221/category/84/display/1/,,,P00000IN,221,TOOLBOX,VITRA,matched,product_code,1
 B1,B1,Artek,.04 Office Chair Dark Green,Chair,2130000,전시중,"Designer : Maarten Van Severen
 
 Backrest and seat : Polyurethane
@@ -712,7 +712,7 @@ Base : Aluminium bridge, powder-coated
 
 Size : W565*D446*H805-930
 
-Made in Germany",Maarten Van Severen,W565*D446*H805-930,,,Germany,https://inscale.co.kr/web/product/big/202606/2ff51ee4f1959ea6999561b17631c8cd.jpg,https://inscale.co.kr/product/04-office-chair-dark-green/821/category/113/display/1/,,,P0000BFP,.04 Office Chair Dark Green,VITRA,matched,product_code,1
+Made in Germany",Maarten Van Severen,W565*D446*H805-930,,,Germany,https://inscale.co.kr/web/product/big/202606/2ff51ee4f1959ea6999561b17631c8cd.jpg,https://inscale.co.kr/product/04-office-chair-dark-green/821/category/113/display/1/,,,P0000BFP,821,.04 Office Chair Dark Green,VITRA,matched,product_code,1
 B1,B1,Artek,Tea Trolley 901 white HPL,Storage,4610000,전시중,"Designer : Alvar Aalto
 
 Color : White
@@ -725,7 +725,7 @@ Wheels : MDF, white lacquer
 
 Top and shelf surface : HPL, IKI white
 
-Made in Finland",Alvar Aalto,W900 x D500 x H560,,White,Finland,https://inscale.co.kr/web/product/big/202307/f3b90047c71bc4bcb42e75a2b1bf27c1.jpg,https://inscale.co.kr/product/tea-trolley-901-white-hpl/177/category/85/display/1/,,,P00000GV,TEA TROLLEY 901,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W900 x D500 x H560,,White,Finland,https://inscale.co.kr/web/product/big/202307/f3b90047c71bc4bcb42e75a2b1bf27c1.jpg,https://inscale.co.kr/product/tea-trolley-901-white-hpl/177/category/85/display/1/,,,P00000GV,177,TEA TROLLEY 901,ARTEK,matched,product_code,1
 B1,B1,VITRA,Happy Bin L size,Living Acc,148000,전시중,"Designer : Michel Charlot
 
 Material : Dyed-through polypropylene
@@ -734,7 +734,7 @@ Color : Black
 
 Size : Ø300 x H375
 
-Made in Germany",Michel Charlot,Ø300 x H375,Dyed-through polypropylene,Black,Germany,https://inscale.co.kr/web/product/big/202308/3e2618d90c547c09abd854ab9ec0c59b.jpg,https://inscale.co.kr/product/detail.html?product_no=223,,,P00000IP,Happy Bin - Black,VITRA,matched,product_code,1
+Made in Germany",Michel Charlot,Ø300 x H375,Dyed-through polypropylene,Black,Germany,https://inscale.co.kr/web/product/big/202308/3e2618d90c547c09abd854ab9ec0c59b.jpg,https://inscale.co.kr/product/detail.html?product_no=223,,,P00000IP,223,Happy Bin - Black,VITRA,matched,product_code,1
 B1,B1,Artek,"Kaari Wall Console 
 Black Linoleum-oak",Table,1360000,전시중,"Designer : Alvar Aalto
 
@@ -746,7 +746,7 @@ Color : Black & Oak
 
 Size : W100 x D45 x H34cm
 
-Made in Finland",Alvar Aalto,W100 x D45 x H34cm,"/Core : Solid oak, Steel",Black & Oak,Finland,https://inscale.co.kr/web/product/big/202606/816f199840d2f2906eadc71fd303fbe5.jpg,https://inscale.co.kr/product/kaari-wall-console-black-linoleum-oak/822/category/114/display/1/,,,P0000BFQ,Kaari Wall Console Black Linoleum-oak,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W100 x D45 x H34cm,"/Core : Solid oak, Steel",Black & Oak,Finland,https://inscale.co.kr/web/product/big/202606/816f199840d2f2906eadc71fd303fbe5.jpg,https://inscale.co.kr/product/kaari-wall-console-black-linoleum-oak/822/category/114/display/1/,,,P0000BFQ,822,Kaari Wall Console Black Linoleum-oak,ARTEK,matched,product_code,1
 B1,B1,Vitra,Eames House Bird black,Product,407000,전시중,"Designer : Charles & Ray Eames
 
 Color : Black
@@ -755,7 +755,7 @@ Material : Solid alder, black lacquer finish, Legs : black steel wire
 
 Size : 85 x 278 x H276mm
 
-Made in Germany",Charles & Ray Eames,85 x 278 x H276mm,"Solid alder, black lacquer finish, Legs : black steel wire",Black,Germany,https://inscale.co.kr/web/product/big/202507/ee5056b8a944e01c423e6de5e754392b.jpg,https://inscale.co.kr/product/eames-house-bird-black/695/category/84/display/1/,,,P0000BAT,Eames House Bird black,VITRA,matched,product_code,1
+Made in Germany",Charles & Ray Eames,85 x 278 x H276mm,"Solid alder, black lacquer finish, Legs : black steel wire",Black,Germany,https://inscale.co.kr/web/product/big/202507/ee5056b8a944e01c423e6de5e754392b.jpg,https://inscale.co.kr/product/eames-house-bird-black/695/category/84/display/1/,,,P0000BAT,695,Eames House Bird black,VITRA,matched,product_code,1
 B1,B1,Artek,"Kaari Wall Shelf 
 Round Black-Oak",Lighting,590000,전시중,"Designer : Ronan & Erwan Bouroullec
 
@@ -767,7 +767,7 @@ Color : Oak&Black
 
 Size : W35 x D35 x H30cm
 
-Made in Poland",Ronan & Erwan Bouroullec,W35 x D35 x H30cm,"Solid oak, Steel",Oak&Black,Poland,https://inscale.co.kr/web/product/big/202606/25cf0a2504a2def02fb435fbd04a2233.jpg,https://inscale.co.kr/product/detail.html?product_no=823,,,P0000BFR,Kaari Wall Shelf Round Black-Oak,ARTEK,matched,product_code,1
+Made in Poland",Ronan & Erwan Bouroullec,W35 x D35 x H30cm,"Solid oak, Steel",Oak&Black,Poland,https://inscale.co.kr/web/product/big/202606/25cf0a2504a2def02fb435fbd04a2233.jpg,https://inscale.co.kr/product/detail.html?product_no=823,,,P0000BFR,823,Kaari Wall Shelf Round Black-Oak,ARTEK,matched,product_code,1
 B1,B1,VITRA,"HIgh Tray 
 Dark Brick",Living Acc,105000,전시중,"Designer : Jasper Morrison
 
@@ -775,7 +775,7 @@ Material : Textured ABS plastic
 
 Size : 300 x H150 mm
 
-Made in Slowenien",Jasper Morrison,300 x H150 mm,Textured ABS plastic,,Slowenien,https://inscale.co.kr/web/product/big/202512/9bd345545ea56aa0f644d5e2f122e88e.jpg,https://inscale.co.kr/product/high-tray-dark-brick/717/category/84/display/1/,,,P0000BBP,HIgh Tray Dark Brick,VITRA,matched,product_code,1
+Made in Slowenien",Jasper Morrison,300 x H150 mm,Textured ABS plastic,,Slowenien,https://inscale.co.kr/web/product/big/202512/9bd345545ea56aa0f644d5e2f122e88e.jpg,https://inscale.co.kr/product/high-tray-dark-brick/717/category/84/display/1/,,,P0000BBP,717,HIgh Tray Dark Brick,VITRA,matched,product_code,1
 B1,B1,ARTEMIDE,Tolomeo Micro Table Glossy white,Table,570000,전시중,"Designer : Michele De Lucchi & Giancarlo Fassina
 
 Material : Aluminium, Steel
@@ -784,7 +784,7 @@ Color : Glossy White
 
 Size : W680 x H540
 
-Made in Italy",Michele De Lucchi & Giancarlo Fassina,W680 x H540,"Aluminium, Steel",Glossy White,Italy,https://inscale.co.kr/web/product/big/202309/a52334ae47cf6528bb47c209fb5badcd.jpg,https://inscale.co.kr/product/order-tolomeo-micro-table-glossy-white/349/category/90/display/1/,,,P00000NL,Tolomeo Micro Table Glossy white,ARTEMIDE,matched,product_code,1
+Made in Italy",Michele De Lucchi & Giancarlo Fassina,W680 x H540,"Aluminium, Steel",Glossy White,Italy,https://inscale.co.kr/web/product/big/202309/a52334ae47cf6528bb47c209fb5badcd.jpg,https://inscale.co.kr/product/order-tolomeo-micro-table-glossy-white/349/category/90/display/1/,,,P00000NL,349,Tolomeo Micro Table Glossy white,ARTEMIDE,matched,product_code,1
 B1,B1,VITRA,Chap Stool Deep Black RE,Stool & Bench,198000,전시중,"Designer : Konstantin Grcic
 
 Material : Recycled polypropylene, 100% recyclable
@@ -793,8 +793,8 @@ Color : Deep Black
 
 Size : 430 x 430 x H455mm
 
-Made in Germany",Konstantin Grcic,430 x 430 x H455mm,"Recycled polypropylene, 100% recyclable",Deep Black,Germany,https://inscale.co.kr/web/product/big/202606/36d547b33cdc0b10987283efa1fff0f2.jpg,https://inscale.co.kr/product/detail.html?product_no=824,,,P0000BFS,Chap Stool Deep Black RE,VITRA,matched,product_code,1
-B1,B1,FLOS,"Diabolo
+Made in Germany",Konstantin Grcic,430 x 430 x H455mm,"Recycled polypropylene, 100% recyclable",Deep Black,Germany,https://inscale.co.kr/web/product/big/202606/36d547b33cdc0b10987283efa1fff0f2.jpg,https://inscale.co.kr/product/detail.html?product_no=824,,,P0000BFS,824,Chap Stool Deep Black RE,VITRA,matched,product_code,1
+B1,B1,FLOS,"Diabolo Cherry Red
 [단종]",Product,1820000,전시중,"Designer : Achille Castiglioni
 
 Material : Aluminium
@@ -803,7 +803,7 @@ Color : Cherry Red
 
 Size : Ø390 x H950
 
-Made in Italy",Achille Castiglioni,Ø390 x H950,Aluminium,Cherry Red,Italy,,https://inscale.co.kr/product/diabolo/320/category/91/display/1/,,,P00000MI,,,new_or_unmatched,not_found,
+Made in Italy",Achille Castiglioni,Ø390 x H950,Aluminium,Cherry Red,Italy,https://inscale.co.kr/web/product/big/202309/2047bf797de5f6db262b3b218bda402c.jpg,https://inscale.co.kr/product/diabolo/320/category/91/display/1/,,,P00000MI,320,,,new_or_unmatched,not_found,
 B1,B1,VITRA,EVO-C Ivory,Product,670000,전시중,"Designer : Jasper Morrison
 
 Material : Polypropylene
@@ -812,7 +812,7 @@ Color : Ivory
 
 Size : W415 x D450 x H440 - 815
 
-Made in Germany",Jasper Morrison,W415 x D450 x H440 - 815,Polypropylene,Ivory,Germany,https://inscale.co.kr/web/product/big/202308/9e398d6e1208b95bfe9722c28ff1e17f.jpg,https://inscale.co.kr/product/evo-c/190/category/84/display/1/,,,P00000HI,EVO-C Ivory,VITRA,matched,product_code,1
+Made in Germany",Jasper Morrison,W415 x D450 x H440 - 815,Polypropylene,Ivory,Germany,https://inscale.co.kr/web/product/big/202308/9e398d6e1208b95bfe9722c28ff1e17f.jpg,https://inscale.co.kr/product/evo-c/190/category/84/display/1/,,,P00000HI,190,EVO-C Ivory,VITRA,matched,product_code,1
 B1,B1,Vitra,Eames Elephant Small,Living Acc,173000,전시중,"Designer : Charles & Ray Eames
 
 Color : Pale Rose
@@ -821,7 +821,7 @@ Material : Dyed-through polypropylene, Matt finish
 
 Size : W390 x D205 x H210
 
-Made in Germany",Charles & Ray Eames,W390 x D205 x H210,"Dyed-through polypropylene, Matt finish",Pale Rose,Germany,https://inscale.co.kr/web/product/big/202311/66ba1e38c5d388fd542c4cb300985db1.jpg,https://inscale.co.kr/product/eames-elephant-small/433/category/84/display/1/,,,P00000QR,Eames Elephant Small - Pale Rose,VITRA,matched,product_code,1
+Made in Germany",Charles & Ray Eames,W390 x D205 x H210,"Dyed-through polypropylene, Matt finish",Pale Rose,Germany,https://inscale.co.kr/web/product/big/202311/66ba1e38c5d388fd542c4cb300985db1.jpg,https://inscale.co.kr/product/eames-elephant-small/433/category/84/display/1/,,,P00000QR,433,Eames Elephant Small - Pale Rose,VITRA,matched,product_code,1
 B1,B1,Artek,Table 81A,Table,2750000,전시중,"Designer : Alvar Aalto
 
 Color : Black & Birch
@@ -830,7 +830,7 @@ Material : Solid birch, Chipboard, Honeycomb, Linoleum
 
 Size : W1500 x D750 x H740
 
-Made in Finland",Alvar Aalto,W1500 x D750 x H740,"Solid birch, Chipboard, Honeycomb, Linoleum",Black & Birch,Finland,https://inscale.co.kr/web/product/big/202410/c22fa3bab618c1ddd2315c122e99bf3a.jpg,https://inscale.co.kr/product/table-81a/649/category/114/display/1/,,,P00000YZ,Table 81A,ARTEK,matched,product_code,1
+Made in Finland",Alvar Aalto,W1500 x D750 x H740,"Solid birch, Chipboard, Honeycomb, Linoleum",Black & Birch,Finland,https://inscale.co.kr/web/product/big/202410/c22fa3bab618c1ddd2315c122e99bf3a.jpg,https://inscale.co.kr/product/table-81a/649/category/114/display/1/,,,P00000YZ,649,Table 81A,ARTEK,matched,product_code,1
 B1,B1,Vitra,EM Table (HPL) 1800,Table,5490000,전시중,"Designer : Jean Prouvé
 
 Top : Ivory HPL
@@ -839,7 +839,7 @@ Color : Prouvé Gris Vermeer(smooth)
 
 Size : W1800 x D900 x H740
 
-Made in Germany",Jean Prouvé,W1800 x D900 x H740,,Prouvé Gris Vermeer(smooth),Germany,https://inscale.co.kr/web/product/big/202507/586d5bbdc28bfaaa1fb0ea5cbbe017d4.jpg,https://inscale.co.kr/product/em-table-hpl-1800/700/category/84/display/1/,,,P0000BAY,EM Table (HPL),VITRA,matched,product_code,1
+Made in Germany",Jean Prouvé,W1800 x D900 x H740,,Prouvé Gris Vermeer(smooth),Germany,https://inscale.co.kr/web/product/big/202507/586d5bbdc28bfaaa1fb0ea5cbbe017d4.jpg,https://inscale.co.kr/product/em-table-hpl-1800/700/category/84/display/1/,,,P0000BAY,700,EM Table (HPL),VITRA,matched,product_code,1
 B1,B1,Vitra,Eames House Whale,Product,1627000,전시중,"Designer : Charles & Ray Eames
 
 Color : Black
@@ -848,7 +848,7 @@ Material : Solid ash wood, Hand-painted
 
 Size : 700 x 140mm
 
-Made in Germany",Charles & Ray Eames,700 x 140mm,"Solid ash wood, Hand-painted",Black,Germany,https://inscale.co.kr/web/product/big/202507/d798d7f790f7643e1caf1baf3d02beed.jpg,https://inscale.co.kr/product/eames-house-whale/694/category/84/display/1/,,,P0000BAS,Eames House Whale,VITRA,matched,product_code,1
+Made in Germany",Charles & Ray Eames,700 x 140mm,"Solid ash wood, Hand-painted",Black,Germany,https://inscale.co.kr/web/product/big/202507/d798d7f790f7643e1caf1baf3d02beed.jpg,https://inscale.co.kr/product/eames-house-whale/694/category/84/display/1/,,,P0000BAS,694,Eames House Whale,VITRA,matched,product_code,1
 B1,B1,ARTEK,Riihitie Aalto Planter Shape A Light Grey,Lighting,148000,전시중,"Designer : Aino Aalto
 
 Material : Ceramic
@@ -857,7 +857,7 @@ Color : Light Grey
 
 Size : 20.5 x 16 x H12cm
 
-Made in Portugal",Aino Aalto,20.5 x 16 x H12cm,Ceramic,Light Grey,Portugal,https://inscale.co.kr/web/product/big/202606/e312ccf69f65c6d52df2bdd3dd23e914.jpg,https://inscale.co.kr/product/detail.html?product_no=825,,,P0000BFT,Riihitie Aalto Planter Shape A Light Grey,ARTEK,matched,product_code,1
+Made in Portugal",Aino Aalto,20.5 x 16 x H12cm,Ceramic,Light Grey,Portugal,https://inscale.co.kr/web/product/big/202606/e312ccf69f65c6d52df2bdd3dd23e914.jpg,https://inscale.co.kr/product/detail.html?product_no=825,,,P0000BFT,825,Riihitie Aalto Planter Shape A Light Grey,ARTEK,matched,product_code,1
 B1,B1,ARTEK,Riihitie Aalto Planter Shape B Light Grey,Lighting,148000,전시중,"Designer : Aino Aalto
 
 Material : Ceramic
@@ -866,24 +866,24 @@ Color : Light Grey
 
 Size : 19 x 16 x H12cm
 
-Made in Portugal",Aino Aalto,19 x 16 x H12cm,Ceramic,Light Grey,Portugal,https://inscale.co.kr/web/product/big/202606/0eaf66546b02a3d5d3b64ccedc541fe6.jpg,https://inscale.co.kr/product/detail.html?product_no=826,,,P0000BFU,Riihitie aalto planter Shape B Light Grey,ARTEK,matched,product_code,1
+Made in Portugal",Aino Aalto,19 x 16 x H12cm,Ceramic,Light Grey,Portugal,https://inscale.co.kr/web/product/big/202606/0eaf66546b02a3d5d3b64ccedc541fe6.jpg,https://inscale.co.kr/product/detail.html?product_no=826,,,P0000BFU,826,Riihitie aalto planter Shape B Light Grey,ARTEK,matched,product_code,1
 B1,B1-1 계단,Artemide,teti,Lighting,150000,전시중,"Design : Vico  Magistretti
 
 Size : Ø140*H70
 Color : transparent
-Material : polycarbonate",Vico Magistretti,Ø140*H70,polycarbonate,transparent,,https://inscale.co.kr/web/product/big/202309/397e8a25033c7205e843416c5ac51cd7.jpg,https://inscale.co.kr/product/teti/358/category/90/display/1/,,,P00000NU,Teti,ARTEMIDE,matched,product_code,1
+Material : polycarbonate",Vico Magistretti,Ø140*H70,polycarbonate,transparent,,https://inscale.co.kr/web/product/big/202309/397e8a25033c7205e843416c5ac51cd7.jpg,https://inscale.co.kr/product/teti/358/category/90/display/1/,,,P00000NU,358,Teti,ARTEMIDE,matched,product_code,1
 B1,B1-1 계단,Artemide,Eclisse PVD,Lighting,470000,전시중,"Design : Vico Magistretti
  
  Size : Ø120*H180
 
  Colour : Copper/Gold/Mirror 
- Material : steel,technopolymer",Vico Magistretti,Ø120*H180,"steel,technopolymer",Copper/Gold/Mirror,,https://inscale.co.kr/web/product/big/202309/1aad40d6300a205a0e067eda9a70e79a.jpg,https://inscale.co.kr/product/eclisse-pvd/341/category/90/display/1/,,,P00000ND,Eclisse PVD,ARTEMIDE,matched,product_code,1
+ Material : steel,technopolymer",Vico Magistretti,Ø120*H180,"steel,technopolymer",Copper/Gold/Mirror,,https://inscale.co.kr/web/product/big/202309/1aad40d6300a205a0e067eda9a70e79a.jpg,https://inscale.co.kr/product/eclisse-pvd/341/category/90/display/1/,,,P00000ND,341,Eclisse PVD,ARTEMIDE,matched,product_code,1
 B1,B1-1 계단,Artemide,Eclisse,Lighting,440000,전시중,"Design : Vico Magistretti
  
  Size : Ø120*H180
 
  Colour : Orange/Red/White/Yellow 
- Material : steel,technopolymer",Vico Magistretti,Ø120*H180,"steel,technopolymer",Orange/Red/White/Yellow,,https://inscale.co.kr/web/product/big/202309/dfc8971ffa10c83e845ccef3bdadaa72.jpg,https://inscale.co.kr/product/eclisse/343/category/90/display/1/,,,P00000NF,Eclisse,ARTEMIDE,matched,product_code,1
+ Material : steel,technopolymer",Vico Magistretti,Ø120*H180,"steel,technopolymer",Orange/Red/White/Yellow,,https://inscale.co.kr/web/product/big/202309/dfc8971ffa10c83e845ccef3bdadaa72.jpg,https://inscale.co.kr/product/eclisse/343/category/90/display/1/,,,P00000NF,343,Eclisse,ARTEMIDE,matched,product_code,1
 B1,B1-1 계단,USM,USM Haller 2 angled shelves,Storage,"\3,107,000
 스페이스로직 문의",전시중,"Designer : Paul scharer & Fritz Haller
 
@@ -893,14 +893,14 @@ Material : Metal / Chrome Steel
 
 Size : W750*D350*H800+40
 
-Made in Swiss",Paul scharer & Fritz Haller,W750*D350*H800+40,Metal / Chrome Steel,White - 2 angled shelves,Swiss,,https://inscale.co.kr/product/detail.html?product_no=531,,,P00000UL,,,new_or_unmatched,not_found,
+Made in Swiss",Paul scharer & Fritz Haller,W750*D350*H800+40,Metal / Chrome Steel,White - 2 angled shelves,Swiss,https://inscale.co.kr/web/product/big/202606/5b058e2aa58c1e39858dd08f3b34fc91.jpg,https://inscale.co.kr/product/detail.html?product_no=531,,,P00000UL,531,,,new_or_unmatched,not_found,
 B1,B1-1 계단,Artek,Stool E60,Stool & Bench,570000,전시중,"Design : Alvar Aalto
 
 Size : Ø380*H440
 
 Color : Birch yellow lacquered
 
-Legs : birch or wild birch natural lacquered",Alvar Aalto,Ø380*H440,,Birch yellow lacquered,,https://inscale.co.kr/web/product/big/202606/aae709ec2bcbcb37eff9f4fcf95105c1.jpg,https://inscale.co.kr/product/e60-stool/440/category/85/display/1/,,,P00000QY,E60 Stool Yellow,ARTEK,matched,product_code,1
+Legs : birch or wild birch natural lacquered",Alvar Aalto,Ø380*H440,,Birch yellow lacquered,,https://inscale.co.kr/web/product/big/202606/aae709ec2bcbcb37eff9f4fcf95105c1.jpg,https://inscale.co.kr/product/e60-stool/440/category/85/display/1/,,,P00000QY,440,E60 Stool Yellow,ARTEK,matched,product_code,1
 B1,B1-1 계단,Artek,"Riihitie
 Plant Pot",Lighting,"Small Size : ₩148,000
 Large Size : ₩333,000",전시중,"Small Size : H12*20.5*16 cm
@@ -908,11 +908,11 @@ Large Size : H20*40*27 cm
 
 Material : Ceramic
 
-Color : white glaze / blue glaze / light gray glaze",,H12*20.5*16 cm,Ceramic,white glaze / blue glaze / light gray glaze,,https://inscale.co.kr/web/product/big/202606/0eaf66546b02a3d5d3b64ccedc541fe6.jpg,https://inscale.co.kr/product/riihitie-aalto-planter-shape-a-light-grey/825/category/110/display/1/,,,P0000BFU,Riihitie aalto planter Shape B Light Grey,ARTEK,matched,product_code,1
+Color : white glaze / blue glaze / light gray glaze",,H12*20.5*16 cm,Ceramic,white glaze / blue glaze / light gray glaze,,https://inscale.co.kr/web/product/big/202606/0eaf66546b02a3d5d3b64ccedc541fe6.jpg,https://inscale.co.kr/product/riihitie-aalto-planter-shape-a-light-grey/825/category/110/display/1/,,,P0000BFU,825,Riihitie aalto planter Shape B Light Grey,ARTEK,matched,product_code,1
 B1,EV,Zanotta,Sella Stool,Stool & Bench,2030000,전시중,"Design Achille & Pier Giacomo Castiglioni, 1957
 
 steel, black saddle of bicyle
-Size : W33 x H71 x D33","Achille & Pier Giacomo Castiglioni, 1957",W33 x H71 x D33,,,,https://inscale.co.kr/web/product/big/202311/68d239036b02b5e5dbbb753800853b20.jpg,https://inscale.co.kr/product/sella-stool/415/category/113/display/1/,,,P00000PZ,Sella,자체브랜드,matched,product_code,1
+Size : W33 x H71 x D33","Achille & Pier Giacomo Castiglioni, 1957",W33 x H71 x D33,,,,https://inscale.co.kr/web/product/big/202311/68d239036b02b5e5dbbb753800853b20.jpg,https://inscale.co.kr/product/sella-stool/415/category/113/display/1/,,,P00000PZ,415,Sella,자체브랜드,matched,product_code,1
 1F,1F,CASSINA,"[60th Limited Edition]
 LC-4",Product,13910000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
 
@@ -922,7 +922,7 @@ Upholstery : Scozia Verde Foresta leather 13X337
 
 Size : W560 x D1630 x H270 - 690
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W560 x D1630 x H270 - 690,,,Italy,https://inscale.co.kr/web/product/big/202606/e7dfee6972c2d40d9c4b0fbfc09871e7.jpg,https://inscale.co.kr/product/detail.html?product_no=830,,,P0000BFY,[60th Limited Edition] LC-4,CASSINA,matched,product_code,1
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W560 x D1630 x H270 - 690,,,Italy,https://inscale.co.kr/web/product/big/202606/e7dfee6972c2d40d9c4b0fbfc09871e7.jpg,https://inscale.co.kr/product/detail.html?product_no=830,,,P0000BFY,830,[60th Limited Edition] LC-4,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"Deadline Mirror -
 Reflections about spatialism",Mirror,3410000,전시중,"Designer : Ron Gilad
 
@@ -932,7 +932,7 @@ Frame : Natural ashwood frame
 
 Size : W1000 x H1000
 
-Made in Italy",Ron Gilad,W1000 x H1000,,,Italy,https://inscale.co.kr/web/product/big/202312/0660f2d0d22ac8723ec74714af0a5380.jpg,https://inscale.co.kr/product/deadline-mirror/542/category/87/display/1/,,,P00000UW,Deadline Mirror,CASSINA,matched,product_code,1
+Made in Italy",Ron Gilad,W1000 x H1000,,,Italy,https://inscale.co.kr/web/product/big/202312/0660f2d0d22ac8723ec74714af0a5380.jpg,https://inscale.co.kr/product/deadline-mirror/542/category/87/display/1/,,,P00000UW,542,Deadline Mirror,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Console Doron,Table,7670000,전시중,"Designer : Ron Gilad
 
 Model : Console, left leg  
@@ -941,7 +941,7 @@ Structure-frame : Glossy lacquer Cream
 
 Size : W166 x H77
 
-Made in Italy",Ron Gilad,W166 x H77,,,Italy,https://inscale.co.kr/web/product/big/202606/440140f406770c7158f6271ce4f821f0.jpg,https://inscale.co.kr/product/detail.html?product_no=831,,,P0000BFZ,Console Doron Cream,CASSINA,matched,product_code,1
+Made in Italy",Ron Gilad,W166 x H77,,,Italy,https://inscale.co.kr/web/product/big/202606/440140f406770c7158f6271ce4f821f0.jpg,https://inscale.co.kr/product/detail.html?product_no=831,,,P0000BFZ,831,Console Doron Cream,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Ruuna Pouf Ottomann,Stool & Bench,3540000,전시중,"Designer : Patricia Urquiola
 
 Upholstery : Fabric L : 
@@ -949,7 +949,7 @@ Zafferano - Lincoln 13L574
 
 Size : 50x42cm H47.5cm
 
-Made in Italy",Patricia Urquiola,50x42cm H47.5cm,,,Italy,https://inscale.co.kr/web/product/big/202606/1aae600796885555a260d14e0bfd0ac8.jpg,https://inscale.co.kr/product/detail.html?product_no=838,,,P0000BGG,Ruuna Pouf Ottomann,CASSINA,matched,product_code,1
+Made in Italy",Patricia Urquiola,50x42cm H47.5cm,,,Italy,https://inscale.co.kr/web/product/big/202606/1aae600796885555a260d14e0bfd0ac8.jpg,https://inscale.co.kr/product/detail.html?product_no=838,,,P0000BGG,838,Ruuna Pouf Ottomann,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Bowy Low Table,Table,4480000,전시중,"Designer : Patricia Urquiola
 
 Top : Glossy laquered Rosso amaranto (LP 305)
@@ -958,7 +958,7 @@ Frame : Lacquered aluminium sheet
 
 Size : Ø450 x H470mm
 
-Made in Italy",Patricia Urquiola,Ø450 x H470mm,,,Italy,https://inscale.co.kr/web/product/big/202606/dcc1f3cd52d4b47b6718a48789c6f75f.jpg,https://inscale.co.kr/product/detail.html?product_no=837,,,P0000BGF,Bowy Low Table,CASSINA,matched,product_code,1
+Made in Italy",Patricia Urquiola,Ø450 x H470mm,,,Italy,https://inscale.co.kr/web/product/big/202606/dcc1f3cd52d4b47b6718a48789c6f75f.jpg,https://inscale.co.kr/product/detail.html?product_no=837,,,P0000BGF,837,Bowy Low Table,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"LC2 Armchair - 
 Blu notte",Sofa,10010000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
 
@@ -970,14 +970,14 @@ Frame : Taupe Painted Enamel
 
 Size : W760 x D700 x H480 - 670
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W760 x D700 x H480 - 670,Polyester Padding,,Italy,https://inscale.co.kr/web/product/big/202401/019699bb4bb4c44fc7d9716528214e56.jpg,https://inscale.co.kr/product/lc2-armchair/559/category/87/display/1/,,,P00000VN,LC2 Arm Chair,CASSINA,matched,product_code,1
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W760 x D700 x H480 - 670,Polyester Padding,,Italy,https://inscale.co.kr/web/product/big/202401/019699bb4bb4c44fc7d9716528214e56.jpg,https://inscale.co.kr/product/lc2-armchair/559/category/87/display/1/,,,P00000VN,559,LC2 Arm Chair,CASSINA,matched,product_code,1
 1F,1F,CASSINA x KARAKTER,Triangle stool,Stool & Bench,2140000,전시중,"Designer : Afra and Tobias Scarpa
 
 Material : Solid Natural Ash Wood
 
 Size : W35 x H42
 
-Made in Denmark",Afra and Tobias Scarpa,W35 x H42,Solid Natural Ash Wood,,Denmark,https://inscale.co.kr/web/product/big/202606/4ccd251c0ed1ba490eeee163daf11c54.jpg,https://inscale.co.kr/product/detail.html?product_no=833,,,P0000BGB,Triangle stool,CASSINA,matched,product_code,1
+Made in Denmark",Afra and Tobias Scarpa,W35 x H42,Solid Natural Ash Wood,,Denmark,https://inscale.co.kr/web/product/big/202606/4ccd251c0ed1ba490eeee163daf11c54.jpg,https://inscale.co.kr/product/detail.html?product_no=833,,,P0000BGB,833,Triangle stool,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"Ficupala 
 Pink glass",Product,3100000,전시중,"Designer : Cassina Studio
 
@@ -987,7 +987,7 @@ Body : Taupe grey glass
 
 Base : Marquina marble
 
-Size : W200 x H590",Cassina Studio,W200 x H590,,,,https://inscale.co.kr/web/product/big/202311/41d879f37ccc8d03b2e0f11bc206bcd8.jpg,https://inscale.co.kr/product/ficupala/482/category/87/display/1/,,,P00000SO,Ficupala,CASSINA,matched,product_code,1
+Size : W200 x H590",Cassina Studio,W200 x H590,,,,https://inscale.co.kr/web/product/big/202311/41d879f37ccc8d03b2e0f11bc206bcd8.jpg,https://inscale.co.kr/product/ficupala/482/category/87/display/1/,,,P00000SO,482,Ficupala,CASSINA,matched,product_code,1
 1F,1F,CASSINA,9 Side Table Walnut,Table,"Mat american walnut
 ₩3,470,000
 
@@ -996,7 +996,7 @@ Bianco Carrara marble
 
 Size : Ø400*H440
 Top & Base : Mat american walnut
-Stem : Anthracite",Piero Lissoni,Ø400*H440,,,,https://inscale.co.kr/web/product/big/202410/4e0dbd7c476db29adb9b4a64f11f774d.jpg,https://inscale.co.kr/product/detail.html?product_no=657,,,P00000ZH,9 Side Table Walnut,CASSINA,matched,product_code,1
+Stem : Anthracite",Piero Lissoni,Ø400*H440,,,,https://inscale.co.kr/web/product/big/202410/4e0dbd7c476db29adb9b4a64f11f774d.jpg,https://inscale.co.kr/product/detail.html?product_no=657,,,P00000ZH,657,9 Side Table Walnut,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Fluid joinery Side table (Amber),Table,5920000,전시중,"Designer : Linde Freya Tangelder
 
 Material : Blown Glass
@@ -1005,7 +1005,7 @@ Color : Amber
 
 Size : W540 x D480 x H390mm
 
-Made in Italy",Linde Freya Tangelder,W540 x D480 x H390mm,Blown Glass,Amber,Italy,https://inscale.co.kr/web/product/big/202606/4cd8bbc83fd85db19e63b6b1eb2a7ad3.jpg,https://inscale.co.kr/product/fluid-joinery-side-table-blue/762/category/87/display/1/,,,P0000BDI,Fluid joinery Side table (Amber),CASSINA,matched,product_code,1
+Made in Italy",Linde Freya Tangelder,W540 x D480 x H390mm,Blown Glass,Amber,Italy,https://inscale.co.kr/web/product/big/202606/4cd8bbc83fd85db19e63b6b1eb2a7ad3.jpg,https://inscale.co.kr/product/fluid-joinery-side-table-blue/762/category/87/display/1/,,,P0000BDI,762,Fluid joinery Side table (Amber),CASSINA,matched,product_code,1
 1F,1F,CASSINA,Fluid joinery Side table (Blue),Table,5920000,전시중,"Designer : Linde Freya Tangelder
 
 Material : Blown Glass
@@ -1014,7 +1014,7 @@ Color : Blue
 
 Size : W540 x D480 x H390mm
 
-Made in Italy",Linde Freya Tangelder,W540 x D480 x H390mm,Blown Glass,Blue,Italy,https://inscale.co.kr/web/product/big/202606/4bc5519105225d5ec768f9c85f4efd17.jpg,https://inscale.co.kr/product/fluid-joinery-side-table-blue/761/category/87/display/1/,,,P0000BDH,Fluid joinery Side table (Blue),CASSINA,matched,product_code,1
+Made in Italy",Linde Freya Tangelder,W540 x D480 x H390mm,Blown Glass,Blue,Italy,https://inscale.co.kr/web/product/big/202606/4bc5519105225d5ec768f9c85f4efd17.jpg,https://inscale.co.kr/product/fluid-joinery-side-table-blue/761/category/87/display/1/,,,P0000BDH,761,Fluid joinery Side table (Blue),CASSINA,matched,product_code,1
 1F,1F,FLOS,Bonjour Unplugged,Product,599000,전시중,"Designer : Philippe Starck
 
 Material : ABS, Aluminum, PMMA
@@ -1023,7 +1023,7 @@ Color : Copper
 
 Size : Ø130 x H270
 
-Made in Italy",Philippe Starck,Ø130 x H270,"ABS, Aluminum, PMMA",Copper,Italy,https://inscale.co.kr/web/product/big/202309/34933400b6d3ea91726daa3ff4ee2817.jpg,https://inscale.co.kr/product/bonjour-unplugged/300/category/91/display/1/,,,P00000LO,Bonjour Unplugged,FLOS,matched,product_code,1
+Made in Italy",Philippe Starck,Ø130 x H270,"ABS, Aluminum, PMMA",Copper,Italy,https://inscale.co.kr/web/product/big/202309/34933400b6d3ea91726daa3ff4ee2817.jpg,https://inscale.co.kr/product/bonjour-unplugged/300/category/91/display/1/,,,P00000LO,300,Bonjour Unplugged,FLOS,matched,product_code,1
 1F,1F,CASSINA,DUDET Bold Sofa,Sofa,23060000,전시중,"Designer : Patricia Urquiola
 
 Material : Legs and seat in polyurethane foam
@@ -1032,7 +1032,7 @@ Upholstery : Minerale - Falkland 13F178
 
 Size : 292x116xH69cm
 
-Made in Italy",Patricia Urquiola,292x116xH69cm,Legs and seat in polyurethane foam,,Italy,https://inscale.co.kr/web/product/big/202606/11d18ec4e0b19658143c4c690ec38678.jpg,https://inscale.co.kr/product/detail.html?product_no=834,,,P0000BGC,DUDET Bold Sofa,CASSINA,matched,product_code,1
+Made in Italy",Patricia Urquiola,292x116xH69cm,Legs and seat in polyurethane foam,,Italy,https://inscale.co.kr/web/product/big/202606/11d18ec4e0b19658143c4c690ec38678.jpg,https://inscale.co.kr/product/detail.html?product_no=834,,,P0000BGC,834,DUDET Bold Sofa,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"En forme libre
 Low Table -
 Midnight Blue",Table,15580000,전시중,"Designer : Charlotte Perriand
@@ -1041,7 +1041,7 @@ Material : Glossy Lacquer, Midnight Blue
 
 Size : W192 x H35 x D87
 
-Made in Italy",Charlotte Perriand,W192 x H35 x D87,"Glossy Lacquer, Midnight Blue",,Italy,https://inscale.co.kr/web/product/big/202606/56b9d65c240b4dab1441298ac7d2b73d.jpg,https://inscale.co.kr/product/detail.html?product_no=835,,,P0000BGD,En forme libre Low Table Midnight Blue,CASSINA,matched,product_code,1
+Made in Italy",Charlotte Perriand,W192 x H35 x D87,"Glossy Lacquer, Midnight Blue",,Italy,https://inscale.co.kr/web/product/big/202606/56b9d65c240b4dab1441298ac7d2b73d.jpg,https://inscale.co.kr/product/detail.html?product_no=835,,,P0000BGD,835,En forme libre Low Table Midnight Blue,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Mokoro,Product,7670000,전시중,"Designer : Cassina
 
 Description : rug with pattern, hand-knotted in 100% wool
@@ -1050,7 +1050,7 @@ Color : fleece White, base Beige
 
 Size : 250x350 cm
 
-Made in Italy",Cassina,250x350 cm,,"fleece White, base Beige",Italy,https://inscale.co.kr/web/product/big/202606/ec94757d256781b30f29b2ab2c0bafff.jpg,https://inscale.co.kr/product/detail.html?product_no=836,,,P0000BGE,Mokoro,CASSINA,matched,product_code,1
+Made in Italy",Cassina,250x350 cm,,"fleece White, base Beige",Italy,https://inscale.co.kr/web/product/big/202606/ec94757d256781b30f29b2ab2c0bafff.jpg,https://inscale.co.kr/product/detail.html?product_no=836,,,P0000BGE,836,Mokoro,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Sahara - Midgrid,Product,7670000,DP SALE,"Designer : Cassina Studio
 
 Color : Grey Blue(Carta da zucchero)
@@ -1061,7 +1061,7 @@ Size : W3500 x D2500
 
 Made in Italy
 
-*쇼룸은 2개 DP",Cassina Studio,W3500 x D2500,Wool,Grey Blue(Carta da zucchero),Italy,https://inscale.co.kr/web/product/big/202311/b7c74bd1ce3a617d5e10cec186781b86.jpg,https://inscale.co.kr/product/sahara-midgrid/451/category/87/display/1/,,,P00000RJ,Sahara - Midgrid,CASSINA,matched,product_code,1
+*쇼룸은 2개 DP",Cassina Studio,W3500 x D2500,Wool,Grey Blue(Carta da zucchero),Italy,https://inscale.co.kr/web/product/big/202311/b7c74bd1ce3a617d5e10cec186781b86.jpg,https://inscale.co.kr/product/sahara-midgrid/451/category/87/display/1/,,,P00000RJ,451,Sahara - Midgrid,CASSINA,matched,product_code,1
 1F,1F,CASSINA x KARAKTER,SCARPA 925 Lounge Chair Naturale,Chair,4290000,전시중,"Designer : Afra and Tobias Scarpa
 
 Material : Ashwood, Saddle Leather - Naturale
@@ -1070,7 +1070,7 @@ Frame : Natural Ashwood
 
 Size : 66 x 67 x H36-71cm
 
-Made in Denmark",Afra and Tobias Scarpa,66 x 67 x H36-71cm,"Ashwood, Saddle Leather - Naturale",,Denmark,https://inscale.co.kr/web/product/big/202606/e577157ed95b350fdf90df6f9b2f1cf2.jpg,https://inscale.co.kr/product/detail.html?product_no=803,,,P0000BEX,SCARPA 925,CASSINA,matched,product_code,1
+Made in Denmark",Afra and Tobias Scarpa,66 x 67 x H36-71cm,"Ashwood, Saddle Leather - Naturale",,Denmark,https://inscale.co.kr/web/product/big/202606/e577157ed95b350fdf90df6f9b2f1cf2.jpg,https://inscale.co.kr/product/detail.html?product_no=803,,,P0000BEX,803,SCARPA 925,CASSINA,matched,product_code,1
 1F,1F,CASSINA x KARAKTER,SCARPA 121 Bordeaux,Product,3260000,전시중,"Designer : Afra and Tobias Scarpa
 
 Material : Ashwood Black Lacquered
@@ -1078,7 +1078,7 @@ Saddle Leather - Bordeaux
 
 Size : W470 x D540 x H800mm (SH: 450)
 
-Made in Denmark",Afra and Tobias Scarpa,W470 x D540 x H800mm (SH: 450),Ashwood Black Lacquered,,Denmark,https://inscale.co.kr/web/product/big/202504/f4be5a04c006ed6f9352ed3430936929.jpg,https://inscale.co.kr/product/scarpa-121/682/category/87/display/1/,,,P0000BAG,SCARPA 121,CASSINA,matched,product_code,1
+Made in Denmark",Afra and Tobias Scarpa,W470 x D540 x H800mm (SH: 450),Ashwood Black Lacquered,,Denmark,https://inscale.co.kr/web/product/big/202504/f4be5a04c006ed6f9352ed3430936929.jpg,https://inscale.co.kr/product/scarpa-121/682/category/87/display/1/,,,P0000BAG,682,SCARPA 121,CASSINA,matched,product_code,1
 1F,1F,CASSINA x KARAKTER,"SCARPA 121 
 Blu",Product,3260000,전시중,"Designer : Afra and Tobias Scarpa
 
@@ -1087,7 +1087,7 @@ Saddle Leather - Blu
 
 Size : W470 x D540 x H800mm (SH: 450)
 
-Made in Denmark",Afra and Tobias Scarpa,W470 x D540 x H800mm (SH: 450),American walnut,,Denmark,https://inscale.co.kr/web/product/big/202606/4d145be26af3ca5b17ccc57144dcd464.jpg,https://inscale.co.kr/product/scarpa-121-blu/802/category/87/display/1/,,,P0000BEW,SCARPA 121,CASSINA,matched,product_code,1
+Made in Denmark",Afra and Tobias Scarpa,W470 x D540 x H800mm (SH: 450),American walnut,,Denmark,https://inscale.co.kr/web/product/big/202606/4d145be26af3ca5b17ccc57144dcd464.jpg,https://inscale.co.kr/product/scarpa-121-blu/802/category/87/display/1/,,,P0000BEW,802,SCARPA 121,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Starburst,Product,9480000,전시중,"Designer : Cassina Studio
 
 Diffuser : White marbled glass
@@ -1096,7 +1096,7 @@ Material : Linear chandelier, black structure
 
 Size : W1200 x D600 x H500
 
-Made in Italy",Cassina Studio,W1200 x D600 x H500,"Linear chandelier, black structure",,Italy,https://inscale.co.kr/web/product/big/202311/f0a52cc3ca923b4951b90177e7e12788.jpg,https://inscale.co.kr/product/starburst/480/category/87/display/1/,,,P00000SM,Starburst,CASSINA,matched,product_code,1
+Made in Italy",Cassina Studio,W1200 x D600 x H500,"Linear chandelier, black structure",,Italy,https://inscale.co.kr/web/product/big/202311/f0a52cc3ca923b4951b90177e7e12788.jpg,https://inscale.co.kr/product/starburst/480/category/87/display/1/,,,P00000SM,480,Starburst,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"Treflo Oval table 
 (Comfort)",Table,21140000,전시중,"Designer : Ronan Bouroullec
 
@@ -1108,7 +1108,7 @@ Color : Comfort (LP 332)
 
 Size : W2400 x D1240 x H740mm
 
-Made in Italy",Ronan Bouroullec,W2400 x D1240 x H740mm,,Comfort (LP 332),Italy,https://inscale.co.kr/web/product/big/202606/61e052f1185a6c6b42611571edf885d3.jpg,https://inscale.co.kr/product/treflo-oval-table-comfort/763/category/87/display/1/,,,P0000BDJ,Treflo Oval table (Comfort),CASSINA,matched,product_code,1
+Made in Italy",Ronan Bouroullec,W2400 x D1240 x H740mm,,Comfort (LP 332),Italy,https://inscale.co.kr/web/product/big/202606/61e052f1185a6c6b42611571edf885d3.jpg,https://inscale.co.kr/product/treflo-oval-table-comfort/763/category/87/display/1/,,,P0000BDJ,763,Treflo Oval table (Comfort),CASSINA,matched,product_code,1
 1F,1F,CASSINA,Sestiere - Topaz / Periwinkle,Living Acc,3200000,전시중,"Designer : Patricia Urquiola
 
 Color : Topaz body & periwinkle cords 
@@ -1119,7 +1119,7 @@ Murano glass
 
 Size : W230 x H370mm
 
-Made in Italy",Patricia Urquiola,W230 x H370mm,Blown vase in colored,Topaz body & periwinkle cords,Italy,https://inscale.co.kr/web/product/big/202312/576aa12ddbe793f8ecb0680fcffab910.jpg,https://inscale.co.kr/product/sestiere/487/category/118/display/1/,,,P00000ST,Sestiere - Topaz / Periwinkle,CASSINA,matched,product_code,1
+Made in Italy",Patricia Urquiola,W230 x H370mm,Blown vase in colored,Topaz body & periwinkle cords,Italy,https://inscale.co.kr/web/product/big/202312/576aa12ddbe793f8ecb0680fcffab910.jpg,https://inscale.co.kr/product/sestiere/487/category/118/display/1/,,,P00000ST,487,Sestiere - Topaz / Periwinkle,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"FF.SPINE 
 WALL-MOUNTED",Lighting,26630000,전시중,"Designer : Formafantasma 
 
@@ -1133,14 +1133,14 @@ Made in Italy
 430 M1 14x9 11,790,000
 430 B1 37x12 6,840,000
 430 B1 76x2 1,840,000
-= 26,630,000",Formafantasma,W2920 X D320 X H2050,Natural Ashwood,,Italy,https://inscale.co.kr/web/product/big/202606/b3f73f6a606bdb97aff14ec5b096f9d2.jpg,https://inscale.co.kr/product/detail.html?product_no=829,,,P0000BFX,FF.SPINE WALL-MOUNTED,CASSINA,matched,product_code,1
+= 26,630,000",Formafantasma,W2920 X D320 X H2050,Natural Ashwood,,Italy,https://inscale.co.kr/web/product/big/202606/b3f73f6a606bdb97aff14ec5b096f9d2.jpg,https://inscale.co.kr/product/detail.html?product_no=829,,,P0000BFX,829,FF.SPINE WALL-MOUNTED,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Petit bureau en forme libre,Product,19670000,전시중,"Designer : Charlotte Perriand
 
 Material : Solid American Walnut
 
 Size : W1660 x D780 x H730
 
-Made in Italy",Charlotte Perriand,W1660 x D780 x H730,Solid American Walnut,,Italy,https://inscale.co.kr/web/product/big/202311/49805d9b572647d3be92db534c3f05e5.jpg,https://inscale.co.kr/product/petit-bureau-en-forme-libre/479/category/87/display/1/,,,P00000,Petit bureau en forme libre,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,W1660 x D780 x H730,Solid American Walnut,,Italy,https://inscale.co.kr/web/product/big/202311/49805d9b572647d3be92db534c3f05e5.jpg,https://inscale.co.kr/product/petit-bureau-en-forme-libre/479/category/87/display/1/,,,P00000,479,Petit bureau en forme libre,CASSINA,matched,strict_name,1.0
 1F,1F,CASSINA,CAB 412 - Cuoio Sfumato(Hand Shaded),Product,4030000,전시중,"Designer : Mario Bellini
 
 Material : Hand Shaded Saddle leather
@@ -1149,7 +1149,7 @@ Color : Cuoio Sfumato (Marron Glasce -139C3Z)
 
 Size : W520 x D490 x H450 - 820
 
-Made in Italy",Mario Bellini,W520 x D490 x H450 - 820,Hand Shaded Saddle leather,Cuoio Sfumato (Marron Glasce -139C3Z),Italy,https://inscale.co.kr/web/product/big/202311/0edb847a62cb738652c20fe42b288e34.jpg,https://inscale.co.kr/product/cab-412/469/category/87/display/1/,,,P00000SB,CAB 412 - Cuoio Sfumato,CASSINA,matched,product_code,1
+Made in Italy",Mario Bellini,W520 x D490 x H450 - 820,Hand Shaded Saddle leather,Cuoio Sfumato (Marron Glasce -139C3Z),Italy,https://inscale.co.kr/web/product/big/202311/0edb847a62cb738652c20fe42b288e34.jpg,https://inscale.co.kr/product/cab-412/469/category/87/display/1/,,,P00000SB,469,CAB 412 - Cuoio Sfumato,CASSINA,matched,product_code,1
 1F,1F,CASSINA,Capitol Armchair,Chair,8660000,전시중,"Designer : Pierre Jeanneret
 
 Upholstery : Leather X grade 13x201 Ambra
@@ -1158,13 +1158,13 @@ Frame : Oak Stained Black
 
 Size : W690 x D760 x H370 - 740
 
-Made in Italy",Pierre Jeanneret,W690 x D760 x H370 - 740,,,Italy,https://inscale.co.kr/web/product/big/202309/48316a12d079685a000c72a20ee8f9ff.jpg,https://inscale.co.kr/product/capitol-armchair/385/category/87/display/1/,,,P00000OV,Capitol Armchair - Ambra,CASSINA,matched,product_code,1
+Made in Italy",Pierre Jeanneret,W690 x D760 x H370 - 740,,,Italy,https://inscale.co.kr/web/product/big/202309/48316a12d079685a000c72a20ee8f9ff.jpg,https://inscale.co.kr/product/capitol-armchair/385/category/87/display/1/,,,P00000OV,385,Capitol Armchair - Ambra,CASSINA,matched,product_code,1
 1F,1F,CASSINA,9 Side Table Glass/Black Marquina Marble,Table,5150000,전시중,"Design : Piero Lissoni 
 
 Size : Ø700*H280 
 Top : Coffee Colour Glass
 Base : Black Marquina Marble
-Tulip : Anthracite",Piero Lissoni,Ø700*H280,,Glass,,,https://inscale.co.kr/product/9-side-table/521/category/115/display/1/,,,P0000BGV,,,new_or_unmatched,not_found,
+Tulip : Anthracite",Piero Lissoni,Ø700*H280,,Glass,,https://inscale.co.kr/web/product/big/202309/6a97d394d55928aac4b70f85bf5ffb0f.jpg,https://inscale.co.kr/product/9-side-table/521/category/115/display/1/,,,P0000BGV,521,,,new_or_unmatched,not_found,
 1F,1F,Vibia,"Wireflow Lineal
 0325
 [단종]",Product,4060000,전시중,"Designed by Arik Levy
@@ -1172,7 +1172,7 @@ Tulip : Anthracite",Piero Lissoni,Ø700*H280,,Glass,,,https://inscale.co.kr/prod
 Shade: Polycarbonate diffuser
 Body: Steel
 Ceiling rose: Aluminum
-Horizontal rods: Steel",ed by Arik Levy,,,,,https://assets.vibia.com/wireflow_card_us_72da319115.webp,,,,,,,new_or_unmatched,not_found,
+Horizontal rods: Steel",ed by Arik Levy,,,,,https://assets.vibia.com/wireflow_card_us_72da319115.webp,,,,,,,,new_or_unmatched,not_found,
 1F,1F,NEMO,"CLARITAS
 [단종]",Product,"₩2,060,000
 DP 25% ₩1,545,000",DP SALE,"Design : Vico Magistretti
@@ -1181,7 +1181,7 @@ Size : 290*290*H1950
 Bent metal tubes painted in black
  Parts of structure in chromed metal 
 Aluminium diffuser painted in black and white inner part
-Cable length 3,3m",Vico Magistretti,290*290*H1950,,,,https://www.nemolighting.com/wp-content/uploads/2019/07/cover-121.jpg,,,,,,,new_or_unmatched,not_found,
+Cable length 3,3m",Vico Magistretti,290*290*H1950,,,,https://www.nemolighting.com/wp-content/uploads/2019/07/cover-121.jpg,,,,,,,,new_or_unmatched,not_found,
 1F,1F,CASSINA,"ZIGZAG
 White",Product,4330000,전시중,"Designer : Gerrit T. Rietveld
 
@@ -1189,7 +1189,7 @@ Color : Ashwood Stained White
 
 Size : W370 x D430 x H430 - 740
 
-Made in Italy",Gerrit T. Rietveld,W370 x D430 x H430 - 740,,Ashwood Stained White,Italy,https://inscale.co.kr/web/product/big/202311/169d60a7b770c42dd4ccfb36c7052831.jpg,https://inscale.co.kr/product/zigzag/473/category/87/display/1/,,,P00000SF,ZigZag - Ashwood Stained White,CASSINA,matched,product_code,1
+Made in Italy",Gerrit T. Rietveld,W370 x D430 x H430 - 740,,Ashwood Stained White,Italy,https://inscale.co.kr/web/product/big/202311/169d60a7b770c42dd4ccfb36c7052831.jpg,https://inscale.co.kr/product/zigzag/473/category/87/display/1/,,,P00000SF,473,ZigZag - Ashwood Stained White,CASSINA,matched,product_code,1
 1F,1F,CASSINA,"ZIGZAG
 Yellow",Product,4330000,전시중,"Designer : Gerrit T. Rietveld
 
@@ -1197,14 +1197,14 @@ Color : Ashwood Stained White
 
 Size : W370 x D430 x H430 - 740
 
-Made in Italy",Gerrit T. Rietveld,W370 x D430 x H430 - 740,,Ashwood Stained White,Italy,https://inscale.co.kr/web/product/big/202311/ca2cda91b7592f12b78c33283d6d96cd.jpg,https://inscale.co.kr/product/zigzag/472/category/87/display/1/,,,P00000SE,ZigZag,CASSINA,matched,product_code,1
+Made in Italy",Gerrit T. Rietveld,W370 x D430 x H430 - 740,,Ashwood Stained White,Italy,https://inscale.co.kr/web/product/big/202311/ca2cda91b7592f12b78c33283d6d96cd.jpg,https://inscale.co.kr/product/zigzag/472/category/87/display/1/,,,P00000SE,472,ZigZag,CASSINA,matched,product_code,1
 1F,1F,Karakter,Awkward Floor Lamp,Lighting,3740000,전시중,"Designer : Anatomy Design
 
 Material : Steel and Aluminium
 
 Size : H1910 x W1550(long arm) x W820(shot arm)
 
-Made in Italy",Anatomy Design,H1910 x W1550(long arm) x W820(shot arm),Steel and Aluminium,,Italy,https://inscale.co.kr/web/product/big/202409/e7f0a8345835c7d58b534d14950be263.jpg,https://inscale.co.kr/product/awkward-floor-lamp/641/category/110/display/1/,,,P00000YR,Awkward Floor Lamp,CASSINA,matched,product_code,1
+Made in Italy",Anatomy Design,H1910 x W1550(long arm) x W820(shot arm),Steel and Aluminium,,Italy,https://inscale.co.kr/web/product/big/202409/e7f0a8345835c7d58b534d14950be263.jpg,https://inscale.co.kr/product/awkward-floor-lamp/641/category/110/display/1/,,,P00000YR,641,Awkward Floor Lamp,CASSINA,matched,product_code,1
 1F,1F,CAPPELLINI,Drop,Product,"2칸 DR_1 H70.5 \3,100,000
 
 4칸 DR_1 H140.7 \5,000,000
@@ -1213,35 +1213,35 @@ Made in Italy",Anatomy Design,H1910 x W1550(long arm) x W820(shot arm),Steel and
 
 Size : 54.6*32*(H)70.5(H)140.7(H)173.5
 Thin sheet of laser-cut 
-matt-lacquered metal",Nendo,54.6*32*(H)70.5(H)140.7(H)173.5,,,,https://www.cappellini.com/content/dam/ld/cappellini/products/d/r/o/drop/01_hero/drop.jpg/jcr:content/renditions/cq5dam.thumbnail.2200.2200.jpg,,,,,,,new_or_unmatched,not_found,
+matt-lacquered metal",Nendo,54.6*32*(H)70.5(H)140.7(H)173.5,,,,https://www.cappellini.com/content/dam/ld/cappellini/products/d/r/o/drop/01_hero/drop.jpg/jcr:content/renditions/cq5dam.thumbnail.2200.2200.jpg,,,,,,,,new_or_unmatched,not_found,
 1F,1F,CASSINA,Constantin,Product,6510000,전시중,"Design : Studio Simon
 
 Size : Ø480 x H590
 Top : Brass
-Base : Solid wood base in oak, with waxed finish",Studio Simon,Ø480 x H590,,,,https://inscale.co.kr/web/product/big/202311/94d3daedd8610c788b2f1155cf76fd73.jpg,https://inscale.co.kr/product/constantin/460/category/87/display/1/,,,P00000RS,Constantin,CASSINA,matched,product_code,1
+Base : Solid wood base in oak, with waxed finish",Studio Simon,Ø480 x H590,,,,https://inscale.co.kr/web/product/big/202311/94d3daedd8610c788b2f1155cf76fd73.jpg,https://inscale.co.kr/product/constantin/460/category/87/display/1/,,,P00000RS,460,Constantin,CASSINA,matched,product_code,1
 1F,1F,CASSINA,HAYAMA,Product,22320000,전시중,"Designer : Patricia Urquiola
 
 Material : Wood fibre(MDF) with Glossy lacquered
 
 Size : W1140 x D510 x H1450
 
-Made in Italy",Patricia Urquiola,W1140 x D510 x H1450,Wood fibre(MDF) with Glossy lacquered,,Italy,https://inscale.co.kr/web/product/big/202606/0ee6e4f6ea84902322d8ebe0e71276a4.jpg,https://inscale.co.kr/product/detail.html?product_no=775,,,P0000BDV,HAYAMA,CASSINA,matched,product_code,1
+Made in Italy",Patricia Urquiola,W1140 x D510 x H1450,Wood fibre(MDF) with Glossy lacquered,,Italy,https://inscale.co.kr/web/product/big/202606/0ee6e4f6ea84902322d8ebe0e71276a4.jpg,https://inscale.co.kr/product/detail.html?product_no=775,,,P0000BDV,775,HAYAMA,CASSINA,matched,product_code,1
 1F,1F,VITRA,Vases Decoupage Barre,Living Acc,616000,전시중,"Designer : Ronan & Erwan Bouroullec
 
 Material : Ceramic, Hand-dipped and glazed
 
 Size : Ø120 x H610
 
-Made in Germany",Ronan & Erwan Bouroullec,Ø120 x H610,"Ceramic, Hand-dipped and glazed",,Germany,https://inscale.co.kr/web/product/big/202308/d4a6a070d1993a604025c75ba5b0e505.jpg,https://inscale.co.kr/product/vases-decoupage-barre/210/category/118/display/1/,,,P00000IC,Vases Decoupage Barre,VITRA,matched,product_code,1
+Made in Germany",Ronan & Erwan Bouroullec,Ø120 x H610,"Ceramic, Hand-dipped and glazed",,Germany,https://inscale.co.kr/web/product/big/202308/d4a6a070d1993a604025c75ba5b0e505.jpg,https://inscale.co.kr/product/vases-decoupage-barre/210/category/118/display/1/,,,P00000IC,210,Vases Decoupage Barre,VITRA,matched,product_code,1
 1F,1-2 계단,NEMO,CROWN MINOR 12 WHITE,Product,2750000,전시중,"Design : Jehs + Laub
 
 SIZE : 770 x 670 x H500                             
 Material : Aluminum , Glass
-Color : White",Jehs + Laub,770 x 670 x H500,"Aluminum , Glass",White,,https://www.nemolighting.com/wp-content/uploads/2019/07/crown-minor-white-1280x1280.jpg,,,,,,,new_or_unmatched,not_found,
+Color : White",Jehs + Laub,770 x 670 x H500,"Aluminum , Glass",White,,https://www.nemolighting.com/wp-content/uploads/2019/07/crown-minor-white-1280x1280.jpg,,,,,,,,new_or_unmatched,not_found,
 1F,1-2 계단,Ritzwell,"JABARA 
 Sideboard Oak",Storage,13240000,전시중,"Designer : SHINSAKU MIYAMOTO
 Body : Oak Frame Steel powder coated Black Base, Thick Leather Black Drawer, 2x shelf plate included
-Size : W1200 x D430 x H810",SHINSAKU MIYAMOTO,W1200 x D430 x H810,,,,https://inscale.co.kr/web/product/big/202508/c04ca98bc9aab7acd142cd613205e1d5.jpg,https://inscale.co.kr/product/jabara-sideboard-oak/701/category/110/display/1/,,,P0000BAZ,JABARA,CASSINA,matched,product_code,1
+Size : W1200 x D430 x H810",SHINSAKU MIYAMOTO,W1200 x D430 x H810,,,,https://inscale.co.kr/web/product/big/202508/c04ca98bc9aab7acd142cd613205e1d5.jpg,https://inscale.co.kr/product/jabara-sideboard-oak/701/category/110/display/1/,,,P0000BAZ,701,JABARA,CASSINA,matched,product_code,1
 1F,1-2 계단,ARTEMIDE,ONFALE,Lighting,"▪ S : ₩ 850,000
 
 ▪ M : ₩ 1,400,000 
@@ -1256,7 +1256,7 @@ Made in Italy
 
 S : Ø200*H260
 M : Ø280*H345
- L : Ø360*H440",Luciano Vistosi,,Blown Glass,White,Italy,https://inscale.co.kr/web/product/big/202309/50f5171f626c242cdea0f93d90624034.jpg,https://inscale.co.kr/product/onfale-grande/352/category/90/display/1/,,,P00000NO,Onfale Grande,ARTEMIDE,matched,product_code,1
+ L : Ø360*H440",Luciano Vistosi,,Blown Glass,White,Italy,https://inscale.co.kr/web/product/big/202309/50f5171f626c242cdea0f93d90624034.jpg,https://inscale.co.kr/product/onfale-grande/352/category/90/display/1/,,,P00000NO,352,Onfale Grande,ARTEMIDE,matched,product_code,1
 1F,1-2 계단,CASSINA,Deadline Mirror - Blue Deadline,Mirror,3410000,전시중,"Designer : Ron Gilad
 
 Product : Blue Deadline
@@ -1265,28 +1265,28 @@ Frame : Natural ashwood frame
 
 Size : W400 x H1700
 
-Made in Italy",Ron Gilad,W400 x H1700,,,Italy,https://inscale.co.kr/web/product/big/202312/af899e6c93cb7a8f9cb33c8918da985d.jpg,https://inscale.co.kr/product/deadline-mirror/540/category/87/display/1/,,,P00000UU,Deadline Mirror - Blue Deadline,CASSINA,matched,product_code,1
+Made in Italy",Ron Gilad,W400 x H1700,,,Italy,https://inscale.co.kr/web/product/big/202312/af899e6c93cb7a8f9cb33c8918da985d.jpg,https://inscale.co.kr/product/deadline-mirror/540/category/87/display/1/,,,P00000UU,540,Deadline Mirror - Blue Deadline,CASSINA,matched,product_code,1
 2F,2F,CASSINA,ZIGZAG - Blue,Product,4330000,전시중,"Designer : Gerrit T. Rietveld
 
 Color : Ashwood Stained Blue
 
 Size : W370 x D430 x H430 - 740
 
-Made in Italy",Gerrit T. Rietveld,W370 x D430 x H430 - 740,,Ashwood Stained Blue,Italy,,https://inscale.co.kr/product/zigzag/471/category/87/display/1/,,,,,,new_or_unmatched,not_found,
+Made in Italy",Gerrit T. Rietveld,W370 x D430 x H430 - 740,,Ashwood Stained Blue,Italy,https://inscale.co.kr/web/product/big/202311/0821110d4a02c5d5fadc0b02e3352fc0.jpg,https://inscale.co.kr/product/zigzag/471/category/87/display/1/,,,,471,,,new_or_unmatched,not_found,
 2F,2F,Santa & Cole,C1 WALL rotating LED,Lighting,"\1,600,000
 
 화이트 dp1, new 2
 그래파이트 new 3",전시중,"Design : 
  
  Color : White
- Size : 250 x 300",Color : White,250 x 300,,White,,http://www.spatial-lighting.co.uk/u/shop/SP001739a_lrg.jpg,http://www.spatial-lighting.co.uk/p/blancowhite-c1-wall-rotating,,,,,,new_or_unmatched,not_found,
+ Size : 250 x 300",Color : White,250 x 300,,White,,http://www.spatial-lighting.co.uk/u/shop/SP001739a_lrg.jpg,http://www.spatial-lighting.co.uk/p/blancowhite-c1-wall-rotating,,,,,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,Otero Mirror,Mirror,1350000,전시중,"Designer : Studio Simon
 
 Construction : Ground clear glass, Polyester painted support with polished mirror finish
 
 Size : W190 x D40 x H1810
 
-Made in Italy",Studio Simon,W190 x D40 x H1810,,,Italy,https://inscale.co.kr/web/product/big/202311/1fe5585f823464d95f33113612f75db5.jpg,https://inscale.co.kr/product/otero-mirror/486/category/87/display/1/,,,,Otero Mirror,CASSINA,matched,strict_name,1.0
+Made in Italy",Studio Simon,W190 x D40 x H1810,,,Italy,https://inscale.co.kr/web/product/big/202311/1fe5585f823464d95f33113612f75db5.jpg,https://inscale.co.kr/product/otero-mirror/486/category/87/display/1/,,,,486,Otero Mirror,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,LC3 3 Seater Sofa Grade-Y TABACCO,Sofa,"₩33,010,000
 
 
@@ -1298,7 +1298,7 @@ Color : Tabaco (Leather Cat.Y 13Y417)
 Material : Feather padding  
 or Eco polyester
 Frame : Chrome or Enamel
-        Size : W2370 x D730 x H410 - 630","Le Corbusier, Pierre Jeanneret,",W2370 x D730 x H410 - 630,Feather padding,Tabaco (Leather Cat.Y 13Y417),,,https://inscale.co.kr/product/lc3-sofa/633/category/87/display/1/,,,,,,new_or_unmatched,not_found,
+        Size : W2370 x D730 x H410 - 630","Le Corbusier, Pierre Jeanneret,",W2370 x D730 x H410 - 630,Feather padding,Tabaco (Leather Cat.Y 13Y417),,https://inscale.co.kr/web/product/big/202606/03942bf4b4e6d27c9424ecffd751bb64.jpg,https://inscale.co.kr/product/lc3-sofa/633/category/87/display/1/,,,,633,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,LC3 Armchair Grade-Y TABACCO,Chair,"₩13,200,000        
 
 Leather Cat, X
@@ -1309,7 +1309,7 @@ Color : Black (Leather Cat.Y 13Y417)
 Material : Feather padding  
 or Eco polyester
 Frame : Chrome or Enamel
-        Size : W2370 x D730 x H410 - 630","Le Corbusier, Pierre Jeanneret,",W2370 x D730 x H410 - 630,Feather padding,Black (Leather Cat.Y 13Y417),,,https://inscale.co.kr/product/lc3-armchair/635/category/87/display/1/,,,,,,new_or_unmatched,not_found,
+        Size : W2370 x D730 x H410 - 630","Le Corbusier, Pierre Jeanneret,",W2370 x D730 x H410 - 630,Feather padding,Black (Leather Cat.Y 13Y417),,https://inscale.co.kr/web/product/big/202409/006d4dd785a04d40988382b90b7b63ab.jpg,https://inscale.co.kr/product/lc3-armchair/635/category/87/display/1/,,,,635,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,Modular Imagination,Product,3370000,전시중,"Designer : Virgil Abloh
 
 Material : In recycled wood
@@ -1318,7 +1318,7 @@ Upholstery : Mat Black / Mat Orange Feet (RAL 2000)
 
 Size : W45 x D45
 
-Made in Italy",Virgil Abloh,W45 x D45,In recycled wood,,Italy,https://inscale.co.kr/web/product/big/202410/10d6da73ba4f2a23cf0b148f0f238509.jpg,https://inscale.co.kr/product/modular-imagination/658/category/87/display/1/,,,,Modular Imagination,CASSINA,matched,strict_name,1.0
+Made in Italy",Virgil Abloh,W45 x D45,In recycled wood,,Italy,https://inscale.co.kr/web/product/big/202410/10d6da73ba4f2a23cf0b148f0f238509.jpg,https://inscale.co.kr/product/modular-imagination/658/category/87/display/1/,,,,658,Modular Imagination,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"Tabouret Meribel - 
 American Walnut",Product,1960000,전시중,"Designer : Charlotte Perriand
 
@@ -1328,7 +1328,7 @@ Material : American walnut
 
 Size : Ø330 x H384
 
-Made in Italy",Charlotte Perriand,Ø330 x H384,American walnut,Walnut,Italy,https://inscale.co.kr/web/product/big/202312/a9f4c96614502a7fe488c57fecbad82f.jpg,https://inscale.co.kr/product/tabouret-meribel/552/category/87/display/1/,,,,Tabouret Meribel - American Walnut,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,Ø330 x H384,American walnut,Walnut,Italy,https://inscale.co.kr/web/product/big/202312/a9f4c96614502a7fe488c57fecbad82f.jpg,https://inscale.co.kr/product/tabouret-meribel/552/category/87/display/1/,,,,552,Tabouret Meribel - American Walnut,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Tabouret Meribel - Natural Oak,Product,1890000,전시중,"Designer : Charlotte Perriand
 
 Color : Natural Oak
@@ -1337,7 +1337,7 @@ Material : Solid Oak
 
 Size : Ø330 x H384
 
-Made in Italy",Charlotte Perriand,Ø330 x H384,Solid Oak,Natural Oak,Italy,https://inscale.co.kr/web/product/big/202311/01eca97dacd009020e622a76e0b6c812.jpg,https://inscale.co.kr/product/tabouret-meribel-natural-oak/476/category/87/display/1/,,,,Tabouret Meribel - Natural Oak,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,Ø330 x H384,Solid Oak,Natural Oak,Italy,https://inscale.co.kr/web/product/big/202311/01eca97dacd009020e622a76e0b6c812.jpg,https://inscale.co.kr/product/tabouret-meribel-natural-oak/476/category/87/display/1/,,,,476,Tabouret Meribel - Natural Oak,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"Tabouret Meribel - 
 Oak Stained Black",Product,1890000,전시중,"Designer : Charlotte Perriand
 
@@ -1347,7 +1347,7 @@ Material : Solid Oak
 
 Size : Ø330 x H384
 
-Made in Italy",Charlotte Perriand,Ø330 x H384,Solid Oak,Oak Stained Black,Italy,https://inscale.co.kr/web/product/big/202311/7f7b5ae91e417c57dadf758f1ecb48f6.jpg,https://inscale.co.kr/product/tabouret-meribel-oak-stained-black/475/category/87/display/1/,,,,Tabouret Meribel - Oak Stained Black,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,Ø330 x H384,Solid Oak,Oak Stained Black,Italy,https://inscale.co.kr/web/product/big/202311/7f7b5ae91e417c57dadf758f1ecb48f6.jpg,https://inscale.co.kr/product/tabouret-meribel-oak-stained-black/475/category/87/display/1/,,,,475,Tabouret Meribel - Oak Stained Black,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"Tabouret Berger - 
 American Walnut",Product,1600000,전시중,"Designer : Charlotte Perriand
 
@@ -1357,7 +1357,7 @@ Material : American walnut
 
 Size : Ø330 x H267
 
-Made in Italy",Charlotte Perriand,Ø330 x H267,American walnut,Walnut,Italy,https://inscale.co.kr/web/product/big/202312/470c438f02e58b06dda565f4fae8fc39.jpg,https://inscale.co.kr/product/tabouret-berger-american-walnut/551/category/87/display/1/,,,,Tabouret Berger - American Walnut,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,Ø330 x H267,American walnut,Walnut,Italy,https://inscale.co.kr/web/product/big/202312/470c438f02e58b06dda565f4fae8fc39.jpg,https://inscale.co.kr/product/tabouret-berger-american-walnut/551/category/87/display/1/,,,,551,Tabouret Berger - American Walnut,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Tabouret Berger - Natural Oak,Product,1530000,전시중,"Designer : Charlotte Perriand
 
 Color : Natural Oak
@@ -1366,7 +1366,7 @@ Material : Solid Oak
 
 Size : Ø330 x H267
 
-Made in Italy",Charlotte Perriand,Ø330 x H267,Solid Oak,Natural Oak,Italy,https://inscale.co.kr/web/product/big/202311/5ef1013581716f5b63019d8b2bc1bc03.jpg,https://inscale.co.kr/product/tabouret-berger-natural-oak/478/category/87/display/1/,,,,Tabouret Berger - Natural Oak,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,Ø330 x H267,Solid Oak,Natural Oak,Italy,https://inscale.co.kr/web/product/big/202311/5ef1013581716f5b63019d8b2bc1bc03.jpg,https://inscale.co.kr/product/tabouret-berger-natural-oak/478/category/87/display/1/,,,,478,Tabouret Berger - Natural Oak,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"Tabouret Berger - 
 Oak Stained Black",Product,1530000,전시중,"Designer : Charlotte Perriand
 
@@ -1376,7 +1376,7 @@ Material : Solid Oak
 
 Size : Ø330 x H267
 
-Made in Italy",Charlotte Perriand,Ø330 x H267,Solid Oak,Oak Stained Black,Italy,https://inscale.co.kr/web/product/big/202311/36d23d8eca25f9cf18335a10c29ea5de.jpg,https://inscale.co.kr/product/tabouret-berger-oak-stained-black/477/category/87/display/1/,,,,Tabouret Berger - Oak Stained Black,CASSINA,matched,strict_name,1.0
+Made in Italy",Charlotte Perriand,Ø330 x H267,Solid Oak,Oak Stained Black,Italy,https://inscale.co.kr/web/product/big/202311/36d23d8eca25f9cf18335a10c29ea5de.jpg,https://inscale.co.kr/product/tabouret-berger-oak-stained-black/477/category/87/display/1/,,,,477,Tabouret Berger - Oak Stained Black,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Reaction Poetique,Product,2540000,전시중,"Designer : Jamie Hayon
 
 Color : Ashwood stained black
@@ -1385,7 +1385,7 @@ Material : Solid ash
 
 Size : Ø400 x H560
 
-Made in Italy",Jamie Hayon,Ø400 x H560,Solid ash,Ashwood stained black,Italy,https://inscale.co.kr/web/product/big/202311/04295f3648ccfae88995e81724a2de28.jpg,https://inscale.co.kr/product/reaction-poetique/463/category/87/display/1/,,,,Reaction Poetique,CASSINA,matched,strict_name,1.0
+Made in Italy",Jamie Hayon,Ø400 x H560,Solid ash,Ashwood stained black,Italy,https://inscale.co.kr/web/product/big/202311/04295f3648ccfae88995e81724a2de28.jpg,https://inscale.co.kr/product/reaction-poetique/463/category/87/display/1/,,,,463,Reaction Poetique,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"10 Table en tube basse 
 (Grand Modele)",Table,"W1400 x D1400 x H330
 ₩8,420,000
@@ -1404,7 +1404,7 @@ Legs : Chrome
 
 Size : W1400 x D1400 x H33
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W1400 x D1400 x H33,,,Italy,https://inscale.co.kr/web/product/big/202312/580f705ad72f4bb2c7f375f71fc9e81b.jpg,https://inscale.co.kr/product/10-table-en-tube-basse/457/category/87/display/1/,,,,10 Table en tube basse,CASSINA,matched,strict_name,1.0
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W1400 x D1400 x H33,,,Italy,https://inscale.co.kr/web/product/big/202312/580f705ad72f4bb2c7f375f71fc9e81b.jpg,https://inscale.co.kr/product/10-table-en-tube-basse/457/category/87/display/1/,,,,457,10 Table en tube basse,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Sahara - Grid,Product,8030000,전시중,"Designer : Cassina Studio
 
 Color : Ice Grey
@@ -1413,9 +1413,8 @@ Material : Wool
 
 Size : W3500 x D2500
 
-Made in Italy",Cassina Studio,W3500 x D2500,Wool,Ice Grey,Italy,https://inscale.co.kr/web/product/big/202311/2a6908f9ab2376152b7d668d2486128e.jpg,https://inscale.co.kr/product/sahara-grid/452/category/87/display/1/,,,,Sahara - Grid,CASSINA,matched,strict_name,1.0
-2F,2F,CASSINA,"[60th Limited Edition]
-LC 2",Product,13620000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
+Made in Italy",Cassina Studio,W3500 x D2500,Wool,Ice Grey,Italy,https://inscale.co.kr/web/product/big/202311/2a6908f9ab2376152b7d668d2486128e.jpg,https://inscale.co.kr/product/sahara-grid/452/category/87/display/1/,,,,452,Sahara - Grid,CASSINA,matched,strict_name,1.0
+2F,2F,CASSINA,[60th Limited Edition] LC2 Blu,Sofa,13620000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
 
 Material : Polyester Padding
 
@@ -1425,7 +1424,7 @@ Frame : Taupe Painted Enamel
 
 Size : W760 x D700 x H480 - 670
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W760 x D700 x H480 - 670,Polyester Padding,,Italy,,https://inscale.co.kr/product/detail.html?product_no=855,,,,,,new_or_unmatched,not_found,
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W760 x D700 x H480 - 670,Polyester Padding,,Italy,https://inscale.co.kr/web/product/big/202606/b0d9f2d28fc35168af799e438e3122d4.jpg,https://inscale.co.kr/product/detail.html?product_no=855,,,,855,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,Sestiere - Sea teal / Carrot,Living Acc,3200000,전시중,"Designer : Patricia Urquiola
 
 Color : Sea teal body & carrot red cords 
@@ -1436,12 +1435,12 @@ Murano glass
 
 Size : W230 x H370mm
 
-Made in Italy",Patricia Urquiola,W230 x H370mm,Blown vase in colored,Sea teal body & carrot red cords,Italy,https://inscale.co.kr/web/product/big/202312/63201542e62e430e7456fb0c2fddbe68.jpg,https://inscale.co.kr/product/sestiere/488/category/87/display/1/,,,,Sestiere - Sea teal / Carrot,CASSINA,matched,strict_name,1.0
+Made in Italy",Patricia Urquiola,W230 x H370mm,Blown vase in colored,Sea teal body & carrot red cords,Italy,https://inscale.co.kr/web/product/big/202312/63201542e62e430e7456fb0c2fddbe68.jpg,https://inscale.co.kr/product/sestiere/488/category/87/display/1/,,,,488,Sestiere - Sea teal / Carrot,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Constantin,Product,6510000,전시중,"Design : Studio Simon
 
 Size : Ø480 x H590
 Top : Brass
-Base : Solid wood base in oak, with waxed finish",Studio Simon,Ø480 x H590,,,,https://inscale.co.kr/web/product/big/202311/94d3daedd8610c788b2f1155cf76fd73.jpg,https://inscale.co.kr/product/constantin/460/category/87/display/1/,,,,Constantin,CASSINA,matched,strict_name,1.0
+Base : Solid wood base in oak, with waxed finish",Studio Simon,Ø480 x H590,,,,https://inscale.co.kr/web/product/big/202311/94d3daedd8610c788b2f1155cf76fd73.jpg,https://inscale.co.kr/product/constantin/460/category/87/display/1/,,,,460,Constantin,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Bramante,Lighting,29450000,전시중,"Designer : Kazuhide Takahama
 
 Color : Rosso - LS 401 (Blended red laquered)
@@ -1450,8 +1449,8 @@ Material : 3 Glass shelves, with LED light
 
 Size : W1670 x D440 x H1320
 
-Made in Italy",Kazuhide Takahama,W1670 x D440 x H1320,"3 Glass shelves, with LED light",Rosso - LS 401 (Blended red laquered),Italy,https://inscale.co.kr/web/product/big/202311/bfdcd176837677a8c8980ad86e05ed7f.jpg,https://inscale.co.kr/product/bramante/459/category/87/display/1/,,,,Bramante,CASSINA,matched,strict_name,1.0
-2F,2F,CASSINA,"Ficupala Floor Lamp 
+Made in Italy",Kazuhide Takahama,W1670 x D440 x H1320,"3 Glass shelves, with LED light",Rosso - LS 401 (Blended red laquered),Italy,https://inscale.co.kr/web/product/big/202311/bfdcd176837677a8c8980ad86e05ed7f.jpg,https://inscale.co.kr/product/bramante/459/category/87/display/1/,,,,459,Bramante,CASSINA,matched,strict_name,1.0
+2F,2F,CASSINA,"Ficupala Floor Lamp
 Taupe grey Glass",Lighting,5570000,전시중,"Designer : Cassina Studio
 
 Top : Taupe grey
@@ -1462,7 +1461,7 @@ Base : Marquinia marble base
 
 Size : Ø280 x H1380
 
-Made in Italy",Cassina Studio,Ø280 x H1380,,,Italy,,https://inscale.co.kr/product/ficupala-floor-lamp/663/category/87/display/1/,,,,,,new_or_unmatched,not_found,
+Made in Italy",Cassina Studio,Ø280 x H1380,,,Italy,https://inscale.co.kr/web/product/big/202606/cf611bf1251538db9073cb06dd9c2c17.jpg,https://inscale.co.kr/product/detail.html?product_no=854,,,,854,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,Cornaro - 2 seater - Crema,Product,26810000,전시중,"Designer : Carlo Scarpa
 
 Upholstery : Fabric Cat. L 13L012
@@ -1471,7 +1470,7 @@ Frame : Glossy Laquered - Crema
 
 Size : W2200*D970*H400-660
 
-Made in Italy",Carlo Scarpa,W2200*D970*H400-660,,,Italy,https://inscale.co.kr/web/product/big/202510/da104611cd761df21c21dd2cd56120ac.jpg,https://inscale.co.kr/product/cornaro-2-seater/702/category/87/display/1/,,,,Cornaro - 2 seater - Crema,CASSINA,matched,strict_name,1.0
+Made in Italy",Carlo Scarpa,W2200*D970*H400-660,,,Italy,https://inscale.co.kr/web/product/big/202510/da104611cd761df21c21dd2cd56120ac.jpg,https://inscale.co.kr/product/cornaro-2-seater/702/category/87/display/1/,,,,702,Cornaro - 2 seater - Crema,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"CORNARO ARMCHAIR -
 Pinot Noir",Chair,13520000,전시중,"Designer : Carlo Scarpa
 
@@ -1481,14 +1480,14 @@ Frame : Glossy Laquered – Pinot Noir
 
 Size : W1150*D890*H400-660
 
-Made in Italy",Carlo Scarpa,W1150*D890*H400-660,,,Italy,https://inscale.co.kr/web/product/big/202409/c1caef306f8a2388c6c6eb88170c8811.jpg,https://inscale.co.kr/product/cornaro-armchair/689/category/87/display/1/,,,,CORNARO ARMCHAIR - Pinot Noir,CASSINA,matched,strict_name,1.0
+Made in Italy",Carlo Scarpa,W1150*D890*H400-660,,,Italy,https://inscale.co.kr/web/product/big/202409/c1caef306f8a2388c6c6eb88170c8811.jpg,https://inscale.co.kr/product/cornaro-armchair/689/category/87/display/1/,,,,689,CORNARO ARMCHAIR - Pinot Noir,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Nuvola Rossa,Product,11140000,전시중,"Designer : Vico Magistretti
 
 Material : American Walnut
 
 Size : W1000 x D395 x H1920
 
-Made in Italy",Vico Magistretti,W1000 x D395 x H1920,American Walnut,,Italy,https://inscale.co.kr/web/product/big/202311/2156313c9b305870a4fa3ebf914a1028.jpg,https://inscale.co.kr/product/nuvola-rossa/464/category/87/display/1/,,,,Nuvola Rossa,CASSINA,matched,strict_name,1.0
+Made in Italy",Vico Magistretti,W1000 x D395 x H1920,American Walnut,,Italy,https://inscale.co.kr/web/product/big/202311/2156313c9b305870a4fa3ebf914a1028.jpg,https://inscale.co.kr/product/nuvola-rossa/464/category/87/display/1/,,,,464,Nuvola Rossa,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,LC1,Product,6440000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
 
 Material : Black Leather Arms, Chrome Frame
@@ -1497,7 +1496,7 @@ Color : Black
 
 Size : W600 x D650 x H400 - 640
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W600 x D650 x H400 - 640,"Black Leather Arms, Chrome Frame",Black,Italy,https://inscale.co.kr/web/product/big/202309/deff3254f67d99bb80c277829cbf40b5.jpg,https://inscale.co.kr/product/lc1/384/category/87/display/1/,,,,LC1,CASSINA,matched,strict_name,1.0
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W600 x D650 x H400 - 640,"Black Leather Arms, Chrome Frame",Black,Italy,https://inscale.co.kr/web/product/big/202309/deff3254f67d99bb80c277829cbf40b5.jpg,https://inscale.co.kr/product/lc1/384/category/87/display/1/,,,,384,LC1,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,944 Soriana - 3 Seater Sofa(Blu),Sofa,26670000,전시중,"Designer : Tobia Scarpa
 
 Material : Polyester Padded
@@ -1508,7 +1507,7 @@ Frame : Metal stained glossy Night Blue
 
 Size : W2500 x D1050 x H420 - 710
 
-Made in Italy",Tobia Scarpa,W2500 x D1050 x H420 - 710,Polyester Padded,,Italy,https://inscale.co.kr/web/product/big/202606/e61bd0ed5879e7b31a8be05b8f4dcae4.jpg,https://inscale.co.kr/product/detail.html?product_no=772,,,,944 Soriana - 3 Seater Sofa,CASSINA,matched,strict_name,1.0
+Made in Italy",Tobia Scarpa,W2500 x D1050 x H420 - 710,Polyester Padded,,Italy,https://inscale.co.kr/web/product/big/202606/e61bd0ed5879e7b31a8be05b8f4dcae4.jpg,https://inscale.co.kr/product/detail.html?product_no=772,,,,772,944 Soriana - 3 Seater Sofa,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Bowy Table,Table,5770000,전시중,"Designer : Patricia Urquiola
 
 Top : Glossy laquered blue
@@ -1517,7 +1516,7 @@ Material : Lacquered Aluminium Sheet
 
 Size : Ø900 x H350
 
-Made in Italy",Patricia Urquiola,Ø900 x H350,Lacquered Aluminium Sheet,,Italy,https://inscale.co.kr/web/product/big/202312/9fe33338abb67caf183468cc9d93481c.jpg,https://inscale.co.kr/product/bowy-table/553/category/87/display/1/,,,,Bowy Table,CASSINA,matched,strict_name,1.0
+Made in Italy",Patricia Urquiola,Ø900 x H350,Lacquered Aluminium Sheet,,Italy,https://inscale.co.kr/web/product/big/202312/9fe33338abb67caf183468cc9d93481c.jpg,https://inscale.co.kr/product/bowy-table/553/category/87/display/1/,,,,553,Bowy Table,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,LC14 - Tabourets Cabanon,Product,2510000,전시중,"Designer : Le Corbusier
 
 Color : Chestnut
@@ -1526,7 +1525,7 @@ Material : Chestnut wood
 
 Size : W430 x D430 x H270mm
 
-Made in Italy",Le Corbusier,W430 x D430 x H270mm,Chestnut wood,Chestnut,Italy,https://inscale.co.kr/web/product/big/202606/a68d80924ce4277f7bba0986bbcb1bc5.jpg,https://inscale.co.kr/product/detail.html?product_no=839,,,,LC14 - Tabourets Cabanon,CASSINA,matched,strict_name,1.0
+Made in Italy",Le Corbusier,W430 x D430 x H270mm,Chestnut wood,Chestnut,Italy,https://inscale.co.kr/web/product/big/202606/a68d80924ce4277f7bba0986bbcb1bc5.jpg,https://inscale.co.kr/product/detail.html?product_no=839,,,,839,LC14 - Tabourets Cabanon,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,"LC14 - 
 Tabourets Maison du Brésil",Product,1950000,전시중,"Designer : Le Corbusier
 
@@ -1536,7 +1535,7 @@ Material : Oak wood
 
 Size : W330 x D430 x H250mm
 
-Made in Italy",Le Corbusier,W330 x D430 x H250mm,Oak wood,Oak,Italy,https://inscale.co.kr/web/product/big/202606/71068d9e884684fbcedbc66e5109f12b.jpg,https://inscale.co.kr/product/detail.html?product_no=840,,,,LC14 - Tabourets Maison du Brésil,CASSINA,matched,strict_name,1.0
+Made in Italy",Le Corbusier,W330 x D430 x H250mm,Oak wood,Oak,Italy,https://inscale.co.kr/web/product/big/202606/71068d9e884684fbcedbc66e5109f12b.jpg,https://inscale.co.kr/product/detail.html?product_no=840,,,,840,LC14 - Tabourets Maison du Brésil,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,ATACAMA 3,Product,12240000,전시중,"Designer : Cassina Studio
 
 Color : Carta da zucchero
@@ -1545,7 +1544,7 @@ Material : Wool
 
 Size : W2500 x D3500
 
-Made in Italy",Cassina Studio,W2500 x D3500,Wool,Carta da zucchero,Italy,https://inscale.co.kr/web/product/big/202311/4616d1d07dba2e7187ebafaa7db596f3.jpg,https://inscale.co.kr/product/atacama-3/454/category/87/display/1/,,,,ATACAMA 3,CASSINA,matched,strict_name,1.0
+Made in Italy",Cassina Studio,W2500 x D3500,Wool,Carta da zucchero,Italy,https://inscale.co.kr/web/product/big/202311/4616d1d07dba2e7187ebafaa7db596f3.jpg,https://inscale.co.kr/product/atacama-3/454/category/87/display/1/,,,,454,ATACAMA 3,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Capitol Complex Table,Table,"W2700 x D1100
 ₩15,710,000",전시중,"Designer : Pierre Jeanneret
 
@@ -1555,9 +1554,8 @@ Base : Solid Wood Oak Stained Black
 
 Size : W2700 x D1100 x H720
 
-Made in Italy",Pierre Jeanneret,W2700 x D1100 x H720,,,Italy,https://inscale.co.kr/web/product/big/202311/0a80d4204c1d272907d5f6f7d19ca803.jpg,https://inscale.co.kr/product/capitol-complex-table/458/category/87/display/1/#none,,,,Capitol Complex Table,CASSINA,matched,strict_name,1.0
-2F,2F,CASSINA,"Bollicosa Small - 
-Shiny rose gold",Product,2720000,전시중,"Designer : Cassina Studio
+Made in Italy",Pierre Jeanneret,W2700 x D1100 x H720,,,Italy,https://inscale.co.kr/web/product/big/202311/0a80d4204c1d272907d5f6f7d19ca803.jpg,https://inscale.co.kr/product/capitol-complex-table/458/category/87/display/1/#none,,,,458,Capitol Complex Table,CASSINA,matched,strict_name,1.0
+2F,2F,CASSINA,Bollicosa Small - Shiny rose gold,Product,2720000,전시중,"Designer : Cassina Studio
 
 Structure : Shiny rose gold
 
@@ -1565,7 +1563,7 @@ Shade : Liquid-painted metal structure, Blown glass diffuser
 
 Size : W300 x H500
 
-Made in Italy",Cassina Studio,W300 x H500,,,Italy,,https://inscale.co.kr/product/bollicosa-small/660/category/87/display/1/,,,,,,new_or_unmatched,not_found,
+Made in Italy",Cassina Studio,W300 x H500,,,Italy,,https://inscale.co.kr/product/bollicosa-small/660/category/87/display/1/,,,,660,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,Capitol Complex Office Chair,Chair,"₩4,860,000
 Cushion - ₩760,000
 
@@ -1577,7 +1575,7 @@ Frame : Oak stained black, Solid Wood
 
 Size : W450 x D570 x H410 - 810
 
-Made in Italy",Pierre Jeanneret,W450 x D570 x H410 - 810,,,Italy,https://inscale.co.kr/web/product/big/202311/7965073f5591e35a38240606efac0201.jpg,https://inscale.co.kr/product/capitol-complex-office-chair/468/category/87/display/1/,,,,Capitol Complex Office Chair,CASSINA,matched,strict_name,1.0
+Made in Italy",Pierre Jeanneret,W450 x D570 x H410 - 810,,,Italy,https://inscale.co.kr/web/product/big/202311/7965073f5591e35a38240606efac0201.jpg,https://inscale.co.kr/product/capitol-complex-office-chair/468/category/87/display/1/,,,,468,Capitol Complex Office Chair,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Capitol Complex Chair,Chair,"₩3,570,000
 Cushion - ₩760,000
 
@@ -1589,7 +1587,7 @@ Frame : Oak stained black, Solid Wood
 
 Size : W450 x D570 x H410 - 810
 
-Made in Italy",Pierre Jeanneret,W450 x D570 x H410 - 810,,,Italy,https://inscale.co.kr/web/product/big/202311/4875a30f3819732109766cbdeb599fd0.jpg,https://inscale.co.kr/product/capitol-complex-chair/467/category/87/display/1/,,,,Capitol Complex Chair,CASSINA,matched,strict_name,1.0
+Made in Italy",Pierre Jeanneret,W450 x D570 x H410 - 810,,,Italy,https://inscale.co.kr/web/product/big/202311/4875a30f3819732109766cbdeb599fd0.jpg,https://inscale.co.kr/product/capitol-complex-chair/467/category/87/display/1/,,,,467,Capitol Complex Chair,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Sahara - Drop,Product,5220000,전시중,"Designer : Cassina Studio
 
 Color : Ice Grey
@@ -1598,7 +1596,7 @@ Material : Wool
 
 Size : Ø 250
 
-Made in Italy",Cassina Studio,Ø 250,Wool,Ice Grey,Italy,https://inscale.co.kr/web/product/big/202311/7b18cb214d21e92a5cfc74ba6a1b8c22.jpg,https://inscale.co.kr/product/sahara-drop/453/category/87/display/1/,,,,Sahara - Drop,CASSINA,matched,strict_name,1.0
+Made in Italy",Cassina Studio,Ø 250,Wool,Ice Grey,Italy,https://inscale.co.kr/web/product/big/202311/7b18cb214d21e92a5cfc74ba6a1b8c22.jpg,https://inscale.co.kr/product/sahara-drop/453/category/87/display/1/,,,,453,Sahara - Drop,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,SAHARA - Oval,Product,13080000,전시중,"Designer : Cassina Studio
 
 Color : Ice Grey
@@ -1607,7 +1605,7 @@ Material : Wool
 
 Size : W450 x D300
 
-Made in Italy",Cassina Studio,W450 x D300,Wool,Ice Grey,Italy,https://inscale.co.kr/web/product/big/202606/3be78a38db8054562aba037fa0849870.jpg,https://inscale.co.kr/product/detail.html?product_no=804,,,,Sahara - Oval,CASSINA,matched,strict_name,1.0
+Made in Italy",Cassina Studio,W450 x D300,Wool,Ice Grey,Italy,https://inscale.co.kr/web/product/big/202606/3be78a38db8054562aba037fa0849870.jpg,https://inscale.co.kr/product/detail.html?product_no=804,,,,804,Sahara - Oval,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,LC20 Casier,Sofa,25030000,전시중,"Designer : Le Corbusier, Pierre Jeanneret, Charlotte Perriand
 
 Structure : Mud-stained oak
@@ -1620,9 +1618,8 @@ Composition : 3 containers (open/doors/open), Metal pedestal with 2 supports
 
 Size : W2250 x D380 x H1130
 
-Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W2250 x D380 x H1130,,,Italy,https://inscale.co.kr/web/product/big/202312/a86d86b076565943e21b74ec494a2865.jpg,https://inscale.co.kr/product/lc20-casier/514/category/116/display/1/,,,,LC20 Casier,CASSINA,matched,strict_name,1.0
-2F,2F,CASSINA x KARAKTER,"Lungangolo Bookshelf -
-Black oiled oak",Storage,5330000,전시중,"Designer : Achille Castiglion
+Made in Italy","Le Corbusier, Pierre Jeanneret, Charlotte Perriand",W2250 x D380 x H1130,,,Italy,https://inscale.co.kr/web/product/big/202312/a86d86b076565943e21b74ec494a2865.jpg,https://inscale.co.kr/product/lc20-casier/514/category/116/display/1/,,,,514,LC20 Casier,CASSINA,matched,strict_name,1.0
+2F,2F,CASSINA x KARAKTER,Lungangolo Bookshelf - Black oiled oak,Storage,5330000,전시중,"Designer : Achille Castiglion
 
 Color : Black oiled oak
 
@@ -1630,7 +1627,7 @@ Material : Veneered and treated solid oak
 
 Size : W36 x D36 x H225
 
-Made in Italy",Achille Castiglion,W36 x D36 x H225,Veneered and treated solid oak,Black oiled oak,Italy,,https://inscale.co.kr/product/lungangolo-bookshelf-black-oiled-oak/801/category/110/display/1/,,,,,,new_or_unmatched,not_found,
+Made in Italy",Achille Castiglion,W36 x D36 x H225,Veneered and treated solid oak,Black oiled oak,Italy,https://inscale.co.kr/web/product/big/202606/8915153dab421b488e8d079063ed4718.jpg,https://inscale.co.kr/product/lungangolo-bookshelf-black-oiled-oak/801/category/110/display/1/,,,,801,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,DUDET Bianco,Product,3800000,전시중,"Designer : Patricia Urquiola
 
 Material : Polyurethane foam
@@ -1639,8 +1636,8 @@ Upholstery : Look 13L010 Bianco
 
 Size : W600 x D510 x H750-460
 
-Made in Italy",Patricia Urquiola,W600 x D510 x H750-460,Polyurethane foam,,Italy,,https://inscale.co.kr/product/dudet/684/category/87/display/1/,,,,,,new_or_unmatched,not_found,
-2F,2F,CASSINA,"Dudet Arm Chair 
+Made in Italy",Patricia Urquiola,W600 x D510 x H750-460,Polyurethane foam,,Italy,https://inscale.co.kr/web/product/big/202504/b5b57ce907be1cb611f7fbfbd32865df.jpg,https://inscale.co.kr/product/dudet/684/category/87/display/1/,,,,684,,,new_or_unmatched,not_found,
+2F,2F,CASSINA,"Dudet Arm Chair
 VINACCIA MELANGE",Chair,7250000,전시중,"Designer : Patricia Urquiola
 
 Material : Polyurethane foam
@@ -1649,14 +1646,14 @@ Upholstery : Look Bold 13L462
 
 Size : W780 x D670 x H420-720
 
-Made in Italy",Patricia Urquiola,W780 x D670 x H420-720,Polyurethane foam,,Italy,,https://inscale.co.kr/product/dudet-arm-chair-vinaccia-melange/841/category/113/display/1/,,,,,,new_or_unmatched,not_found,
+Made in Italy",Patricia Urquiola,W780 x D670 x H420-720,Polyurethane foam,,Italy,https://inscale.co.kr/web/product/big/202606/c8b7f30115394c7094658f5d12a1039a.png,https://inscale.co.kr/product/dudet-arm-chair-vinaccia-melange/841/category/113/display/1/,,,,841,,,new_or_unmatched,not_found,
 2F,2F,CASSINA,Soft Corners Side Table,Table,5570000,전시중,"Designer : Linde Freya Tangelder
 
 Description : textured cast iron painted
 
 Size : W410 x D490 x H470
 
-Made in Italy",Linde Freya Tangelder,W410 x D490 x H470,,,Italy,https://inscale.co.kr/web/product/big/202606/7e221ccee1ac4d5cd604cb7113dc89e2.jpg,https://inscale.co.kr/product/detail.html?product_no=842,,,,Soft Corners Side Table,CASSINA,matched,strict_name,1.0
+Made in Italy",Linde Freya Tangelder,W410 x D490 x H470,,,Italy,https://inscale.co.kr/web/product/big/202606/7e221ccee1ac4d5cd604cb7113dc89e2.jpg,https://inscale.co.kr/product/detail.html?product_no=842,,,,842,Soft Corners Side Table,CASSINA,matched,strict_name,1.0
 2F,2F,CASSINA,Sestiere - Amethyst / Lemon yellow,Living Acc,2820000,전시중,"Designer : Patricia Urquiola
 
 Color : Amethyst body & Lemon yellow cords with black rigadin
@@ -1665,7 +1662,7 @@ Material : Blown vase in colored Murano glass
 
 Size : 270 x H260
 
-Made in Italy",Patricia Urquiola,270 x H260,Blown vase in colored Murano glass,Amethyst body & Lemon yellow cords with black rigadin,Italy,https://inscale.co.kr/web/product/big/202312/d47c1f325468a28b6d2d93b686a7597b.jpg,https://inscale.co.kr/product/sestiere-amethyst-lemon-yellow/489/category/87/display/1/,,,,Sestiere - Amethyst / Lemon yellow,CASSINA,matched,strict_name,1.0
+Made in Italy",Patricia Urquiola,270 x H260,Blown vase in colored Murano glass,Amethyst body & Lemon yellow cords with black rigadin,Italy,https://inscale.co.kr/web/product/big/202312/d47c1f325468a28b6d2d93b686a7597b.jpg,https://inscale.co.kr/product/sestiere-amethyst-lemon-yellow/489/category/87/display/1/,,,,489,Sestiere - Amethyst / Lemon yellow,CASSINA,matched,strict_name,1.0
 2F,2F,ARTEMIDE,Melampo Night,Lighting,550000,전시중,"Designer : Adrien Gardere
 
 Material : Aluminium, zamak, silk satin fabric and technopolymer
@@ -1674,7 +1671,7 @@ Color : Ecru
 
 Size : W410 x D490 x H470
 
-Made in Italy",Adrien Gardere,W410 x D490 x H470,"Aluminium, zamak, silk satin fabric and technopolymer",Ecru,Italy,https://inscale.co.kr/web/product/big/202606/a283920d8b617ad66f6e132a6a435d54.jpg,https://inscale.co.kr/product/detail.html?product_no=832,,,,Melampo Night Bronze Ecru,ARTEMIDE,matched,strict_name,0.736
+Made in Italy",Adrien Gardere,W410 x D490 x H470,"Aluminium, zamak, silk satin fabric and technopolymer",Ecru,Italy,https://inscale.co.kr/web/product/big/202606/a283920d8b617ad66f6e132a6a435d54.jpg,https://inscale.co.kr/product/detail.html?product_no=832,,,,832,Melampo Night Bronze Ecru,ARTEMIDE,matched,strict_name,0.736
 2F,2F,CASSINA,Accordo,Living Acc,10950000,전시중,"Designer : Charlotte Perriand
 
 Color : Marron glace
@@ -1683,28 +1680,24 @@ Material : Gloss lacquered panel
 
 Size : Ø1250 x H300
 
-Made in Italy",Charlotte Perriand,Ø1250 x H300,Gloss lacquered panel,Marron glace,Italy,https://inscale.co.kr/web/product/big/202311/e74228cecc1246d55bc04488ec59d5d6.jpg,https://inscale.co.kr/product/accordo/462/category/87/display/1/,,,,Accordo,CASSINA,matched,strict_name,1.0
-2F,2-3 계단,Flos,"Bellhop Floor
-[단종]",Lighting,"brick red, green, cioko : ₩1,650,000
-
-(white : 단종)
-
-디피1 재고1",DP SALE,"Designer : Edward Barber and Jay Osgerby
+Made in Italy",Charlotte Perriand,Ø1250 x H300,Gloss lacquered panel,Marron glace,Italy,https://inscale.co.kr/web/product/big/202311/e74228cecc1246d55bc04488ec59d5d6.jpg,https://inscale.co.kr/product/accordo/462/category/87/display/1/,,,,462,Accordo,CASSINA,matched,strict_name,1.0
+2F,2-3 계단,Flos,"Bellhop Floor Brick Red
+[단종]",Lighting,1650000,전시중,"Designer : Edward Barber and Jay Osgerby
 
 Material : Aluminium, Polycarbonate
 
-Color : Green
+Color : Brick Red
 
 Size : 125 x H1780
 
-Made in Italy",Edward Barber and Jay Osgerby,125 x H1780,"Aluminium, Polycarbonate",Green,Italy,,https://inscale.co.kr/product/bellhop-floor/315/category/91/display/1/,,,P00000MD,,,new_or_unmatched,not_found,
+Made in Italy",Edward Barber and Jay Osgerby,125 x H1780,"Aluminium, Polycarbonate",Brick Red,Italy,https://inscale.co.kr/web/product/big/202311/44a85afda529c4d833d8cdb198bb0c37.jpg,https://inscale.co.kr/product/bellhop-floor/315/category/91/display/1/,,,P00000MD,315,,,new_or_unmatched,not_found,
 2F,2-3 계단,Cassina,Les Grands Trans-Parents,Mirror,"\3,340,000",전시중,"Designer : Man Ray
 
 Material : Elliptical Screen-printed Clear Glass Mirror, Base in Black Rigid Polyurethane
 
 Size : W910 x H1810
 
-Made in Italy",Man Ray,W910 x H1810,"Elliptical Screen-printed Clear Glass Mirror, Base in Black Rigid Polyurethane",,Italy,https://inscale.co.kr/web/product/big/202312/19888d373e958af73e266ace7ce20787.jpg,https://inscale.co.kr/product/les-grands-trans-parents-mirror/730/category/87/display/1/,,,P0000BCC,Les Grands Trans-Parents Mirror,CASSINA,matched,product_code,1
+Made in Italy",Man Ray,W910 x H1810,"Elliptical Screen-printed Clear Glass Mirror, Base in Black Rigid Polyurethane",,Italy,https://inscale.co.kr/web/product/big/202312/19888d373e958af73e266ace7ce20787.jpg,https://inscale.co.kr/product/les-grands-trans-parents-mirror/730/category/87/display/1/,,,P0000BCC,730,Les Grands Trans-Parents Mirror,CASSINA,matched,product_code,1
 3F,3F,Flos,"Captain Flint
 [단종]",Lighting,2920000,전시중,"Designer : Michael Anastassiades
 
@@ -1714,7 +1707,7 @@ Color : Brass
 
 Size : Ø210 x H1537
 
-Made in Italy",Michael Anastassiades,Ø210 x H1537,"Marble, Metal",Brass,Italy,,https://inscale.co.kr/product/detail.html?product_no=317,,,P00000MF,,,new_or_unmatched,not_found,
+Made in Italy",Michael Anastassiades,Ø210 x H1537,"Marble, Metal",Brass,Italy,https://inscale.co.kr/web/product/big/202309/9751bc7b0ca1edb486924bd060625124.jpg,https://inscale.co.kr/product/detail.html?product_no=317,,,P00000MF,317,,,new_or_unmatched,not_found,
 3F,3F,POLTRONA FRAU,Let it Be Sofa 2-seater Sofa,Sofa,22370000,전시중,"Designer : Ludovica Serafini + Roberto Palomba
 
 Base : Leather Cat. Saddle Caffe / Ruthenium Finish
@@ -1725,7 +1718,7 @@ Size : W2510 x D1040 x H430-730
 
 Cushion : 65 x 65 ￦1,380,000
 
-Made in Italy",Ludovica Serafini + Roberto Palomba,W2510 x D1040 x H430-730,,,Italy,https://inscale.co.kr/web/product/big/202606/8ae5b1011b039349c8c7125d31622b56.jpg,https://inscale.co.kr/product/let-it-be/647/category/110/display/1/,,,P00000YX,LET IT BE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Ludovica Serafini + Roberto Palomba,W2510 x D1040 x H430-730,,,Italy,https://inscale.co.kr/web/product/big/202606/8ae5b1011b039349c8c7125d31622b56.jpg,https://inscale.co.kr/product/let-it-be/647/category/110/display/1/,,,P00000YX,647,LET IT BE,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,Let it Be Sofa,Sofa,21230000,전시중,"Designer : Ludovica Serafini + Roberto Palomba
 
 Base : Leather Cat. Saddle Caffe / Ruthenium Finish
@@ -1736,12 +1729,12 @@ Size : W1690 x D1040 x H400-700
 
 Cushion : 65 x 65 ￦1,380,000
 
-Made in Italy",Ludovica Serafini + Roberto Palomba,W1690 x D1040 x H400-700,,,Italy,https://inscale.co.kr/web/product/big/202606/be145ec1bfa000332257418d3d22250e.jpg,https://inscale.co.kr/product/let-it-be-sofa/800/category/110/display/1/,,,P0000BEU,LET IT BE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Ludovica Serafini + Roberto Palomba,W1690 x D1040 x H400-700,,,Italy,https://inscale.co.kr/web/product/big/202606/be145ec1bfa000332257418d3d22250e.jpg,https://inscale.co.kr/product/let-it-be-sofa/800/category/110/display/1/,,,P0000BEU,800,LET IT BE,POLTRONA FRAU,matched,product_code,1
 3F,3F,Vibia,"wireflow 0301
 [단종]",Product,5110000,전시중,"Design : Arik Levy
 
 89cm(팔각)
-8 x LED",Arik Levy,,,,,https://assets.vibia.com/Wireflow_Chandelier_Card_2_d030842ab5.webp,,,,,,,new_or_unmatched,not_found,
+8 x LED",Arik Levy,,,,,https://assets.vibia.com/Wireflow_Chandelier_Card_2_d030842ab5.webp,,,,,,,,new_or_unmatched,not_found,
 3F,3F,POLTRONA FRAU,DUO BENCH,Stool & Bench,4750000,전시중,"Designer : Roberto Lazzeroni
 
 Upholstery : Leather Velvety
@@ -1750,7 +1743,7 @@ Base : Wengè Ash
 
 Size : W490*D390*H460
 
-Made in Italy",Roberto Lazzeroni,W490*D390*H460,,,Italy,https://inscale.co.kr/web/product/big/202503/9c0e5d9bd893b864a365856a6591f322.jpg,https://inscale.co.kr/product/duo-bench/667/category/110/display/1/,,,P00000ZR,DUO BENCH,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Roberto Lazzeroni,W490*D390*H460,,,Italy,https://inscale.co.kr/web/product/big/202503/9c0e5d9bd893b864a365856a6591f322.jpg,https://inscale.co.kr/product/duo-bench/667/category/110/display/1/,,,P00000ZR,667,DUO BENCH,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,DUO LOW TABLE,Table,7170000,전시중,"Designer : Roberto Lazzeroni
 
 Top : Coloured Glass Rosso Cina
@@ -1759,7 +1752,7 @@ Base : Wengè Ash
 
 Size : Ø570*H500
 
-Made in Italy",Roberto Lazzeroni,Ø570*H500,,ed Glass Rosso Cina,Italy,https://inscale.co.kr/web/product/big/202606/aa344f5ee244b45ab87075fd604a18d5.jpg,https://inscale.co.kr/product/duo-low-table/666/category/110/display/1/,,,P00000ZQ,DUO LOW TABLE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Roberto Lazzeroni,Ø570*H500,,ed Glass Rosso Cina,Italy,https://inscale.co.kr/web/product/big/202606/aa344f5ee244b45ab87075fd604a18d5.jpg,https://inscale.co.kr/product/duo-low-table/666/category/110/display/1/,,,P00000ZQ,666,DUO LOW TABLE,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,DUO LOW COFFEE TABLE,Table,13730000,전시중,"Designer : Roberto Lazzeroni
 
 Top : Coloured Glass Celadon
@@ -1768,21 +1761,21 @@ Base : Wengè Ash
 
 Size : Ø800*H360
 
-Made in Italy",Roberto Lazzeroni,Ø800*H360,,ed Glass Celadon,Italy,https://inscale.co.kr/web/product/big/202503/7fedb200d3fda26405e18bbbbc5d1400.jpg,https://inscale.co.kr/product/duo-low-table/665/category/110/display/1/,,,P00000ZP,DUO LOW TABLE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Roberto Lazzeroni,Ø800*H360,,ed Glass Celadon,Italy,https://inscale.co.kr/web/product/big/202503/7fedb200d3fda26405e18bbbbc5d1400.jpg,https://inscale.co.kr/product/duo-low-table/665/category/110/display/1/,,,P00000ZP,665,DUO LOW TABLE,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,DUO LOUNGE CHAIR,Chair,7060000,전시중,"Designer : Roberto Lazzeroni
 
 Frame : Wengè Ash Wood
 
 Upholstery : Fabric Cat. B Ziggy Red Onion
 
-Size : W780*D770*H440-700",Roberto Lazzeroni,W780*D770*H440-700,,,,https://inscale.co.kr/web/product/big/202503/3c0f8184bfa36468aa3ecf3d0468cc6c.jpg,https://inscale.co.kr/product/duo-lounge-chair/669/category/110/display/1/,,,P00000ZT,DUO LOUNGE CHAIR,POLTRONA FRAU,matched,product_code,1
+Size : W780*D770*H440-700",Roberto Lazzeroni,W780*D770*H440-700,,,,https://inscale.co.kr/web/product/big/202503/3c0f8184bfa36468aa3ecf3d0468cc6c.jpg,https://inscale.co.kr/product/duo-lounge-chair/669/category/110/display/1/,,,P00000ZT,669,DUO LOUNGE CHAIR,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,BOB COFFEE TABLE Walnut,Table,3570000,전시중,"Design : Roberto Lazzeroni
 
 Top : Canaletto Walnut
 
 Base: Stained Burnished
 
-Size : Ø450*H520",Roberto Lazzeroni,Ø450*H520,,,,https://inscale.co.kr/web/product/big/202606/2a8e217c208ce0650cf24bd368be7d01.jpg,https://inscale.co.kr/product/detail.html?product_no=843,,,P0000BGL,BOB COFFEE TABLE,POLTRONA FRAU,matched,product_code,1
+Size : Ø450*H520",Roberto Lazzeroni,Ø450*H520,,,,https://inscale.co.kr/web/product/big/202606/2a8e217c208ce0650cf24bd368be7d01.jpg,https://inscale.co.kr/product/detail.html?product_no=843,,,P0000BGL,843,BOB COFFEE TABLE,POLTRONA FRAU,matched,product_code,1
 3F,3F,MARSET,"Ginger 20 M 
 Portable Oak",Table,690000,전시중,"Designer : Joan Gaspar
 
@@ -1790,7 +1783,7 @@ Material : Oak / Lacquered black matte metal
 
 Size : Ø195 x H300
 
-Made in Spain",Joan Gaspar,Ø195 x H300,Oak / Lacquered black matte metal,,Spain,https://inscale.co.kr/web/product/big/202410/4aa110c9b270a3599416da0b3eec0e1c.jpg,https://inscale.co.kr/product/ginger-portable-lamp/664/category/110/display/1/,,,P00000ZO,Ginger Portable Oak,CASSINA,matched,product_code,1
+Made in Spain",Joan Gaspar,Ø195 x H300,Oak / Lacquered black matte metal,,Spain,https://inscale.co.kr/web/product/big/202410/4aa110c9b270a3599416da0b3eec0e1c.jpg,https://inscale.co.kr/product/ginger-portable-lamp/664/category/110/display/1/,,,P00000ZO,664,Ginger Portable Oak,CASSINA,matched,product_code,1
 3F,3F,POLTRONA FRAU,DUO BOOKCASE,Storage,23450000,전시중,"Designer : Roberto Lazzeroni
 
 Frame : Wengè Ash Wood
@@ -1799,7 +1792,7 @@ Shelf Glass : Grigio
 
 Size : W1600*D450*H1600
 
-Made in Italy",Roberto Lazzeroni,W1600*D450*H1600,,,Italy,https://inscale.co.kr/web/product/big/202503/7c411212a1287a6374a4f8c2c09cce88.jpg,https://inscale.co.kr/product/duo-bookcase/668/category/110/display/1/,,,P00000ZS,DUO BOOKCASE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Roberto Lazzeroni,W1600*D450*H1600,,,Italy,https://inscale.co.kr/web/product/big/202503/7c411212a1287a6374a4f8c2c09cce88.jpg,https://inscale.co.kr/product/duo-bookcase/668/category/110/display/1/,,,P00000ZS,668,DUO BOOKCASE,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,MING’S HEART,Product,9550000,전시중,"Designer : Shi-Chieh Lu
 
 Frame : Wengè Ash Wood
@@ -1808,7 +1801,7 @@ Upholstery : Leather Cat. Saddle Extra. Carbone / Gunmetal grey
 
 Size : W830 x D800 x H410-750
 
-Made in Italy",Shi-Chieh Lu,W830 x D800 x H410-750,,,Italy,https://inscale.co.kr/web/product/big/202503/c27cf9fc1a8d9381efdf9a60422668a0.jpg,https://inscale.co.kr/product/detail.html?product_no=670,,,P00000ZU,MING’S HEART,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Shi-Chieh Lu,W830 x D800 x H410-750,,,Italy,https://inscale.co.kr/web/product/big/202503/c27cf9fc1a8d9381efdf9a60422668a0.jpg,https://inscale.co.kr/product/detail.html?product_no=670,,,P00000ZU,670,MING’S HEART,POLTRONA FRAU,matched,product_code,1
 3F,3F,Flos,"Copycat
 [단종]",Product,"24 karat gold  
 
@@ -1821,7 +1814,7 @@ Aluminum, Blown glass
 Polished aluminum, black nickel, 
 Copper, 24K gold 도금
 
-Color : 24 KARAT GOLD, COPPER, BLACK NICKLE, ALUMINUM",Michael Anastassiades,300 x H298.5,,"24 KARAT GOLD, COPPER, BLACK NICKLE, ALUMINUM",,https://flos-assets.imgix.net/family-import/P_Md_E-Copycat-Flos-Decorative-still-life.jpg?fp-x=0.50&fp-y=0.50&w=960&h=646&fm=webp&fit=crop,,,,,,,new_or_unmatched,not_found,
+Color : 24 KARAT GOLD, COPPER, BLACK NICKLE, ALUMINUM",Michael Anastassiades,300 x H298.5,,"24 KARAT GOLD, COPPER, BLACK NICKLE, ALUMINUM",,https://flos-assets.imgix.net/family-import/P_Md_E-Copycat-Flos-Decorative-still-life.jpg?fp-x=0.50&fp-y=0.50&w=960&h=646&fm=webp&fit=crop,,,,,,,,new_or_unmatched,not_found,
 3F,3F,ARTEMIDE,"Nessino - 
 Orange",Product,410000,전시중,"Design : Giancarlo Mattioli
 
@@ -1831,7 +1824,7 @@ Color : Orange
 
 Size : W320 x H223
 
-Made in Italy",Giancarlo Mattioli,W320 x H223,Polycarbonate,Orange,Italy,https://inscale.co.kr/web/product/big/202309/fecd50092047a04d6c386ac1621d9a2c.jpg,https://inscale.co.kr/product/detail.html?product_no=736,,,P00000NN,Nessino,ARTEMIDE,matched,product_code,1
+Made in Italy",Giancarlo Mattioli,W320 x H223,Polycarbonate,Orange,Italy,https://inscale.co.kr/web/product/big/202309/fecd50092047a04d6c386ac1621d9a2c.jpg,https://inscale.co.kr/product/detail.html?product_no=736,,,P00000NN,736,Nessino,ARTEMIDE,matched,product_code,1
 3F,3F,ARTEMIDE,"Nessino - 
 White",Product,410000,전시중,"Designer : Giancarlo Mattioli
 
@@ -1841,7 +1834,7 @@ Color : White
 
 Size : W320 x H223
 
-Made in Italy",Giancarlo Mattioli,W320 x H223,Polycarbonate,White,Italy,https://inscale.co.kr/web/product/big/202309/1dc4ed7884992d207e66ffc4cabf5b50.jpg,https://inscale.co.kr/product/detail.html?product_no=350,,,P00000NM,Nessino,ARTEMIDE,matched,product_code,1
+Made in Italy",Giancarlo Mattioli,W320 x H223,Polycarbonate,White,Italy,https://inscale.co.kr/web/product/big/202309/1dc4ed7884992d207e66ffc4cabf5b50.jpg,https://inscale.co.kr/product/detail.html?product_no=350,,,P00000NM,350,Nessino,ARTEMIDE,matched,product_code,1
 3F,3F,POLTRONA FRAU,HOMEY,Product,17740000,전시중,"Designer : Gamfratesi
 
 Top : Ash Moka Stained
@@ -1850,7 +1843,7 @@ Base : Burnished Aluminum
 
 Size : W2200*D950*H730
 
-Made in Italy",Gamfratesi,W2200*D950*H730,,,Italy,https://inscale.co.kr/web/product/big/202503/5479496723e0cc685f265e87cca84b5c.jpg,https://inscale.co.kr/product/homey-table/671/category/110/display/1/,,,P00000ZV,HOMEY TABLE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Gamfratesi,W2200*D950*H730,,,Italy,https://inscale.co.kr/web/product/big/202503/5479496723e0cc685f265e87cca84b5c.jpg,https://inscale.co.kr/product/homey-table/671/category/110/display/1/,,,P00000ZV,671,HOMEY TABLE,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,ISADORA,Product,4900000,전시중,"Designer : Roberto Lasseroni
 
 Frame : Burnished Alumium
@@ -1859,7 +1852,7 @@ Upholstery : Saddle Extra Leather-Cammello
 
 Size : W490*D570*H470-810
 
-Made in Italy",Roberto Lasseroni,W490*D570*H470-810,,,Italy,https://inscale.co.kr/web/product/big/202503/3dfd662f56c4db6fa164c77e7eb028ca.jpg,https://inscale.co.kr/product/detail.html?product_no=674,,,P00000ZY,ISADORA,POLTRONA FRAU,matched,product_code,1
+Made in Italy",Roberto Lasseroni,W490*D570*H470-810,,,Italy,https://inscale.co.kr/web/product/big/202503/3dfd662f56c4db6fa164c77e7eb028ca.jpg,https://inscale.co.kr/product/detail.html?product_no=674,,,P00000ZY,674,ISADORA,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,NICE Small Armchair(Leahter),Chair,3940000,전시중,"Designer : GamFratesi
 
 Frame : Burnished Alumium
@@ -1868,7 +1861,7 @@ Upholstery : Leather SC or Leather Nest
 
 Size : W530*D570*H500-830
 
-Made in Italy",GamFratesi,W530*D570*H500-830,,,Italy,https://inscale.co.kr/web/product/big/202503/3c4336b82342c86f4c9daf6625a86945.jpg,https://inscale.co.kr/product/detail.html?product_no=673,,,P00000ZX,NICE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",GamFratesi,W530*D570*H500-830,,,Italy,https://inscale.co.kr/web/product/big/202503/3c4336b82342c86f4c9daf6625a86945.jpg,https://inscale.co.kr/product/detail.html?product_no=673,,,P00000ZX,673,NICE,POLTRONA FRAU,matched,product_code,1
 3F,3F,POLTRONA FRAU,NICE Small Armchair(Fabric),Chair,3570000,전시중,"Designer : GamFratesi
 
 Frame : Burnished Alumium
@@ -1877,21 +1870,21 @@ Upholstery : Fabric Cat. B Loop 02 Corda
 
 Size : W530*D570*H500-830
 
-Made in Italy",GamFratesi,W530*D570*H500-830,,,Italy,https://inscale.co.kr/web/product/big/202606/112f4578f26db0fe011c2386e70f4049.jpg,https://inscale.co.kr/product/detail.html?product_no=672,,,P00000ZW,NICE,POLTRONA FRAU,matched,product_code,1
+Made in Italy",GamFratesi,W530*D570*H500-830,,,Italy,https://inscale.co.kr/web/product/big/202606/112f4578f26db0fe011c2386e70f4049.jpg,https://inscale.co.kr/product/detail.html?product_no=672,,,P00000ZW,672,NICE,POLTRONA FRAU,matched,product_code,1
 3F,3F,Santa & Cole,Lamina 165,Product,3710000,전시중,"Designer : Antoni Arola
 
 Material : White Grey Metallic Shade With Glossy Finish, Metal With Matte Finish
 
 Size : 179.8 x 9.2cm Max.500cm
 
-Made in Spain",Antoni Arola,179.8 x 9.2cm Max.500cm,"White Grey Metallic Shade With Glossy Finish, Metal With Matte Finish",,Spain,https://inscale.co.kr/web/product/big/202606/6b825816c7a96ad0959f651651adf46a.jpg,https://inscale.co.kr/product/lamina-165-pendant/773/category/119/display/1/,,,P0000BDT,[Order] Lamina 165 Pendant,Santa&Cole,matched,product_code,1
+Made in Spain",Antoni Arola,179.8 x 9.2cm Max.500cm,"White Grey Metallic Shade With Glossy Finish, Metal With Matte Finish",,Spain,https://inscale.co.kr/web/product/big/202606/6b825816c7a96ad0959f651651adf46a.jpg,https://inscale.co.kr/product/lamina-165-pendant/773/category/119/display/1/,,,P0000BDT,773,[Order] Lamina 165 Pendant,Santa&Cole,matched,product_code,1
 3F,3F,Ritzwell,"JABARA 
 Sideboard Walnut",Storage,11700000,전시중,"Designer : SHINSAKU MIYAMOTO
 
 Body : Walnut TL-BK Steel powder coated Black Base, 
 Thick Leather Black Drawer, 2x shelf plate included
 
-Size : W900 x D430 x H810",SHINSAKU MIYAMOTO,W900 x D430 x H810,,,,https://inscale.co.kr/web/product/big/202410/5c08e5d1af541c4f317eb498c02d66e9.jpg,https://inscale.co.kr/product/jabara-sideboard-walnut/644/category/110/display/1/,,,P00000YU,JABARA,CASSINA,matched,product_code,1
+Size : W900 x D430 x H810",SHINSAKU MIYAMOTO,W900 x D430 x H810,,,,https://inscale.co.kr/web/product/big/202410/5c08e5d1af541c4f317eb498c02d66e9.jpg,https://inscale.co.kr/product/jabara-sideboard-walnut/644/category/110/display/1/,,,P00000YU,644,JABARA,CASSINA,matched,product_code,1
 3F,3F,Vibia,"Flat Floor 5955
 [단종]",Product,1600000,전시중,"Designer : Ichiro Iwasaki
 
@@ -1901,7 +1894,7 @@ Color : Terra Red
 
 Size : Ø110 x D460 x H1000
 
-Made in Spain",Ichiro Iwasaki,Ø110 x D460 x H1000,"Steel, Aluminum, Polycarbonate",Terra Red,Spain,https://inscale.co.kr/web/product/big/202309/2069e310b84548b025f684db39c95da5.jpg,https://inscale.co.kr/product/flat-floor-5955/372/category/95/display/1/,,,P00000OI,Flat Floor 5955 Terra Red,VIBIA,matched,product_code,1
+Made in Spain",Ichiro Iwasaki,Ø110 x D460 x H1000,"Steel, Aluminum, Polycarbonate",Terra Red,Spain,https://inscale.co.kr/web/product/big/202309/2069e310b84548b025f684db39c95da5.jpg,https://inscale.co.kr/product/flat-floor-5955/372/category/95/display/1/,,,P00000OI,372,Flat Floor 5955 Terra Red,VIBIA,matched,product_code,1
 3F,3F,Artemide,Alfa,Product,2290000,전시중,"Designer : Sergio Mazza
 
 Material : Glass, Steel, Marble
@@ -1910,7 +1903,7 @@ Color : Black Marble
 
 Size : Ø300 x H480
 
-Made in Italy",Sergio Mazza,Ø300 x H480,"Glass, Steel, Marble",Black Marble,Italy,https://inscale.co.kr/web/product/big/202309/2dfdc6ce2716bd801347efa798c9db27.jpg,https://inscale.co.kr/product/alfa/337/category/90/display/1/,,,P00000MZ,Alfa,ARTEMIDE,matched,product_code,1
+Made in Italy",Sergio Mazza,Ø300 x H480,"Glass, Steel, Marble",Black Marble,Italy,https://inscale.co.kr/web/product/big/202309/2dfdc6ce2716bd801347efa798c9db27.jpg,https://inscale.co.kr/product/alfa/337/category/90/display/1/,,,P00000MZ,337,Alfa,ARTEMIDE,matched,product_code,1
 3F,3F,Vibia,"Stick
 [단종]",Product,"₩2,670,000 (각도 75도)
 *3층 디피
@@ -1918,7 +1911,7 @@ Made in Italy",Sergio Mazza,Ø300 x H480,"Glass, Steel, Marble",Black Marble,Ita
 ₩3,400,000 (각도 90도)",DP SALE,"Design : Arik Levy
 
 Size : 2m*h1.5m / 
-Black",Arik Levy,2m*h1.5m /,,,,https://wp.vibiacdn.com/2020/11/vibia-the-edit-the-sticks-collection-boundless-spaces-12-600x900.jpg,,,,,,,new_or_unmatched,not_found,
+Black",Arik Levy,2m*h1.5m /,,,,https://wp.vibiacdn.com/2020/11/vibia-the-edit-the-sticks-collection-boundless-spaces-12-600x900.jpg,,,,,,,,new_or_unmatched,not_found,
 3F,3F,Flos,"Superloon
 [단종]",Product,"white, black : ₩8,002,000
 
@@ -1930,7 +1923,7 @@ Color : Black
 
 Size : Ø723 - 754 x H1972
 
-Made in Italy",Jasper Morrison,Ø723 - 754 x H1972,"Painted aluminium Black, Silk screened, PMMA diffuser",Black,Italy,,https://inscale.co.kr/product/superloon/318/category/91/display/1/,,,P00000MG,,,new_or_unmatched,not_found,
+Made in Italy",Jasper Morrison,Ø723 - 754 x H1972,"Painted aluminium Black, Silk screened, PMMA diffuser",Black,Italy,https://inscale.co.kr/web/product/big/202309/aaae8560ce67d061d1782791420f3dd6.jpg,https://inscale.co.kr/product/superloon/318/category/91/display/1/,,,P00000MG,318,,,new_or_unmatched,not_found,
 3F,3F,ARTEMIDE,Melampo Terra Floor Bronze Ecrù,Lighting,1180000,전시중,"Designer : Adrien Gardère
 
 Material : Aluminium, zamak, silk satin fabric and technopolymer
@@ -1939,7 +1932,7 @@ Color : Ecru
 
 Size : W420 x H1630
 
-Made in Italy",Adrien Gardère,W420 x H1630,"Aluminium, zamak, silk satin fabric and technopolymer",Ecru,Italy,https://inscale.co.kr/web/product/big/202606/5d3048437712c973e8f2fa6fd4ddbbd1.jpg,https://inscale.co.kr/product/%EC%9E%AC%EA%B3%A0%EB%B3%B4%EC%9C%A0-melampo-terra-floor-bronze-ecr%C3%B9/356/category/90/display/1/,,,P00000NS,Melampo Terra Floor Bronze Ecrù,ARTEMIDE,matched,product_code,1
+Made in Italy",Adrien Gardère,W420 x H1630,"Aluminium, zamak, silk satin fabric and technopolymer",Ecru,Italy,https://inscale.co.kr/web/product/big/202606/5d3048437712c973e8f2fa6fd4ddbbd1.jpg,https://inscale.co.kr/product/%EC%9E%AC%EA%B3%A0%EB%B3%B4%EC%9C%A0-melampo-terra-floor-bronze-ecr%C3%B9/356/category/90/display/1/,,,P00000NS,356,Melampo Terra Floor Bronze Ecrù,ARTEMIDE,matched,product_code,1
 3F,3F,Flos,"IC Lights 
 Suspension 1 Brass",Lighting,"₩918,000
 [Flos 정품] E14 LED 전구(+64,000)",전시중,"Designer : Michael Anastassiades
@@ -1952,7 +1945,7 @@ Size : H470mm x Ø240mm
 
 Made in Italy
 
-전구 미포함",Michael Anastassiades,H470mm x Ø240mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/1e6d6b21febd135932656ca1dda92008.jpg,https://inscale.co.kr/product/detail.html?product_no=844,,,P0000BGM,IC Lights Suspension 1 Brass,FLOS,matched,product_code,1
+전구 미포함",Michael Anastassiades,H470mm x Ø240mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/1e6d6b21febd135932656ca1dda92008.jpg,https://inscale.co.kr/product/detail.html?product_no=844,,,P0000BGM,844,IC Lights Suspension 1 Brass,FLOS,matched,product_code,1
 3F,3F,Flos,"IC Lights 
 Suspension 2 Brass",Lighting,"₩1,205,000
 [Flos 정품] 전용 전구 E26 18W (+87,000)",전시중,"Designer : Michael Anastassiades
@@ -1965,7 +1958,7 @@ Size : H702mm x Ø300mm
 
 Made in Italy
 
-전구 미포함",Michael Anastassiades,H702mm x Ø300mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/193bb40b7b4d246a1ec053dc94afe387.jpg,https://inscale.co.kr/product/detail.html?product_no=845,,,P0000BGN,IC Lights Suspension 2 Brass,FLOS,matched,product_code,1
+전구 미포함",Michael Anastassiades,H702mm x Ø300mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/193bb40b7b4d246a1ec053dc94afe387.jpg,https://inscale.co.kr/product/detail.html?product_no=845,,,P0000BGN,845,IC Lights Suspension 2 Brass,FLOS,matched,product_code,1
 3F,3F,Flos,IC Lights Table 2 Brass,Table,"₩1,226,000
 [Flos 정품] 전용 전구 E26 18W 
 (+87,000)",전시중,"Designer : Michael Anastassiades
@@ -1978,7 +1971,7 @@ Size : H350mm x Ø300mm
 
 Made in Italy
 
-전구 미포함",Michael Anastassiades,H350mm x Ø300mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/2b59c9a871d9b6d189a64e31a5e0ba98.jpg,https://inscale.co.kr/product/ic-lights-table-2-brass/846/category/119/display/1/,,,P0000BGO,IC Lights Table 2 Brass,FLOS,matched,product_code,1
+전구 미포함",Michael Anastassiades,H350mm x Ø300mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/2b59c9a871d9b6d189a64e31a5e0ba98.jpg,https://inscale.co.kr/product/ic-lights-table-2-brass/846/category/119/display/1/,,,P0000BGO,846,IC Lights Table 2 Brass,FLOS,matched,product_code,1
 3F,3F,Flos,IC Lights Table T1 High Brass,Table,"₩1,014,000
 [Flos 정품] 전용 전구 E26 18W 
 (+64,000)",전시중,"Designer : Michael Anastassiades
@@ -1991,7 +1984,7 @@ Size : H580mm x Ø200mm
 
 Made in Italy
 
-전구 미포함",Michael Anastassiades,H580mm x Ø200mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/6b2746d7c2916c364383a8e6af497660.jpg,https://inscale.co.kr/product/detail.html?product_no=847,,,P0000BGP,IC Lights Table T1 High Brass,FLOS,matched,product_code,1
+전구 미포함",Michael Anastassiades,H580mm x Ø200mm,"Steel, Brass, Blown glass",Brass,Italy,https://inscale.co.kr/web/product/big/202606/6b2746d7c2916c364383a8e6af497660.jpg,https://inscale.co.kr/product/detail.html?product_no=847,,,P0000BGP,847,IC Lights Table T1 High Brass,FLOS,matched,product_code,1
 4F,4F,Knoll,Girard Coffee Table,Table,"₩3,070,000 
 DP 35% ₩1,995,500
 (스크래치 상품)",DP SALE,"Designer : Alexander Girard
@@ -2002,7 +1995,7 @@ Color : Walnut veneer, Black Steel
 
 Size : W1500 x D660 x H410
 
-Made in Italy",Alexander Girard,W1500 x D660 x H410,"Walnut ,Black Powder coated Steel","Walnut veneer, Black Steel",Italy,https://inscale.co.kr/web/product/big/202308/61f2de7e2b200b60df5cc2997af1b922.jpg,https://inscale.co.kr/product/girard-table/283/category/86/display/1/,,,P00000KX,"Girard Table - Walnut veneer, Black Steel",KNOLL,matched,product_code,1
+Made in Italy",Alexander Girard,W1500 x D660 x H410,"Walnut ,Black Powder coated Steel","Walnut veneer, Black Steel",Italy,https://inscale.co.kr/web/product/big/202308/61f2de7e2b200b60df5cc2997af1b922.jpg,https://inscale.co.kr/product/girard-table/283/category/86/display/1/,,,P00000KX,283,"Girard Table - Walnut veneer, Black Steel",KNOLL,matched,product_code,1
 4F,4F,KNOLL,Wassily Chair Black,Chair,5770000,전시중,"Designer : Marcel Breuer
 
 Material : Tubular stainles steel
@@ -2011,7 +2004,7 @@ Color : Belting leather BLBLK Black
 
 Size : W790 x D690 x H420 - 730
 
-Made in Italy",Marcel Breuer,W790 x D690 x H420 - 730,Tubular stainles steel,Belting leather BLBLK Black,Italy,https://inscale.co.kr/web/product/big/202308/ae7a261c19fbb96c074ad257fa7ac333.jpg,https://inscale.co.kr/product/wassily-chair/245/category/86/display/1/,,,P00000JL,Wassily Chair Black,KNOLL,matched,product_code,1
+Made in Italy",Marcel Breuer,W790 x D690 x H420 - 730,Tubular stainles steel,Belting leather BLBLK Black,Italy,https://inscale.co.kr/web/product/big/202308/ae7a261c19fbb96c074ad257fa7ac333.jpg,https://inscale.co.kr/product/wassily-chair/245/category/86/display/1/,,,P00000JL,245,Wassily Chair Black,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Barcelona Chair Venezia Leather Black,Chair,"Venezia
 ₩14,420,000
 
@@ -2024,7 +2017,7 @@ Color : Venezia Leather(01) BLack
 
 Size : W750 x D770 x H430 - 770
 
-Made in Italy",Mies van der Rohe,W750 x D770 x H430 - 770,Aluminium Hand-buffed mirror finish,Venezia Leather(01) BLack,Italy,https://inscale.co.kr/web/product/big/202402/13d3ff4bcddb4d29c94643c710dc2570.jpg,https://inscale.co.kr/product/detail.html?product_no=257,,,P00000JX,Barcelona Chair Venezia Leather BLack,KNOLL,matched,product_code,1
+Made in Italy",Mies van der Rohe,W750 x D770 x H430 - 770,Aluminium Hand-buffed mirror finish,Venezia Leather(01) BLack,Italy,https://inscale.co.kr/web/product/big/202402/13d3ff4bcddb4d29c94643c710dc2570.jpg,https://inscale.co.kr/product/detail.html?product_no=257,,,P00000JX,257,Barcelona Chair Venezia Leather BLack,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Barcelona Stool Black,Chair,"Venezia
 ₩7,270,000
 
@@ -2037,7 +2030,7 @@ Color : Venezia Leather(01) BLack
 
 Size : W590 x D595 x H390
 
-Made in Italy",Mies van der Rohe,W590 x D595 x H390,Aluminium Hand-buffed mirror finish,Venezia Leather(01) BLack,Italy,https://inscale.co.kr/web/product/big/202309/2d3c046b8b16ca51d6166987c735389e.jpg,https://inscale.co.kr/product/detail.html?product_no=260,,,P00000KA,Barcelona Stool Black,KNOLL,matched,product_code,1
+Made in Italy",Mies van der Rohe,W590 x D595 x H390,Aluminium Hand-buffed mirror finish,Venezia Leather(01) BLack,Italy,https://inscale.co.kr/web/product/big/202309/2d3c046b8b16ca51d6166987c735389e.jpg,https://inscale.co.kr/product/detail.html?product_no=260,,,P00000KA,260,Barcelona Stool Black,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Florence Knoll Low Table,Table,8560000,전시중,"Designer : Florence Knoll
 
 Top : Arabescato marble, Glossy finish
@@ -2046,7 +2039,7 @@ Frame : Polished chrome
 
 Size : W1200 x D1200 x H350
 
-Made in Italy",Florence Knoll,W1200 x D1200 x H350,,,Italy,https://inscale.co.kr/web/product/big/202311/9862853629e558afeef28cfc25353487.jpg,https://inscale.co.kr/product/florence-knoll-low-coffee-table/413/category/86/display/1/,,,P00000PX,Florence Knoll Low Coffee Table,KNOLL,matched,product_code,1
+Made in Italy",Florence Knoll,W1200 x D1200 x H350,,,Italy,https://inscale.co.kr/web/product/big/202311/9862853629e558afeef28cfc25353487.jpg,https://inscale.co.kr/product/florence-knoll-low-coffee-table/413/category/86/display/1/,,,P00000PX,413,Florence Knoll Low Coffee Table,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Matic Credenza (on Feet),Product,15190000,전시중,"Designer : Piero Lissoni
 
 Surface : Steel Panel Painted Charcoal
@@ -2057,7 +2050,7 @@ Base : Always painted charcoal
 
 Size : W1800 x D650 x H405
 
-Made in Italy",Piero Lissoni,W1800 x D650 x H405,,,Italy,https://inscale.co.kr/web/product/big/202410/24cedc22682a0a106204b475a606ddcd.jpg,https://inscale.co.kr/product/matic-credenzaon-feet/646/category/86/display/1/,,,P00000YW,Matic Credenza(on Feet),KNOLL,matched,product_code,1
+Made in Italy",Piero Lissoni,W1800 x D650 x H405,,,Italy,https://inscale.co.kr/web/product/big/202410/24cedc22682a0a106204b475a606ddcd.jpg,https://inscale.co.kr/product/matic-credenzaon-feet/646/category/86/display/1/,,,P00000YW,646,Matic Credenza(on Feet),KNOLL,matched,product_code,1
 4F,4F,Artemide,Tolomeo Mega Floor Black,Lighting,2220000,전시중,"Designer : Michele De Lucchi & Giancarlo Fassina
 
 Material : Aluminium, parchment paper, steel
@@ -2066,7 +2059,7 @@ Color : Black
 
 Size : W1130 x H2380
 
-Made in Italy",Michele De Lucchi & Giancarlo Fassina,W1130 x H2380,"Aluminium, parchment paper, steel",Black,Italy,https://inscale.co.kr/web/product/big/202309/2397fdc90441c5375878f013b5fba0be.jpg,https://inscale.co.kr/product/order-tolomeo-mega-floor-black/355/category/90/display/1/,,,P00000NR,Tolomeo Mega Floor Black,ARTEMIDE,matched,product_code,1
+Made in Italy",Michele De Lucchi & Giancarlo Fassina,W1130 x H2380,"Aluminium, parchment paper, steel",Black,Italy,https://inscale.co.kr/web/product/big/202309/2397fdc90441c5375878f013b5fba0be.jpg,https://inscale.co.kr/product/order-tolomeo-mega-floor-black/355/category/90/display/1/,,,P00000NR,355,Tolomeo Mega Floor Black,ARTEMIDE,matched,product_code,1
 4F,4F,KNOLL,Cesca Chair,Chair,1610000,전시중,"Designer : Marcel Breuer
 
 Seat & Back : Black Satin Stain (Machine Woven Cane)
@@ -2075,7 +2068,7 @@ Frame : Tubular steel
 
 Size : W460 x D580 x H460 - 800
 
-Made in Italy",Marcel Breuer,W460 x D580 x H460 - 800,,,Italy,https://inscale.co.kr/web/product/big/202402/b6e18473876539554cad5a9165af189d.jpg,https://inscale.co.kr/product/cesca-chair/593/category/86/display/1/,,,P00000WV,Cesca Chair,KNOLL,matched,product_code,1
+Made in Italy",Marcel Breuer,W460 x D580 x H460 - 800,,,Italy,https://inscale.co.kr/web/product/big/202402/b6e18473876539554cad5a9165af189d.jpg,https://inscale.co.kr/product/cesca-chair/593/category/86/display/1/,,,P00000WV,593,Cesca Chair,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Wassily Chair White,Chair,5770000,전시중,"Designer : Marcel Breuer
 
 Material : Tubular stainles steel
@@ -2084,7 +2077,7 @@ Color : Belting leather BL785 White (BL1914)
 
 Size : W790 x D690 x H420 - 730
 
-Made in Italy",Marcel Breuer,W790 x D690 x H420 - 730,Tubular stainles steel,Belting leather BL785 White (BL1914),Italy,https://inscale.co.kr/web/product/big/202308/aea3416746ec696e45b8f6a75cb36ec4.jpg,https://inscale.co.kr/product/detail.html?product_no=250,,,P00000JQ,Wassily Chair White,KNOLL,matched,product_code,1
+Made in Italy",Marcel Breuer,W790 x D690 x H420 - 730,Tubular stainles steel,Belting leather BL785 White (BL1914),Italy,https://inscale.co.kr/web/product/big/202308/aea3416746ec696e45b8f6a75cb36ec4.jpg,https://inscale.co.kr/product/detail.html?product_no=250,,,P00000JQ,250,Wassily Chair White,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Laccio Low Table Marble,Table,"Matte ₩2,800,000
 
 Chrome ₩2,910,000",전시중,"Design : Marcel Breuer
@@ -2093,7 +2086,7 @@ Size : W550*480*H450
 
 Top :  Laminate / Marble 
 
-Frame : Matte / Chrome",Marcel Breuer,W550*480*H450,,,,https://inscale.co.kr/web/product/big/202606/ad3674d4ee0d225aa9f770f8bdb372f9.jpg,https://inscale.co.kr/product/detail.html?product_no=849,,,P0000BGR,Laccio Side Table Statuarietto,KNOLL,matched,product_code,1
+Frame : Matte / Chrome",Marcel Breuer,W550*480*H450,,,,https://inscale.co.kr/web/product/big/202606/ad3674d4ee0d225aa9f770f8bdb372f9.jpg,https://inscale.co.kr/product/detail.html?product_no=849,,,P0000BGR,849,Laccio Side Table Statuarietto,KNOLL,matched,product_code,1
 4F,4F,USM,USM Haller Storage Yellow,Storage,"₩1,706,000
 
 *아웃판 2개 추가 ₩140,000
@@ -2102,12 +2095,12 @@ Frame : Matte / Chrome",Marcel Breuer,W550*480*H450,,,,https://inscale.co.kr/web
 (아웃판 1개 \70,000)
 
 인상 가격 확인 필요",전시중,"1*2
-Size : 350*350*H350+350",,350*350*H350+350,,,,,https://inscale.co.kr/product/detail.html?product_no=850,,,P0000BGS,,,new_or_unmatched,not_found,
+Size : 350*350*H350+350",,350*350*H350+350,,,,https://inscale.co.kr/web/product/big/202606/91398c05ea22e9c298e935006315cc4c.jpg,https://inscale.co.kr/product/detail.html?product_no=850,,,P0000BGS,850,,,new_or_unmatched,not_found,
 4F,4F,Marset,"Theia
 [단종]",Product,": ₩2,390,000
 
 *재고 
-화이트 1",전시중,Size : Ø32*H43.5 / black,,Ø32*H43.5 / black,,,,https://www.marset.com/wp-content/uploads/lamparas/theia/Theia-S-Black-1200x1200.jpg,,,,,,,new_or_unmatched,not_found,
+화이트 1",전시중,Size : Ø32*H43.5 / black,,Ø32*H43.5 / black,,,,https://www.marset.com/wp-content/uploads/lamparas/theia/Theia-S-Black-1200x1200.jpg,,,,,,,,new_or_unmatched,not_found,
 4F,4F,KNOLL,Pollock Arm Chair,Chair,6120000,전시중,"Designer : Charles Pollock
 
 Material : Tubular steel polished chrome legs, Aluminium arms, Black painted finish
@@ -2116,7 +2109,7 @@ Color : Natural with cushions (Black Velluto Pelle)
 
 Size : W640 x D660 x H410 - 705
 
-Made in Italy",Charles Pollock,W640 x D660 x H410 - 705,"Tubular steel polished chrome legs, Aluminium arms, Black painted finish",Natural with cushions (Black Velluto Pelle),Italy,https://inscale.co.kr/web/product/big/202308/daf18654af07c4cc7d7e554f046b1648.jpg,https://inscale.co.kr/product/detail.html?product_no=241,,,P00000JH,Pollock Arm Chair Natural,KNOLL,matched,product_code,1
+Made in Italy",Charles Pollock,W640 x D660 x H410 - 705,"Tubular steel polished chrome legs, Aluminium arms, Black painted finish",Natural with cushions (Black Velluto Pelle),Italy,https://inscale.co.kr/web/product/big/202308/daf18654af07c4cc7d7e554f046b1648.jpg,https://inscale.co.kr/product/detail.html?product_no=241,,,P00000JH,241,Pollock Arm Chair Natural,KNOLL,matched,product_code,1
 4F,4F,Flos,"Bonjour 
 Unplugged",Product,467000,전시중,"Designer : Philippe Starck
 
@@ -2126,7 +2119,7 @@ Color : White
 
 Size : Ø130 x H270
 
-Made in Italy",Philippe Starck,Ø130 x H270,"ABS, Aluminum, PMMA",White,Italy,https://inscale.co.kr/web/product/big/202309/1d281bd4a33e4a1fe5d7d3513fa8b923.jpg,https://inscale.co.kr/product/detail.html?product_no=299,,,P00000LN,Bonjour Unplugged,FLOS,matched,product_code,1
+Made in Italy",Philippe Starck,Ø130 x H270,"ABS, Aluminum, PMMA",White,Italy,https://inscale.co.kr/web/product/big/202309/1d281bd4a33e4a1fe5d7d3513fa8b923.jpg,https://inscale.co.kr/product/detail.html?product_no=299,,,P00000LN,299,Bonjour Unplugged,FLOS,matched,product_code,1
 4F,4F,KNOLL,Saarinen Oval Table 1980 - Arabescato,Table,19590000,전시중,"Design : Eero Saarinen
 
 Top : Arabescato Marble
@@ -2135,7 +2128,7 @@ Base : White Rilsan
 
 Size : W1980 x D1210 x H730
 
-Made in Italy",Eero Saarinen,W1980 x D1210 x H730,,,Italy,https://inscale.co.kr/web/product/big/202308/e6d95876c4b4671dee1947774f14e90d.jpg,https://inscale.co.kr/product/search.html?keyword=saarin,,,P00000KH,Saarinen Oval Table 1980,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,W1980 x D1210 x H730,,,Italy,https://inscale.co.kr/web/product/big/202308/e6d95876c4b4671dee1947774f14e90d.jpg,https://inscale.co.kr/product/search.html?keyword=saarin,,,P00000KH,,Saarinen Oval Table 1980,KNOLL,matched,product_code,1
 4F,4F,KNOLL,"TULIP 
 ARM CHAIR",Chair,5410000,전시중,"Designer : Eero Saarinen
 
@@ -2147,7 +2140,7 @@ Color : Leather Y. AU613 / White
 
 Size : W680 x D590 x H480 - 810
 
-Made in Italy",Eero Saarinen,W680 x D590 x H480 - 810,,Leather Y. AU613 / White,Italy,https://inscale.co.kr/web/product/big/202308/15eebb79d0e685486e1ed3d012fb3759.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000IW,TULIP Arm Chair White,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,W680 x D590 x H480 - 810,,Leather Y. AU613 / White,Italy,https://inscale.co.kr/web/product/big/202308/15eebb79d0e685486e1ed3d012fb3759.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000IW,,TULIP Arm Chair White,KNOLL,matched,product_code,1
 4F,4F,KNOLL,"TULIP 
 ARM CHAIR",Chair,4670000,전시중,"Designer : Eero Saarinen
 
@@ -2159,7 +2152,7 @@ Color : Fabric Cat. C (Tonus-216)
 
 Size : W680 x D590 x H480 - 810
 
-Made in Italy",Eero Saarinen,W680 x D590 x H480 - 810,,Fabric Cat. C (Tonus-216),Italy,https://inscale.co.kr/web/product/big/202311/07989fd86cfe63a6180f3140fd6c2c14.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000TI,TULIP Arm Chair Grey,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,W680 x D590 x H480 - 810,,Fabric Cat. C (Tonus-216),Italy,https://inscale.co.kr/web/product/big/202311/07989fd86cfe63a6180f3140fd6c2c14.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000TI,,TULIP Arm Chair Grey,KNOLL,matched,product_code,1
 4F,4F,KNOLL,"TULIP
 ARMLESS CHAIR",Chair,3780000,전시중,"Designer : Eero Saarinen
 
@@ -2171,7 +2164,7 @@ Color : White / Fabric Cat C. Tonus 132T Dark Blue
 
 Size : W490 x D530 x H490 - 810
 
-Made in Italy",Eero Saarinen,W490 x D530 x H490 - 810,,White / Fabric Cat C. Tonus 132T Dark Blue,Italy,https://inscale.co.kr/web/product/big/202308/901dc7f6634883374106c5b091395ba3.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000IY,TULIP Armless Chair DK.Blue,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,W490 x D530 x H490 - 810,,White / Fabric Cat C. Tonus 132T Dark Blue,Italy,https://inscale.co.kr/web/product/big/202308/901dc7f6634883374106c5b091395ba3.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000IY,,TULIP Armless Chair DK.Blue,KNOLL,matched,product_code,1
 4F,4F,KNOLL,"TULIP
 ARMLESS CHAIR",Chair,3780000,전시중,"Designer : Eero Saarinen
 
@@ -2183,7 +2176,7 @@ Color : White / Fabric Cat C. Tonus 440T Medium Yellow
 
 Size : W490 x D530 x H490 - 810
 
-Made in Italy",Eero Saarinen,W490 x D530 x H490 - 810,,White / Fabric Cat C. Tonus 440T Medium Yellow,Italy,https://inscale.co.kr/web/product/big/202308/ec289675174f22e89ff98cb503a4f49b.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000JB,TULIP Armless Chair Yellow,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,W490 x D530 x H490 - 810,,White / Fabric Cat C. Tonus 440T Medium Yellow,Italy,https://inscale.co.kr/web/product/big/202308/ec289675174f22e89ff98cb503a4f49b.jpg,https://inscale.co.kr/product/search.html?keyword=tulip,,,P00000JB,,TULIP Armless Chair Yellow,KNOLL,matched,product_code,1
 4F,4F,VITRA,Panton Chair White,Chair,620000,전시중,"Designer : Verner Panton
 
 Color : White
@@ -2194,7 +2187,7 @@ Material : Polypropylene
 
 Size : W500 x D610 x H440 - 860
 
-Made in Germany",Verner Panton,W500 x D610 x H440 - 860,Polypropylene,White,Germany,https://inscale.co.kr/web/product/big/202408/b160555f7a4786149ecd47bf50ffa30d.jpg,https://inscale.co.kr/product/panton-chair/166/category/84/display/1/,,,P00000GK,Panton Chair White,VITRA,matched,product_code,1
+Made in Germany",Verner Panton,W500 x D610 x H440 - 860,Polypropylene,White,Germany,https://inscale.co.kr/web/product/big/202408/b160555f7a4786149ecd47bf50ffa30d.jpg,https://inscale.co.kr/product/panton-chair/166/category/84/display/1/,,,P00000GK,166,Panton Chair White,VITRA,matched,product_code,1
 4F,4F,KNOLL,Bertoia Chair,Chair,"₩2,620,000",전시중,"Designer : Harry Bertoia
 
 Frame : Polished Chrome
@@ -2203,7 +2196,7 @@ Seat Pad : Hallingdal 407H White-Yellow
 
 Size : W540 x D580 x H730 - 460
 
-Made in Italy",Harry Bertoia,W540 x D580 x H730 - 460,,,Italy,https://inscale.co.kr/web/product/big/202606/1e570aa86503b3fdf07716ce614f61e8.jpg,https://inscale.co.kr/product/detail.html?product_no=851,,,P0000BGT,Bertoia Chair,KNOLL,matched,product_code,1
+Made in Italy",Harry Bertoia,W540 x D580 x H730 - 460,,,Italy,https://inscale.co.kr/web/product/big/202606/1e570aa86503b3fdf07716ce614f61e8.jpg,https://inscale.co.kr/product/detail.html?product_no=851,,,P0000BGT,851,Bertoia Chair,KNOLL,matched,product_code,1
 4F,4F,KNOLL,"Spoleto
 [단종]",Product,"₩2,590,000 
 Cowhide L80 Black
@@ -2217,7 +2210,7 @@ Color : Leather Black
 
 Size : W580 x D590 x H460 - 790
 
-Made in Italy",Ufficio Tecnico,W580 x D590 x H460 - 790,"s : Seamless tubular steel with polished chrome finish, Nylon laces",Leather Black,Italy,https://images.hermanmiller.group/m/3d2d91542dd9ab97/W-KNO_SPC_13033.png?trim=auto&trim-sd=1&blend-mode=darken&blend=ffffff&bg=ffffff&auto=format&w=1000&q=70&h=1000,,,,,,,new_or_unmatched,not_found,
+Made in Italy",Ufficio Tecnico,W580 x D590 x H460 - 790,"s : Seamless tubular steel with polished chrome finish, Nylon laces",Leather Black,Italy,https://images.hermanmiller.group/m/3d2d91542dd9ab97/W-KNO_SPC_13033.png?trim=auto&trim-sd=1&blend-mode=darken&blend=ffffff&bg=ffffff&auto=format&w=1000&q=70&h=1000,,,,,,,,new_or_unmatched,not_found,
 4F,4F,VIBIA,"Mayfair Mini 5495 
 Terra Dark",Product,"₩740,000",전시중,"Designer : Diego Fortunato
 
@@ -2227,7 +2220,7 @@ Color : Terra Red
 
 Size : Ø200 x 120 x H380
 
-Made in Spain",Diego Fortunato,Ø200 x 120 x H380,"Polycarbonate, Steel, Methacrylate",Terra Red,Spain,https://inscale.co.kr/web/product/big/202606/c25bc7c63c513a19858c1e4d11724d04.jpg,https://inscale.co.kr/product/detail.html?product_no=848,,,P0000BGQ,Mayfair Mini 5495 Terra Dark,FLOS,matched,product_code,1
+Made in Spain",Diego Fortunato,Ø200 x 120 x H380,"Polycarbonate, Steel, Methacrylate",Terra Red,Spain,https://inscale.co.kr/web/product/big/202606/c25bc7c63c513a19858c1e4d11724d04.jpg,https://inscale.co.kr/product/detail.html?product_no=848,,,P0000BGQ,848,Mayfair Mini 5495 Terra Dark,FLOS,matched,product_code,1
 4F,4F,KNOLL,TULIP Stool,Stool & Bench,2420000,전시중,"Designer : Eero Saarinen
 
 Base : Heavy molded cast aluminum, Powder coat paint
@@ -2236,7 +2229,7 @@ Color : White / Tonus 440T Medium Yellow
 
 Size : Ø680 x H450
 
-Made in Italy",Eero Saarinen,Ø680 x H450,,White / Tonus 440T Medium Yellow,Italy,https://inscale.co.kr/web/product/big/202308/7ad84fec1e0ef64263a0c2a1d70f91f8.jpg,https://inscale.co.kr/product/tulip-stool/234/category/86/display/1/,,,P00000JA,TULIP Stool Yellow,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,Ø680 x H450,,White / Tonus 440T Medium Yellow,Italy,https://inscale.co.kr/web/product/big/202308/7ad84fec1e0ef64263a0c2a1d70f91f8.jpg,https://inscale.co.kr/product/tulip-stool/234/category/86/display/1/,,,P00000JA,234,TULIP Stool Yellow,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Saarinen Round 1200 - Laminate,Product,6000000,전시중,"Designer : Eero Saarinen
 
 Top : White Laminate
@@ -2245,7 +2238,7 @@ Base : White Rilsan
 
 Size : Ø1200 x H720
 
-Made in Italy",Eero Saarinen,Ø1200 x H720,,,Italy,https://inscale.co.kr/web/product/big/202402/e0e910cd6b9e8b36dcc3b40f5b3ca657.jpg,https://inscale.co.kr/product/saarinen-round-1200-laminate/273/category/86/display/1/,,,P00000KN,Saarinen Round 1200,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,Ø1200 x H720,,,Italy,https://inscale.co.kr/web/product/big/202402/e0e910cd6b9e8b36dcc3b40f5b3ca657.jpg,https://inscale.co.kr/product/saarinen-round-1200-laminate/273/category/86/display/1/,,,P00000KN,273,Saarinen Round 1200,KNOLL,matched,product_code,1
 4F,4F,KNOLL,Saarinen Round Side 510 - Nero Marquina,Product,3380000,전시중,"Designer : Eero Saarinen
 
 Top : Nero Marquina Marble
@@ -2254,7 +2247,7 @@ Base : Black Rilsan
 
 Size : Ø510 x H520
 
-Made in Italy",Eero Saarinen,Ø510 x H520,,,Italy,https://inscale.co.kr/web/product/big/202402/1ed8d6b81f2a9c9e65611ee86e099f5a.jpg,https://inscale.co.kr/product/saarinen-round-side-510-nero-marquina/585/category/86/display/1/,,,P00000WN,Saarinen Round Side 510,KNOLL,matched,product_code,1
+Made in Italy",Eero Saarinen,Ø510 x H520,,,Italy,https://inscale.co.kr/web/product/big/202402/1ed8d6b81f2a9c9e65611ee86e099f5a.jpg,https://inscale.co.kr/product/saarinen-round-side-510-nero-marquina/585/category/86/display/1/,,,P00000WN,585,Saarinen Round Side 510,KNOLL,matched,product_code,1
 4F,4F,ARTEMIDE,Tolomeo Mega Floor Black,Lighting,2220000,전시중,"Designer : Michele De Lucchi & Giancarlo Fassina
 
 Material : Aluminium, 
@@ -2264,7 +2257,7 @@ Color : Black - Diffuser 360
 
 Size : W1130 x H2380
 
-Made in Italy",Michele De Lucchi & Giancarlo Fassina,W1130 x H2380,"Aluminium,",Black - Diffuser 360,Italy,https://inscale.co.kr/web/product/big/202309/2397fdc90441c5375878f013b5fba0be.jpg,https://inscale.co.kr/product/tolomeo-terra-mega/355/category/90/display/1/,,,P00000NR,Tolomeo Mega Floor Black,ARTEMIDE,matched,product_code,1
+Made in Italy",Michele De Lucchi & Giancarlo Fassina,W1130 x H2380,"Aluminium,",Black - Diffuser 360,Italy,https://inscale.co.kr/web/product/big/202309/2397fdc90441c5375878f013b5fba0be.jpg,https://inscale.co.kr/product/tolomeo-terra-mega/355/category/90/display/1/,,,P00000NR,355,Tolomeo Mega Floor Black,ARTEMIDE,matched,product_code,1
 4F,4F,INGO MAURER,Zettel'z 6,Product,2440000,전시중,"Designer : Ingo Maurer
 
 Material : Stainless steel, Heat-resistant satin-frosted glass, 
@@ -2274,7 +2267,7 @@ Color : Black - Diffuser 360
 
 Size : 80 x 80 / Canopy : Ø11cm
 
-Made in Germany",Ingo Maurer,80 x 80 / Canopy : Ø11cm,"Stainless steel, Heat-resistant satin-frosted glass,",Black - Diffuser 360,Germany,https://inscale.co.kr/web/product/big/202606/00286eac08b671cfe73d9e543847c5cd.jpg,https://inscale.co.kr/product/detail.html?product_no=774,,,P0000BDU,[Order] Zettel'z 6,Ingo Maurer,matched,product_code,1
+Made in Germany",Ingo Maurer,80 x 80 / Canopy : Ø11cm,"Stainless steel, Heat-resistant satin-frosted glass,",Black - Diffuser 360,Germany,https://inscale.co.kr/web/product/big/202606/00286eac08b671cfe73d9e543847c5cd.jpg,https://inscale.co.kr/product/detail.html?product_no=774,,,P0000BDU,774,[Order] Zettel'z 6,Ingo Maurer,matched,product_code,1
 4F,4F,Flos,"Goldman
 [단종]",Product,1270000,전시중,"Designer : Ron Gilad
 
@@ -2284,7 +2277,7 @@ Color : Brass & Green
 
 Size : W255 x D80 x H400
 
-Made in Italy",Ron Gilad,W255 x D80 x H400,"Aluminum structure, Opal PC led diffuser",Brass & Green,Italy,,https://inscale.co.kr/product/goldman/301/category/91/display/1/,,,P00000LP,,,new_or_unmatched,not_found,
+Made in Italy",Ron Gilad,W255 x D80 x H400,"Aluminum structure, Opal PC led diffuser",Brass & Green,Italy,https://inscale.co.kr/web/product/big/202309/0628419eeaced3b3f171bc2c9cc43445.jpg,https://inscale.co.kr/product/goldman/301/category/91/display/1/,,,P00000LP,301,,,new_or_unmatched,not_found,
 4F,4F,Flos,Snoopy Table Lamp,Table,2870000,전시중,"Designer : Achille & Pier Castiglioni
 
 Material : Marble, Steel
@@ -2293,4 +2286,4 @@ Color : Green
 
 Size : 39.4 x H37cm / Cord Length : 220cm
 
-Made in Italy",Achille & Pier Castiglioni,39.4 x H37cm / Cord Length : 220cm,"Marble, Steel",Green,Italy,https://inscale.co.kr/web/product/big/202606/a618e11c4f0de3ff45612b92777b9efa.jpg,https://inscale.co.kr/product/detail.html?product_no=776,,,P0000BDW,Snoopy Table Lamp - Green,FLOS,matched,product_code,1
+Made in Italy",Achille & Pier Castiglioni,39.4 x H37cm / Cord Length : 220cm,"Marble, Steel",Green,Italy,https://inscale.co.kr/web/product/big/202606/a618e11c4f0de3ff45612b92777b9efa.jpg,https://inscale.co.kr/product/detail.html?product_no=776,,,P0000BDW,776,Snoopy Table Lamp - Green,FLOS,matched,product_code,1
