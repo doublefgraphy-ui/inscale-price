@@ -10,6 +10,8 @@
   const resetBtn = document.getElementById("resetBtn");
   const homeBtn = document.getElementById("homeBtn");
   const floorButtons = Array.from(document.querySelectorAll(".floor-btn"));
+  const detailModal = document.getElementById("detailModal");
+  const modalContent = document.getElementById("modalContent");
 
   let allProducts = [];
   let activeMode = "all";
@@ -123,7 +125,75 @@
     return escapeHTML(raw.replace(/\\/g, "₩"));
   }
 
+
+  function normalizeNumber(value) {
+    return String(value || "").replace(/[^0-9]/g, "");
+  }
+
+  function hasDPPrice(item) {
+    return normalizeNumber(item.dp_price).length > 0 || String(item.dp_price || "").trim() !== "";
+  }
+
+  function getSaleStatus(item) {
+    return String(item.sale_status || "").trim().toUpperCase();
+  }
+
+  function isSold(item) {
+    const status = getSaleStatus(item);
+    return status.includes("SOLD") || status.includes("판매완료");
+  }
+
+  function isReserved(item) {
+    const status = getSaleStatus(item);
+    return status.includes("RESERVED") || status.includes("예약");
+  }
+
+  function isFavorite(item) {
+    const value = String(item.favorite || "").trim().toUpperCase();
+    return value === "Y" || value === "YES" || value === "TRUE" || value === "1" || value === "추천";
+  }
+
+  function formatSaleMoney(value) {
+    const raw = String(value || "").trim();
+    if (!raw) return "";
+    const hasText = /[가-힣A-Za-z]/.test(raw);
+    const hasLineBreak = raw.includes("\n");
+    const hasWon = raw.includes("₩") || raw.includes("\\");
+    const digitOnly = normalizeNumber(raw);
+    if (!hasText && !hasLineBreak && !hasWon && digitOnly) {
+      return `₩${Number(digitOnly).toLocaleString("ko-KR")}`;
+    }
+    return escapeHTML(raw.replace(/\\/g, "₩"));
+  }
+
+  function saleBox(item, isModal = false) {
+    if (!hasDPPrice(item)) return "";
+    const rate = String(item.discount_rate || "").trim();
+    const status = String(item.sale_status || "DP SALE").trim();
+    const rateHTML = rate ? `<div class="discount-rate">${escapeHTML(rate)}% OFF</div>` : "";
+    const className = isModal ? "sale-box modal-sale-box" : "sale-box";
+    return `
+      <div class="${className}">
+        <span class="sale-label">${escapeHTML(status || "DP SALE")}</span>
+        <div class="sale-price">${formatSaleMoney(item.dp_price)}</div>
+        ${rateHTML}
+      </div>
+    `;
+  }
+
+  function statusBadges(item) {
+    const badges = [];
+    if (item.dpSale) badges.push(`<span class="badge sale">DP SALE</span>`);
+    if (isSold(item)) badges.push(`<span class="badge sold">SOLD</span>`);
+    else if (isReserved(item)) badges.push(`<span class="badge reserved">RESERVED</span>`);
+    if (isFavorite(item)) badges.push(`<span class="badge favorite">추천</span>`);
+    if (item.match_status === "new_or_unmatched") badges.push(`<span class="badge warning">이미지 확인 필요</span>`);
+    return badges.join("");
+  }
+
   function isDPSale(item) {
+    if (hasDPPrice(item)) return true;
+    if (getSaleStatus(item).includes("DP")) return true;
     const text = [
       item.display,
       item.price,
@@ -154,6 +224,9 @@
       item.name,
       item.category,
       item.price,
+      item.dp_price,
+      item.discount_rate,
+      item.sale_status,
       item.display,
       item.description,
       item.designer,
@@ -175,7 +248,7 @@
     `;
   }
 
-  function productCard(item) {
+  function productCard(item, index) {
     const imageHTML = item.image
       ? `
         <div class="thumb">
@@ -193,36 +266,10 @@
         </div>
       `;
 
-    const dpBadge = item.dpSale
-      ? `<span class="badge sale">DP SALE</span>`
-      : "";
-
-    const warningBadge = item.match_status === "new_or_unmatched"
-      ? `<span class="badge warning">이미지 확인 필요</span>`
-      : "";
-
-    const infoLink = item.url
-      ? `<a class="link-primary" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">Info Link</a>`
-      : "";
-
-    const moreImageLink = item.more_image
-      ? `<a class="link-secondary" href="${escapeHTML(item.more_image)}" target="_blank" rel="noopener">More Image</a>`
-      : "";
-
-    const actions = infoLink || moreImageLink
-      ? `<div class="actions">${infoLink}${moreImageLink}</div>`
-      : "";
-
-    const description = item.description
-      ? `<div class="description">${escapeHTML(item.description)}</div>`
-      : "";
-
-    const note = item.note
-      ? `<div class="description">${escapeHTML(item.note)}</div>`
-      : "";
+    const soldClass = isSold(item) ? " is-sold" : "";
 
     return `
-      <article class="card">
+      <article class="card${soldClass}" data-product-index="${index}" tabindex="0">
         ${imageHTML}
 
         <div class="card-body">
@@ -230,14 +277,14 @@
             <span class="badge dark">${escapeHTML(displayValue(item.floor))}</span>
             <span class="badge">${escapeHTML(displayValue(item.location))}</span>
             <span class="badge">${escapeHTML(displayValue(item.category))}</span>
-            ${dpBadge}
-            ${warningBadge}
+            ${statusBadges(item)}
           </div>
 
           <h2 class="name">${escapeHTML(displayValue(item.name))}</h2>
           <p class="brand">${escapeHTML(displayValue(item.brand))}</p>
 
           <div class="price">${formatPrice(item.price)}</div>
+          ${saleBox(item)}
 
           <div class="spec">
             ${specRow("Designer", item.designer)}
@@ -246,17 +293,95 @@
             ${specRow("Color", item.color)}
             ${specRow("Origin", item.origin)}
           </div>
-
-          ${description}
-          ${note}
-          ${actions}
         </div>
       </article>
     `;
   }
 
+  function productModal(item) {
+    const qrTarget = item.url || window.location.href;
+    const qrURL = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${encodeURIComponent(qrTarget)}`;
+
+    const imageHTML = item.image
+      ? `<img src="${escapeHTML(item.image)}" alt="${escapeHTML(item.name)}">`
+      : `<div class="no-image">NO IMAGE</div>`;
+
+    const infoLink = item.url
+      ? `<a class="link-primary" href="${escapeHTML(item.url)}" target="_blank" rel="noopener">홈페이지 보기</a>`
+      : "";
+
+    const moreImageLink = item.more_image
+      ? `<a class="link-secondary" href="${escapeHTML(item.more_image)}" target="_blank" rel="noopener">More Image</a>`
+      : "";
+
+    return `
+      <div class="modal-grid">
+        <div class="modal-image">
+          ${imageHTML}
+        </div>
+
+        <div class="modal-info">
+          <div class="meta">
+            <span class="badge dark">${escapeHTML(displayValue(item.floor))}</span>
+            <span class="badge">${escapeHTML(displayValue(item.location))}</span>
+            <span class="badge">${escapeHTML(displayValue(item.category))}</span>
+            ${statusBadges(item)}
+          </div>
+
+          <h2 id="modalTitle" class="modal-title">${escapeHTML(displayValue(item.name))}</h2>
+          <p class="modal-brand">${escapeHTML(displayValue(item.brand))}</p>
+          <div class="modal-price">${formatPrice(item.price)}</div>
+          ${saleBox(item, true)}
+          ${isSold(item) ? `<div class="modal-sold-notice">판매 완료된 상품입니다.</div>` : ""}
+
+          <div class="spec">
+            ${specRow("Designer", item.designer)}
+            ${specRow("Size", item.size)}
+            ${specRow("Material", item.material)}
+            ${specRow("Color", item.color)}
+            ${specRow("Origin", item.origin)}
+            ${specRow("Code", item.product_code)}
+          </div>
+
+          ${item.description ? `<div class="description">${escapeHTML(item.description)}</div>` : ""}
+          ${item.note ? `<div class="description">${escapeHTML(item.note)}</div>` : ""}
+
+          ${item.url ? `
+            <div class="modal-qr">
+              <img src="${qrURL}" alt="QR code">
+              <p class="qr-text">손님에게 QR을 보여주면 인스케일 상품 페이지로 바로 이동할 수 있습니다.</p>
+            </div>
+          ` : ""}
+
+          ${(infoLink || moreImageLink) ? `<div class="actions">${infoLink}${moreImageLink}</div>` : ""}
+        </div>
+      </div>
+    `;
+  }
+
+  function openModal(index) {
+    const item = allProducts[index];
+    if (!item) {
+      return;
+    }
+
+    modalContent.innerHTML = productModal(item);
+    detailModal.hidden = false;
+    document.body.style.overflow = "hidden";
+  }
+
+  function closeModal() {
+    detailModal.hidden = true;
+    modalContent.innerHTML = "";
+    document.body.style.overflow = "";
+  }
+
   function renderProducts(items) {
-    productList.innerHTML = items.map(productCard).join("");
+    const html = items
+      .map((item) => productCard(item, allProducts.indexOf(item)))
+      .join("");
+
+    productList.innerHTML = html;
     countText.textContent = `${items.length.toLocaleString("ko-KR")}개 상품`;
     emptyState.hidden = items.length !== 0;
   }
@@ -338,6 +463,40 @@
       setActiveButton(button);
       applyFilters();
     });
+  });
+
+  productList.addEventListener("click", (event) => {
+    const card = event.target.closest("[data-product-index]");
+    if (!card) {
+      return;
+    }
+
+    openModal(Number(card.dataset.productIndex));
+  });
+
+  productList.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter") {
+      return;
+    }
+
+    const card = event.target.closest("[data-product-index]");
+    if (!card) {
+      return;
+    }
+
+    openModal(Number(card.dataset.productIndex));
+  });
+
+  detailModal.addEventListener("click", (event) => {
+    if (event.target.matches("[data-close-modal]")) {
+      closeModal();
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !detailModal.hidden) {
+      closeModal();
+    }
   });
 
   searchInput.addEventListener("input", applyFilters);
