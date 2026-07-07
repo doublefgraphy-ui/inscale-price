@@ -1,4 +1,4 @@
-const CACHE_NAME = "inscale-showroom-sale-v3";
+const CACHE_NAME = "inscale-showroom-v6";
 const ASSETS = [
   "./",
   "./index.html",
