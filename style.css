@@ -434,7 +434,7 @@ body {
 
 .stock-brand {
   margin: 6px 0 0;
-  color: var(--stock);
+  color: #111 !important;
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.08em;
