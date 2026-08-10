@@ -11,6 +11,8 @@
   --dark: #111111;
   --sale: #8a2d20;
   --warning: #9a7a2f;
+  --stock: #e2231a;
+  --stock-soft: #fff1ef;
 }
 
 html {
@@ -110,7 +112,7 @@ body {
 
 .floor-tabs {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   gap: 8px;
   margin-top: 10px;
 }
@@ -140,6 +142,49 @@ body {
 .floor-btn.sale.is-active {
   background: var(--sale);
   border-color: var(--sale);
+  color: #fff;
+}
+
+
+.floor-btn.stock {
+  color: var(--stock);
+  border-color: rgba(226, 35, 26, 0.34);
+}
+
+.floor-btn.stock.is-active {
+  background: var(--stock);
+  border-color: var(--stock);
+  color: #fff;
+}
+
+.stock-filters[hidden] {
+  display: none;
+}
+
+.stock-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.stock-filter-btn {
+  min-height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.stock-filter-btn.is-active {
+  border-color: var(--stock);
+  background: var(--stock);
   color: #fff;
 }
 
@@ -358,6 +403,144 @@ body {
   color: var(--text);
 }
 
+
+
+.product-list.stock-mode {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.stock-card {
+  overflow: hidden;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.stock-card .card-body {
+  padding: 18px;
+}
+
+.stock-card-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.stock-card .name {
+  font-size: 21px;
+}
+
+.stock-brand {
+  margin: 6px 0 0;
+  color: var(--stock);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.stock-date {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.stock-variants {
+  display: grid;
+  gap: 0;
+  margin-top: 15px;
+  border-top: 1px solid var(--line);
+}
+
+.stock-variant {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: start;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.stock-variant:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.stock-code {
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 850;
+  line-height: 1.45;
+}
+
+.stock-spec {
+  color: #4f4a45;
+  font-size: 13px;
+  line-height: 1.5;
+  word-break: keep-all;
+}
+
+.stock-qty {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+  min-width: 112px;
+}
+
+.stock-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 27px;
+  border-radius: 999px;
+  padding: 5px 9px;
+  font-size: 11px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+
+.stock-pill.available {
+  background: #111;
+  color: #fff;
+}
+
+.stock-pill.coming {
+  background: var(--stock-soft);
+  color: var(--stock);
+  border: 1px solid rgba(226, 35, 26, 0.2);
+}
+
+.stock-note {
+  max-width: 145px;
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.35;
+  text-align: right;
+}
+
+.stock-summary-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 13px;
+}
+
+.stock-summary-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  border-radius: 999px;
+  background: #f3f0eb;
+  color: #5d574f;
+  padding: 5px 9px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
 .empty-state {
   padding: 50px 16px;
   text-align: center;
@@ -554,6 +737,37 @@ body {
 
   .product-list {
     grid-template-columns: 1fr;
+  }
+
+  .product-list.stock-mode {
+    grid-template-columns: 1fr;
+  }
+
+  .stock-card-head {
+    display: block;
+  }
+
+  .stock-date {
+    margin-top: 7px;
+    text-align: left;
+  }
+
+  .stock-variant {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .stock-qty {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 0;
+  }
+
+  .stock-note {
+    max-width: none;
+    text-align: left;
   }
 
   .spec-row {

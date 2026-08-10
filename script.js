@@ -2,6 +2,7 @@
   "use strict";
 
   const CSV_URL = "price.csv";
+  const STOCK_CSV_URL = "cassina-stock.csv";
 
   const productList = document.getElementById("productList");
   const searchInput = document.getElementById("searchInput");
@@ -10,6 +11,9 @@
   const resetBtn = document.getElementById("resetBtn");
   const homeBtn = document.getElementById("homeBtn");
   const floorButtons = Array.from(document.querySelectorAll(".floor-btn"));
+  const stockFilters = document.getElementById("stockFilters");
+  const stockCategoryButtons = Array.from(document.querySelectorAll(".stock-filter-btn"));
+  const hintText = document.getElementById("hintText");
 
   const galleryModal = document.getElementById("galleryModal");
   const galleryImage = document.getElementById("galleryImage");
@@ -22,8 +26,11 @@
   const galleryNext = document.getElementById("galleryNext");
 
   let allProducts = [];
+  let stockProducts = [];
+  let stockLoadError = null;
   let activeMode = "all";
   let activeFloor = "";
+  let activeStockCategory = "all";
 
   let galleryImages = [];
   let galleryIndex = 0;
@@ -209,6 +216,58 @@
     ].join(" ").toLowerCase();
   }
 
+  function makeStockSearchText(item) {
+    return [
+      "cassina",
+      item.category,
+      item.model,
+      item.product_code,
+      item.spec,
+      item.available_qty,
+      item.coming_soon_qty,
+      item.coming_soon_note,
+      item.stock_date
+    ].join(" ").toLowerCase();
+  }
+
+  function stockCategoryKey(category) {
+    const value = String(category || "").toUpperCase();
+
+    if (value.includes("CHAISE")) {
+      return "chaise";
+    }
+
+    if (value.includes("SOFAS")) {
+      return "sofas";
+    }
+
+    if (value.includes("ARMCHAIRS") || value.includes("CHAIRS")) {
+      return "chairs";
+    }
+
+    if (value.includes("TABLES")) {
+      return "tables";
+    }
+
+    if (value.includes("CABINETS")) {
+      return "cabinets";
+    }
+
+    return "etc";
+  }
+
+  function numberValue(value) {
+    const number = Number(String(value || "").replace(/[^0-9.-]/g, ""));
+    return Number.isFinite(number) ? number : 0;
+  }
+
+  function stockCategoryLabel(category) {
+    return String(category || "")
+      .replace(" - INDOOR", "")
+      .replace("ARMCHAIRS & CHAIRS", "CHAIRS")
+      .replace("TABLES & LOW TABLES", "TABLES");
+  }
+
   function splitImages(value) {
     return String(value || "")
       .split("|")
@@ -340,6 +399,87 @@
     `;
   }
 
+  function stockVariantRow(item) {
+    const available = numberValue(item.available_qty);
+    const coming = numberValue(item.coming_soon_qty);
+    const availableHTML = available > 0
+      ? `<span class="stock-pill available">AVAILABLE ${available.toLocaleString("ko-KR")}</span>`
+      : "";
+    const comingHTML = coming > 0
+      ? `<span class="stock-pill coming">COMING ${coming.toLocaleString("ko-KR")}</span>`
+      : "";
+    const noteHTML = item.coming_soon_note
+      ? `<span class="stock-note">${escapeHTML(item.coming_soon_note)}</span>`
+      : "";
+
+    return `
+      <div class="stock-variant">
+        <div class="stock-code">${escapeHTML(displayValue(item.product_code))}</div>
+        <div class="stock-spec">${escapeHTML(displayValue(item.spec))}</div>
+        <div class="stock-qty">
+          ${availableHTML}
+          ${comingHTML}
+          ${noteHTML}
+        </div>
+      </div>
+    `;
+  }
+
+  function stockCard(group) {
+    const availableTotal = group.items.reduce((sum, item) => sum + numberValue(item.available_qty), 0);
+    const comingTotal = group.items.reduce((sum, item) => sum + numberValue(item.coming_soon_qty), 0);
+    const stockDate = group.items.find((item) => item.stock_date)?.stock_date || "";
+
+    return `
+      <article class="stock-card">
+        <div class="card-body">
+          <div class="meta">
+            <span class="badge dark">CASSINA</span>
+            <span class="badge">${escapeHTML(stockCategoryLabel(group.category))}</span>
+          </div>
+
+          <div class="stock-card-head">
+            <div>
+              <h2 class="name">${escapeHTML(group.model)}</h2>
+              <p class="stock-brand">CASSINA STOCK</p>
+            </div>
+            <div class="stock-date">${stockDate ? `${escapeHTML(stockDate)} 기준` : ""}</div>
+          </div>
+
+          <div class="stock-summary-strip">
+            ${availableTotal > 0 ? `<span class="stock-summary-chip">Available ${availableTotal.toLocaleString("ko-KR")} pcs</span>` : ""}
+            ${comingTotal > 0 ? `<span class="stock-summary-chip">Coming soon ${comingTotal.toLocaleString("ko-KR")} pcs</span>` : ""}
+            <span class="stock-summary-chip">${group.items.length.toLocaleString("ko-KR")} specs</span>
+          </div>
+
+          <div class="stock-variants">
+            ${group.items.map(stockVariantRow).join("")}
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
+  function groupStockItems(items) {
+    const groups = new Map();
+
+    items.forEach((item) => {
+      const key = `${item.category}__${item.model}`;
+
+      if (!groups.has(key)) {
+        groups.set(key, {
+          category: item.category || "",
+          model: item.model || "-",
+          items: []
+        });
+      }
+
+      groups.get(key).items.push(item);
+    });
+
+    return Array.from(groups.values());
+  }
+
   function updateGallery() {
     const url = galleryImages[galleryIndex];
 
@@ -410,11 +550,43 @@
   }
 
   function renderProducts(items) {
+    productList.classList.remove("stock-mode");
     productList.innerHTML = items
       .map((item) => productCard(item, allProducts.indexOf(item)))
       .join("");
 
     countText.textContent = `${items.length.toLocaleString("ko-KR")}개 상품`;
+    emptyState.textContent = "검색 결과가 없습니다.";
+    emptyState.hidden = items.length !== 0;
+  }
+
+  function renderStock(items) {
+    productList.classList.add("stock-mode");
+
+    if (stockLoadError) {
+      countText.textContent = "Cassina Stock 로딩 실패";
+      emptyState.hidden = true;
+      productList.innerHTML = `
+        <section class="empty-state">
+          cassina-stock.csv 파일을 불러오지 못했습니다.<br>
+          GitHub 저장소에 파일이 업로드되어 있는지 확인해주세요.
+        </section>
+      `;
+      return;
+    }
+
+    const groups = groupStockItems(items);
+    const availableTotal = items.reduce((sum, item) => sum + numberValue(item.available_qty), 0);
+    const comingTotal = items.reduce((sum, item) => sum + numberValue(item.coming_soon_qty), 0);
+
+    productList.innerHTML = groups.map(stockCard).join("");
+    countText.textContent =
+      `${groups.length.toLocaleString("ko-KR")}개 모델 · ` +
+      `${items.length.toLocaleString("ko-KR")}개 스펙 · ` +
+      `Available ${availableTotal.toLocaleString("ko-KR")} pcs · ` +
+      `Coming ${comingTotal.toLocaleString("ko-KR")} pcs`;
+
+    emptyState.textContent = "조건에 맞는 Cassina 재고가 없습니다.";
     emptyState.hidden = items.length !== 0;
   }
 
@@ -430,7 +602,40 @@
     });
   }
 
+  function getFilteredStock() {
+    const keyword = searchInput.value.trim().toLowerCase();
+
+    return stockProducts.filter((item) => {
+      const keywordMatch = keyword === "" || item.searchText.includes(keyword);
+      const categoryMatch =
+        activeStockCategory === "all" ||
+        item.categoryKey === activeStockCategory;
+
+      return keywordMatch && categoryMatch;
+    });
+  }
+
+  function updateModeUI() {
+    const isStock = activeMode === "stock";
+    stockFilters.hidden = !isStock;
+
+    if (isStock) {
+      searchInput.placeholder = "Cassina 재고: 제품명, 코드, 패브릭, 컬러 검색";
+      hintText.textContent = "Cassina Stock Indoor Collection · 2026.08.03 기준 · AVAILABLE은 현재 주문 가능, COMING은 입고 예정 수량입니다.";
+    } else {
+      searchInput.placeholder = "상품명, 브랜드, 디자이너, 소재, 사이즈 검색";
+      hintText.textContent = "MORE IMAGE는 쇼룸컷 슬라이드, INFO LINK는 홈페이지 이동입니다.";
+    }
+  }
+
   function applyFilters() {
+    updateModeUI();
+
+    if (activeMode === "stock") {
+      renderStock(getFilteredStock());
+      return;
+    }
+
     renderProducts(getFilteredProducts());
   }
 
@@ -440,14 +645,28 @@
     });
   }
 
+  function setActiveStockCategory(targetButton) {
+    stockCategoryButtons.forEach((button) => {
+      button.classList.toggle("is-active", button === targetButton);
+    });
+  }
+
   function resetFilters() {
     searchInput.value = "";
     activeMode = "all";
     activeFloor = "";
+    activeStockCategory = "all";
 
     const allButton = floorButtons.find((button) => button.dataset.type === "all");
     if (allButton) {
       setActiveButton(allButton);
+    }
+
+    const allStockButton = stockCategoryButtons.find(
+      (button) => button.dataset.stockCategory === "all"
+    );
+    if (allStockButton) {
+      setActiveStockCategory(allStockButton);
     }
 
     applyFilters();
@@ -475,13 +694,50 @@
       applyFilters();
     } catch (error) {
       console.error(error);
-      countText.textContent = "CSV 로딩 실패";
-      productList.innerHTML = `
-        <section class="empty-state">
-          price.csv 파일을 불러오지 못했습니다.<br>
-          GitHub 저장소의 파일명과 위치를 확인해주세요.
-        </section>
-      `;
+
+      if (activeMode !== "stock") {
+        countText.textContent = "CSV 로딩 실패";
+        productList.innerHTML = `
+          <section class="empty-state">
+            price.csv 파일을 불러오지 못했습니다.<br>
+            GitHub 저장소의 파일명과 위치를 확인해주세요.
+          </section>
+        `;
+      }
+    }
+  }
+
+  async function loadStock() {
+    try {
+      const response = await fetch(`${STOCK_CSV_URL}?v=${Date.now()}`, {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error(`cassina-stock.csv 로딩 실패: ${response.status}`);
+      }
+
+      const csvText = await response.text();
+      stockProducts = parseCSV(csvText)
+        .filter((item) => item.model || item.product_code)
+        .map((item) => ({
+          ...item,
+          categoryKey: stockCategoryKey(item.category),
+          searchText: makeStockSearchText(item)
+        }));
+
+      stockLoadError = null;
+
+      if (activeMode === "stock") {
+        applyFilters();
+      }
+    } catch (error) {
+      console.error(error);
+      stockLoadError = error;
+
+      if (activeMode === "stock") {
+        applyFilters();
+      }
     }
   }
 
@@ -491,6 +747,14 @@
       activeFloor = button.dataset.value || "";
 
       setActiveButton(button);
+      applyFilters();
+    });
+  });
+
+  stockCategoryButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeStockCategory = button.dataset.stockCategory || "all";
+      setActiveStockCategory(button);
       applyFilters();
     });
   });
@@ -572,4 +836,5 @@
   });
 
   loadProducts();
+  loadStock();
 })();
