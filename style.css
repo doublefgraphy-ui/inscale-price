@@ -504,9 +504,9 @@ body {
 }
 
 .stock-pill.available {
-  background: #fff !important;
+  background: #f1f6ff !important;
   color: #2563eb !important;
-  border: 1px solid rgba(37, 99, 235, 0.28) !important;
+  border: 1px solid rgba(37, 99, 235, 0.22) !important;
 }
 
 .stock-pill.coming {
