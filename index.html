@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="INSCALE">
   <link rel="apple-touch-icon" href="icon-192.png">
-  <link rel="stylesheet" href="style.css?v=20260810-2">
+  <link rel="stylesheet" href="style.css?v=20260811-1">
 </head>
 <body id="top">
   <header class="topbar">
@@ -40,6 +40,7 @@
         <button class="floor-btn" type="button" data-type="floor" data-value="4F">4F</button>
         <button class="floor-btn sale" type="button" data-type="sale">DP SALE</button>
         <button class="floor-btn stock" type="button" data-type="stock">CASSINA STOCK</button>
+        <button class="floor-btn inbound" type="button" data-type="inbound">VITRA/ARTEK</button>
       </nav>
 
       <nav id="stockFilters" class="stock-filters" aria-label="Cassina 재고 카테고리 필터" hidden>
@@ -49,6 +50,16 @@
         <button class="stock-filter-btn" type="button" data-stock-category="chairs">CHAIRS</button>
         <button class="stock-filter-btn" type="button" data-stock-category="tables">TABLES</button>
         <button class="stock-filter-btn" type="button" data-stock-category="cabinets">CABINETS</button>
+      </nav>
+
+      <nav id="inboundFilters" class="inbound-filters" aria-label="Vitra Artek 입고 필터" hidden>
+        <button class="inbound-filter-btn is-active" type="button" data-inbound-filter="all">ALL</button>
+        <button class="inbound-filter-btn" type="button" data-inbound-filter="vitra">VITRA</button>
+        <button class="inbound-filter-btn" type="button" data-inbound-filter="artek">ARTEK</button>
+        <button class="inbound-filter-btn" type="button" data-inbound-filter="seating">SEATING</button>
+        <button class="inbound-filter-btn" type="button" data-inbound-filter="tables">TABLES</button>
+        <button class="inbound-filter-btn" type="button" data-inbound-filter="storage">STORAGE</button>
+        <button class="inbound-filter-btn" type="button" data-inbound-filter="accessories">ACCESSORIES</button>
       </nav>
 
       <div class="summary">
@@ -100,6 +111,6 @@
       });
     }
   </script>
-  <script src="script.js"></script>
+  <script src="script.js?v=20260811-1"></script>
 </body>
 </html>

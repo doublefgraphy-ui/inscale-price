@@ -3,6 +3,7 @@
 
   const CSV_URL = "price.csv";
   const STOCK_CSV_URL = "cassina-stock.csv";
+  const INBOUND_CSV_URL = "vitra-artek-stock.csv";
 
   const productList = document.getElementById("productList");
   const searchInput = document.getElementById("searchInput");
@@ -13,6 +14,8 @@
   const floorButtons = Array.from(document.querySelectorAll(".floor-btn"));
   const stockFilters = document.getElementById("stockFilters");
   const stockCategoryButtons = Array.from(document.querySelectorAll(".stock-filter-btn"));
+  const inboundFilters = document.getElementById("inboundFilters");
+  const inboundFilterButtons = Array.from(document.querySelectorAll(".inbound-filter-btn"));
   const hintText = document.getElementById("hintText");
 
   const galleryModal = document.getElementById("galleryModal");
@@ -28,9 +31,12 @@
   let allProducts = [];
   let stockProducts = [];
   let stockLoadError = null;
+  let inboundProducts = [];
+  let inboundLoadError = null;
   let activeMode = "all";
   let activeFloor = "";
   let activeStockCategory = "all";
+  let activeInboundFilter = "all";
 
   let galleryImages = [];
   let galleryIndex = 0;
@@ -228,6 +234,28 @@
       item.coming_soon_note,
       item.stock_date
     ].join(" ").toLowerCase();
+  }
+
+  function makeInboundSearchText(item) {
+    return [
+      item.brand,
+      item.category,
+      item.product_name,
+      item.product_code,
+      item.spec,
+      item.incoming_qty,
+      item.batch,
+      item.date_label,
+      item.note
+    ].join(" ").toLowerCase();
+  }
+
+  function inboundFilterKey(item, filter) {
+    if (filter === "all") return true;
+    if (filter === "vitra" || filter === "artek") {
+      return String(item.brand || "").toLowerCase() === filter;
+    }
+    return String(item.category || "").toLowerCase() === filter;
   }
 
   function stockCategoryKey(category) {
@@ -480,6 +508,77 @@
     return Array.from(groups.values());
   }
 
+  function inboundVariantRow(item) {
+    const incoming = numberValue(item.incoming_qty);
+    const noteText = item.note || `${item.batch || ""}${item.date_label ? ` · ${item.date_label}` : ""}`;
+
+    return `
+      <div class="stock-variant">
+        <div class="stock-code">${escapeHTML(displayValue(item.product_code))}</div>
+        <div class="stock-spec">${escapeHTML(displayValue(item.spec))}</div>
+        <div class="stock-qty">
+          ${incoming > 0 ? `<span class="stock-pill incoming">INCOMING ${incoming.toLocaleString("ko-KR")}</span>` : ""}
+          ${noteText ? `<span class="inbound-batch">${escapeHTML(noteText)}</span>` : ""}
+        </div>
+      </div>
+    `;
+  }
+
+  function groupInboundItems(items) {
+    const groups = new Map();
+
+    items.forEach((item) => {
+      const key = `${item.brand}__${item.category}__${item.product_name}`;
+
+      if (!groups.has(key)) {
+        groups.set(key, {
+          brand: item.brand || "-",
+          category: item.category || "-",
+          productName: item.product_name || "-",
+          items: []
+        });
+      }
+
+      groups.get(key).items.push(item);
+    });
+
+    return Array.from(groups.values());
+  }
+
+  function inboundCard(group) {
+    const incomingTotal = group.items.reduce((sum, item) => sum + numberValue(item.incoming_qty), 0);
+    const dateLabels = [...new Set(group.items.map((item) => item.date_label).filter(Boolean))];
+    const dateText = dateLabels.length === 1 ? dateLabels[0] : `${dateLabels.length} batches`;
+
+    return `
+      <article class="stock-card inbound-card">
+        <div class="card-body">
+          <div class="meta">
+            <span class="badge dark">${escapeHTML(group.brand)}</span>
+            <span class="badge">${escapeHTML(group.category)}</span>
+          </div>
+
+          <div class="stock-card-head">
+            <div>
+              <h2 class="name">${escapeHTML(group.productName)}</h2>
+              <p class="stock-brand">${escapeHTML(group.brand)} INCOMING</p>
+            </div>
+            <div class="stock-date">${escapeHTML(dateText)}</div>
+          </div>
+
+          <div class="stock-summary-strip">
+            <span class="stock-summary-chip">Incoming ${incomingTotal.toLocaleString("ko-KR")} pcs</span>
+            <span class="stock-summary-chip">${group.items.length.toLocaleString("ko-KR")} specs</span>
+          </div>
+
+          <div class="stock-variants">
+            ${group.items.map(inboundVariantRow).join("")}
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
   function updateGallery() {
     const url = galleryImages[galleryIndex];
 
@@ -590,6 +689,34 @@
     emptyState.hidden = items.length !== 0;
   }
 
+  function renderInbound(items) {
+    productList.classList.add("stock-mode");
+
+    if (inboundLoadError) {
+      countText.textContent = "Vitra/Artek 입고 리스트 로딩 실패";
+      emptyState.hidden = true;
+      productList.innerHTML = `
+        <section class="empty-state">
+          vitra-artek-stock.csv 파일을 불러오지 못했습니다.<br>
+          GitHub 저장소에 파일이 업로드되어 있는지 확인해주세요.
+        </section>
+      `;
+      return;
+    }
+
+    const groups = groupInboundItems(items);
+    const incomingTotal = items.reduce((sum, item) => sum + numberValue(item.incoming_qty), 0);
+
+    productList.innerHTML = groups.map(inboundCard).join("");
+    countText.textContent =
+      `${groups.length.toLocaleString("ko-KR")}개 모델 · ` +
+      `${items.length.toLocaleString("ko-KR")}개 스펙 · ` +
+      `Incoming ${incomingTotal.toLocaleString("ko-KR")} pcs`;
+
+    emptyState.textContent = "조건에 맞는 Vitra/Artek 입고 제품이 없습니다.";
+    emptyState.hidden = items.length !== 0;
+  }
+
   function getFilteredProducts() {
     const keyword = searchInput.value.trim().toLowerCase();
 
@@ -615,13 +742,28 @@
     });
   }
 
+  function getFilteredInbound() {
+    const keyword = searchInput.value.trim().toLowerCase();
+
+    return inboundProducts.filter((item) => {
+      const keywordMatch = keyword === "" || item.searchText.includes(keyword);
+      const filterMatch = inboundFilterKey(item, activeInboundFilter);
+      return keywordMatch && filterMatch;
+    });
+  }
+
   function updateModeUI() {
     const isStock = activeMode === "stock";
+    const isInbound = activeMode === "inbound";
     stockFilters.hidden = !isStock;
+    inboundFilters.hidden = !isInbound;
 
     if (isStock) {
       searchInput.placeholder = "Cassina 재고: 제품명, 코드, 패브릭, 컬러 검색";
       hintText.textContent = "Cassina Stock Indoor Collection · 2026.08.03 기준 · AVAILABLE은 현재 주문 가능, COMING은 입고 예정 수량입니다.";
+    } else if (isInbound) {
+      searchInput.placeholder = "Vitra/Artek 입고: 제품명, 코드, 컬러, 사양 검색";
+      hintText.textContent = "Vitra/Artek 입고 자료 통합본 · 중복 Packing List/Invoice 제거 · INCOMING은 문서상 입고 수량입니다.";
     } else {
       searchInput.placeholder = "상품명, 브랜드, 디자이너, 소재, 사이즈 검색";
       hintText.textContent = "MORE IMAGE는 쇼룸컷 슬라이드, INFO LINK는 홈페이지 이동입니다.";
@@ -633,6 +775,11 @@
 
     if (activeMode === "stock") {
       renderStock(getFilteredStock());
+      return;
+    }
+
+    if (activeMode === "inbound") {
+      renderInbound(getFilteredInbound());
       return;
     }
 
@@ -651,11 +798,18 @@
     });
   }
 
+  function setActiveInboundFilter(targetButton) {
+    inboundFilterButtons.forEach((button) => {
+      button.classList.toggle("is-active", button === targetButton);
+    });
+  }
+
   function resetFilters() {
     searchInput.value = "";
     activeMode = "all";
     activeFloor = "";
     activeStockCategory = "all";
+    activeInboundFilter = "all";
 
     const allButton = floorButtons.find((button) => button.dataset.type === "all");
     if (allButton) {
@@ -667,6 +821,13 @@
     );
     if (allStockButton) {
       setActiveStockCategory(allStockButton);
+    }
+
+    const allInboundButton = inboundFilterButtons.find(
+      (button) => button.dataset.inboundFilter === "all"
+    );
+    if (allInboundButton) {
+      setActiveInboundFilter(allInboundButton);
     }
 
     applyFilters();
@@ -695,7 +856,7 @@
     } catch (error) {
       console.error(error);
 
-      if (activeMode !== "stock") {
+      if (activeMode !== "stock" && activeMode !== "inbound") {
         countText.textContent = "CSV 로딩 실패";
         productList.innerHTML = `
           <section class="empty-state">
@@ -741,6 +902,39 @@
     }
   }
 
+  async function loadInbound() {
+    try {
+      const response = await fetch(`${INBOUND_CSV_URL}?v=${Date.now()}`, {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error(`vitra-artek-stock.csv 로딩 실패: ${response.status}`);
+      }
+
+      const csvText = await response.text();
+      inboundProducts = parseCSV(csvText)
+        .filter((item) => item.product_name || item.product_code)
+        .map((item) => ({
+          ...item,
+          searchText: makeInboundSearchText(item)
+        }));
+
+      inboundLoadError = null;
+
+      if (activeMode === "inbound") {
+        applyFilters();
+      }
+    } catch (error) {
+      console.error(error);
+      inboundLoadError = error;
+
+      if (activeMode === "inbound") {
+        applyFilters();
+      }
+    }
+  }
+
   floorButtons.forEach((button) => {
     button.addEventListener("click", () => {
       activeMode = button.dataset.type || "all";
@@ -755,6 +949,14 @@
     button.addEventListener("click", () => {
       activeStockCategory = button.dataset.stockCategory || "all";
       setActiveStockCategory(button);
+      applyFilters();
+    });
+  });
+
+  inboundFilterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeInboundFilter = button.dataset.inboundFilter || "all";
+      setActiveInboundFilter(button);
       applyFilters();
     });
   });
@@ -837,4 +1039,5 @@
 
   loadProducts();
   loadStock();
+  loadInbound();
 })();
