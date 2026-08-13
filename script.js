@@ -578,7 +578,7 @@
     const imageHTML = imageUrl
       ? `
           <a class="stock-image-wrap" href="${escapeHTML(imageUrl)}" target="_blank" rel="noopener" aria-label="${escapeHTML(group.productName)} 이미지 크게 보기">
-            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(group.productName)}" loading="lazy">
+            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(group.productName)}" loading="lazy" onerror="this.closest('.stock-image-wrap').style.display='none'">
           </a>
         `
       : "";
@@ -629,7 +629,7 @@
     const imageHTML = imageUrl
       ? `
           <a class="stock-image-wrap" href="${escapeHTML(imageUrl)}" target="_blank" rel="noopener" aria-label="${escapeHTML(group.productName)} 이미지 크게 보기">
-            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(group.productName)}" loading="lazy">
+            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(group.productName)}" loading="lazy" onerror="this.closest('.stock-image-wrap').style.display='none'">
           </a>
         `
       : "";
