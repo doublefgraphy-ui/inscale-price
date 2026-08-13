@@ -897,22 +897,22 @@
     const isStock = activeMode === "stock";
     const isInbound = activeMode === "inbound";
     const isArtek = activeMode === "artek";
-    stockFilters.hidden = !isStock;
-    inboundFilters.hidden = !isInbound;
-    artekFilters.hidden = !isArtek;
+    if (stockFilters) stockFilters.hidden = !isStock;
+    if (inboundFilters) inboundFilters.hidden = !isInbound;
+    if (artekFilters) artekFilters.hidden = !isArtek;
 
     if (isStock) {
-      searchInput.placeholder = "Cassina 재고: 제품명, 코드, 패브릭, 컬러 검색";
-      hintText.textContent = "Cassina Stock Indoor Collection · 2026.08.03 기준 · AVAILABLE은 현재 주문 가능, COMING은 입고 예정 수량입니다.";
+      if (searchInput) searchInput.placeholder = "Cassina 재고: 제품명, 코드, 패브릭, 컬러 검색";
+      if (hintText) hintText.textContent = "Cassina Stock Indoor Collection · 2026.08.03 기준 · AVAILABLE은 현재 주문 가능, COMING은 입고 예정 수량입니다.";
     } else if (isInbound) {
-      searchInput.placeholder = "Vitra 재고: 제품명, 컬러, 사양 검색";
-      hintText.textContent = "Vitra Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다.";
+      if (searchInput) searchInput.placeholder = "Vitra 재고: 제품명, 컬러, 사양 검색";
+      if (hintText) hintText.textContent = "Vitra Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다.";
     } else if (isArtek) {
-      searchInput.placeholder = "Artek 재고: 제품명, 컬러, 사양 검색";
-      hintText.textContent = "Artek Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다. 제품 이미지는 PPT에 연결된 이미지 URL을 사용합니다.";
+      if (searchInput) searchInput.placeholder = "Artek 재고: 제품명, 컬러, 사양 검색";
+      if (hintText) hintText.textContent = "Artek Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다. 제품 이미지는 PPT에 연결된 이미지 URL을 사용합니다.";
     } else {
-      searchInput.placeholder = "상품명, 브랜드, 디자이너, 소재, 사이즈 검색";
-      hintText.textContent = "MORE IMAGE는 쇼룸컷 슬라이드, INFO LINK는 홈페이지 이동입니다.";
+      if (searchInput) searchInput.placeholder = "상품명, 브랜드, 디자이너, 소재, 사이즈 검색";
+      if (hintText) hintText.textContent = "MORE IMAGE는 쇼룸컷 슬라이드, INFO LINK는 홈페이지 이동입니다.";
     }
   }
 
