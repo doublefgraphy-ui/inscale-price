@@ -4,6 +4,7 @@
   const CSV_URL = "price.csv";
   const STOCK_CSV_URL = "cassina-stock.csv";
   const INBOUND_CSV_URL = "vitra-stock.csv";
+  const ARTEK_CSV_URL = "artek-stock.csv";
 
   const productList = document.getElementById("productList");
   const searchInput = document.getElementById("searchInput");
@@ -16,6 +17,8 @@
   const stockCategoryButtons = Array.from(document.querySelectorAll(".stock-filter-btn"));
   const inboundFilters = document.getElementById("inboundFilters");
   const inboundFilterButtons = Array.from(document.querySelectorAll(".inbound-filter-btn"));
+  const artekFilters = document.getElementById("artekFilters");
+  const artekFilterButtons = Array.from(document.querySelectorAll(".artek-filter-btn"));
   const hintText = document.getElementById("hintText");
 
   const galleryModal = document.getElementById("galleryModal");
@@ -33,10 +36,13 @@
   let stockLoadError = null;
   let inboundProducts = [];
   let inboundLoadError = null;
+  let artekProducts = [];
+  let artekLoadError = null;
   let activeMode = "all";
   let activeFloor = "";
   let activeStockCategory = "all";
   let activeInboundFilter = "all";
+  let activeArtekFilter = "all";
 
   let galleryImages = [];
   let galleryIndex = 0;
@@ -600,6 +606,57 @@
     `;
   }
 
+
+  function artekCard(group) {
+    const total = group.items.reduce((sum, item) => sum + numberValue(item.total_qty), 0);
+    const available = group.items.reduce((sum, item) => sum + numberValue(item.available_qty), 0);
+    const dp = group.items.reduce((sum, item) => sum + numberValue(item.dp_qty), 0);
+    const coming = group.items.reduce((sum, item) => sum + numberValue(item.coming_qty), 0);
+    const stockDate = group.items.find((item) => item.stock_date)?.stock_date || "";
+    const imageUrl = group.items.find((item) => item.image_url)?.image_url || "";
+
+    const imageHTML = imageUrl
+      ? `
+          <a class="stock-image-wrap" href="${escapeHTML(imageUrl)}" target="_blank" rel="noopener" aria-label="${escapeHTML(group.productName)} 이미지 크게 보기">
+            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(group.productName)}" loading="lazy">
+          </a>
+        `
+      : "";
+
+    return `
+      <article class="stock-card artek-card">
+        <div class="card-body">
+          <div class="meta">
+            <span class="badge dark">ARTEK</span>
+            <span class="badge">${escapeHTML(group.category)}</span>
+          </div>
+
+          ${imageHTML}
+
+          <div class="stock-card-head">
+            <div>
+              <h2 class="name">${escapeHTML(group.productName)}</h2>
+              <p class="stock-brand">ARTEK STOCK</p>
+            </div>
+            <div class="stock-date">${stockDate ? `${escapeHTML(stockDate)} 기준` : ""}</div>
+          </div>
+
+          <div class="stock-summary-strip">
+            <span class="stock-summary-chip">Total ${total.toLocaleString("ko-KR")} pcs</span>
+            ${available > 0 ? `<span class="stock-summary-chip">Available ${available.toLocaleString("ko-KR")} pcs</span>` : ""}
+            ${dp > 0 ? `<span class="stock-summary-chip">DP ${dp.toLocaleString("ko-KR")} pcs</span>` : ""}
+            ${coming > 0 ? `<span class="stock-summary-chip">Coming ${coming.toLocaleString("ko-KR")} pcs</span>` : ""}
+            <span class="stock-summary-chip">${group.items.length.toLocaleString("ko-KR")} specs</span>
+          </div>
+
+          <div class="stock-variants">
+            ${group.items.map(inboundVariantRow).join("")}
+          </div>
+        </div>
+      </article>
+    `;
+  }
+
   function updateGallery() {
     const url = galleryImages[galleryIndex];
 
@@ -744,6 +801,41 @@
     emptyState.hidden = items.length !== 0;
   }
 
+
+  function renderArtek(items) {
+    productList.classList.add("stock-mode");
+
+    if (artekLoadError) {
+      countText.textContent = "Artek Stock 로딩 실패";
+      emptyState.hidden = true;
+      productList.innerHTML = `
+        <section class="empty-state">
+          artek-stock.csv 파일을 불러오지 못했습니다.<br>
+          GitHub 저장소에 파일이 업로드되어 있는지 확인해주세요.
+        </section>
+      `;
+      return;
+    }
+
+    const groups = groupInboundItems(items);
+    const total = items.reduce((sum, item) => sum + numberValue(item.total_qty), 0);
+    const available = items.reduce((sum, item) => sum + numberValue(item.available_qty), 0);
+    const dp = items.reduce((sum, item) => sum + numberValue(item.dp_qty), 0);
+    const coming = items.reduce((sum, item) => sum + numberValue(item.coming_qty), 0);
+
+    productList.innerHTML = groups.map(artekCard).join("");
+    countText.textContent =
+      `${groups.length.toLocaleString("ko-KR")}개 모델 · ` +
+      `${items.length.toLocaleString("ko-KR")}개 스펙 · ` +
+      `Total ${total.toLocaleString("ko-KR")} pcs · ` +
+      `Available ${available.toLocaleString("ko-KR")} · ` +
+      `DP ${dp.toLocaleString("ko-KR")} · ` +
+      `Coming ${coming.toLocaleString("ko-KR")}`;
+
+    emptyState.textContent = "조건에 맞는 Artek 재고가 없습니다.";
+    emptyState.hidden = items.length !== 0;
+  }
+
   function getFilteredProducts() {
     const keyword = searchInput.value.trim().toLowerCase();
 
@@ -779,11 +871,24 @@
     });
   }
 
+
+  function getFilteredArtek() {
+    const keyword = searchInput.value.trim().toLowerCase();
+
+    return artekProducts.filter((item) => {
+      const keywordMatch = keyword === "" || item.searchText.includes(keyword);
+      const filterMatch = inboundFilterKey(item, activeArtekFilter);
+      return keywordMatch && filterMatch;
+    });
+  }
+
   function updateModeUI() {
     const isStock = activeMode === "stock";
     const isInbound = activeMode === "inbound";
+    const isArtek = activeMode === "artek";
     stockFilters.hidden = !isStock;
     inboundFilters.hidden = !isInbound;
+    artekFilters.hidden = !isArtek;
 
     if (isStock) {
       searchInput.placeholder = "Cassina 재고: 제품명, 코드, 패브릭, 컬러 검색";
@@ -791,6 +896,9 @@
     } else if (isInbound) {
       searchInput.placeholder = "Vitra 재고: 제품명, 컬러, 사양 검색";
       hintText.textContent = "Vitra Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다.";
+    } else if (isArtek) {
+      searchInput.placeholder = "Artek 재고: 제품명, 컬러, 사양 검색";
+      hintText.textContent = "Artek Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다. 제품 이미지는 PPT에 연결된 이미지 URL을 사용합니다.";
     } else {
       searchInput.placeholder = "상품명, 브랜드, 디자이너, 소재, 사이즈 검색";
       hintText.textContent = "MORE IMAGE는 쇼룸컷 슬라이드, INFO LINK는 홈페이지 이동입니다.";
@@ -807,6 +915,11 @@
 
     if (activeMode === "inbound") {
       renderInbound(getFilteredInbound());
+      return;
+    }
+
+    if (activeMode === "artek") {
+      renderArtek(getFilteredArtek());
       return;
     }
 
@@ -831,12 +944,19 @@
     });
   }
 
+  function setActiveArtekFilter(targetButton) {
+    artekFilterButtons.forEach((button) => {
+      button.classList.toggle("is-active", button === targetButton);
+    });
+  }
+
   function resetFilters() {
     searchInput.value = "";
     activeMode = "all";
     activeFloor = "";
     activeStockCategory = "all";
     activeInboundFilter = "all";
+    activeArtekFilter = "all";
 
     const allButton = floorButtons.find((button) => button.dataset.type === "all");
     if (allButton) {
@@ -855,6 +975,13 @@
     );
     if (allInboundButton) {
       setActiveInboundFilter(allInboundButton);
+    }
+
+    const allArtekButton = artekFilterButtons.find(
+      (button) => button.dataset.artekFilter === "all"
+    );
+    if (allArtekButton) {
+      setActiveArtekFilter(allArtekButton);
     }
 
     applyFilters();
@@ -883,7 +1010,7 @@
     } catch (error) {
       console.error(error);
 
-      if (activeMode !== "stock" && activeMode !== "inbound") {
+      if (activeMode !== "stock" && activeMode !== "inbound" && activeMode !== "artek") {
         countText.textContent = "CSV 로딩 실패";
         productList.innerHTML = `
           <section class="empty-state">
@@ -962,6 +1089,40 @@
     }
   }
 
+
+  async function loadArtek() {
+    try {
+      const response = await fetch(`${ARTEK_CSV_URL}?v=${Date.now()}`, {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error(`artek-stock.csv 로딩 실패: ${response.status}`);
+      }
+
+      const csvText = await response.text();
+      artekProducts = parseCSV(csvText)
+        .filter((item) => item.product_name)
+        .map((item) => ({
+          ...item,
+          searchText: makeInboundSearchText(item)
+        }));
+
+      artekLoadError = null;
+
+      if (activeMode === "artek") {
+        applyFilters();
+      }
+    } catch (error) {
+      console.error(error);
+      artekLoadError = error;
+
+      if (activeMode === "artek") {
+        applyFilters();
+      }
+    }
+  }
+
   floorButtons.forEach((button) => {
     button.addEventListener("click", () => {
       activeMode = button.dataset.type || "all";
@@ -984,6 +1145,15 @@
     button.addEventListener("click", () => {
       activeInboundFilter = button.dataset.inboundFilter || "all";
       setActiveInboundFilter(button);
+      applyFilters();
+    });
+  });
+
+
+  artekFilterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      activeArtekFilter = button.dataset.artekFilter || "all";
+      setActiveArtekFilter(button);
       applyFilters();
     });
   });
@@ -1067,4 +1237,5 @@
   loadProducts();
   loadStock();
   loadInbound();
+  loadArtek();
 })();

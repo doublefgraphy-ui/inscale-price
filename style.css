@@ -112,7 +112,7 @@ body {
 
 .floor-tabs {
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   gap: 8px;
   margin-top: 10px;
 }
@@ -163,6 +163,17 @@ body {
 }
 
 .floor-btn.inbound.is-active {
+  background: #111;
+  border-color: #111;
+  color: #fff;
+}
+
+.floor-btn.artek {
+  color: #111;
+  border-color: rgba(17, 17, 17, 0.28);
+}
+
+.floor-btn.artek.is-active {
   background: #111;
   border-color: #111;
   color: #fff;
@@ -225,6 +236,37 @@ body {
 }
 
 .inbound-filter-btn.is-active {
+  border-color: #111;
+  background: #111;
+  color: #fff;
+}
+
+.artek-filters[hidden] {
+  display: none;
+}
+
+.artek-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+.artek-filter-btn {
+  min-height: 34px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.artek-filter-btn.is-active {
   border-color: #111;
   background: #111;
   color: #fff;
@@ -629,6 +671,38 @@ body {
   font-size: 10px;
   line-height: 1.35;
   text-align: right;
+}
+
+
+.artek-card .stock-image-wrap {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 7;
+  margin: 12px 0 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #f7f5f1;
+}
+
+.artek-card .stock-image-wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.artek-card .stock-image-wrap:hover img {
+  transform: scale(1.015);
+}
+
+.artek-card .stock-image-wrap img {
+  transition: transform 0.18s ease;
+}
+
+.artek-card .stock-brand {
+  color: #111;
 }
 
 .empty-state {
