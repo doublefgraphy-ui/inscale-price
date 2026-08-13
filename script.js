@@ -573,6 +573,15 @@
     const dp = group.items.reduce((sum, item) => sum + numberValue(item.dp_qty), 0);
     const coming = group.items.reduce((sum, item) => sum + numberValue(item.coming_qty), 0);
     const stockDate = group.items.find((item) => item.stock_date)?.stock_date || "";
+    const imageUrl = group.items.find((item) => item.image_url)?.image_url || "";
+
+    const imageHTML = imageUrl
+      ? `
+          <a class="stock-image-wrap" href="${escapeHTML(imageUrl)}" target="_blank" rel="noopener" aria-label="${escapeHTML(group.productName)} 이미지 크게 보기">
+            <img src="${escapeHTML(imageUrl)}" alt="${escapeHTML(group.productName)}" loading="lazy">
+          </a>
+        `
+      : "";
 
     return `
       <article class="stock-card inbound-card">
@@ -581,6 +590,8 @@
             <span class="badge dark">VITRA</span>
             <span class="badge">${escapeHTML(group.category)}</span>
           </div>
+
+          ${imageHTML}
 
           <div class="stock-card-head">
             <div>

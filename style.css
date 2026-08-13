@@ -674,7 +674,7 @@ body {
 }
 
 
-.artek-card .stock-image-wrap {
+.stock-card .stock-image-wrap {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 7;
@@ -685,7 +685,7 @@ body {
   background: #f7f5f1;
 }
 
-.artek-card .stock-image-wrap img {
+.stock-card .stock-image-wrap img {
   display: block;
   width: 100%;
   height: 100%;
@@ -693,11 +693,11 @@ body {
   padding: 10px;
 }
 
-.artek-card .stock-image-wrap:hover img {
+.stock-card .stock-image-wrap:hover img {
   transform: scale(1.015);
 }
 
-.artek-card .stock-image-wrap img {
+.stock-card .stock-image-wrap img {
   transition: transform 0.18s ease;
 }
 
