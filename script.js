@@ -3,7 +3,7 @@
 
   const CSV_URL = "price.csv";
   const STOCK_CSV_URL = "cassina-stock.csv";
-  const INBOUND_CSV_URL = "vitra-artek-stock.csv";
+  const INBOUND_CSV_URL = "vitra-stock.csv";
 
   const productList = document.getElementById("productList");
   const searchInput = document.getElementById("searchInput");
@@ -241,21 +241,27 @@
       item.brand,
       item.category,
       item.product_name,
-      item.product_code,
+      item.size,
       item.spec,
-      item.incoming_qty,
-      item.batch,
-      item.date_label,
-      item.note
+      item.total_qty,
+      item.available_qty,
+      item.dp_qty,
+      item.coming_qty,
+      item.remark,
+      item.price,
+      item.stock_date
     ].join(" ").toLowerCase();
   }
 
   function inboundFilterKey(item, filter) {
     if (filter === "all") return true;
-    if (filter === "vitra" || filter === "artek") {
-      return String(item.brand || "").toLowerCase() === filter;
-    }
-    return String(item.category || "").toLowerCase() === filter;
+
+    const categoryKey = String(item.category || "")
+      .trim()
+      .toLowerCase()
+      .replace(/\s+/g, "-");
+
+    return categoryKey === filter;
   }
 
   function stockCategoryKey(category) {
@@ -509,16 +515,27 @@
   }
 
   function inboundVariantRow(item) {
-    const incoming = numberValue(item.incoming_qty);
-    const noteText = item.note || `${item.batch || ""}${item.date_label ? ` · ${item.date_label}` : ""}`;
+    const available = numberValue(item.available_qty);
+    const dp = numberValue(item.dp_qty);
+    const coming = numberValue(item.coming_qty);
+    const specText = String(item.spec || item.size || "Standard").trim();
+    const sizeText = item.spec && item.size ? String(item.size).replace(/^Size\s*:\s*/i, "") : "";
+    const detailParts = [];
+
+    if (sizeText) detailParts.push(sizeText);
+    if (item.price) detailParts.push(item.price);
+    if (item.remark) detailParts.push(item.remark);
 
     return `
-      <div class="stock-variant">
-        <div class="stock-code">${escapeHTML(displayValue(item.product_code))}</div>
-        <div class="stock-spec">${escapeHTML(displayValue(item.spec))}</div>
+      <div class="stock-variant vitra-variant">
+        <div class="stock-spec vitra-spec">
+          <strong>${escapeHTML(specText)}</strong>
+          ${detailParts.length ? `<span class="vitra-detail">${escapeHTML(detailParts.join(" · "))}</span>` : ""}
+        </div>
         <div class="stock-qty">
-          ${incoming > 0 ? `<span class="stock-pill incoming">INCOMING ${incoming.toLocaleString("ko-KR")}</span>` : ""}
-          ${noteText ? `<span class="inbound-batch">${escapeHTML(noteText)}</span>` : ""}
+          ${available > 0 ? `<span class="stock-pill available">AVAILABLE ${available.toLocaleString("ko-KR")}</span>` : ""}
+          ${dp > 0 ? `<span class="stock-pill dp">DP ${dp.toLocaleString("ko-KR")}</span>` : ""}
+          ${coming > 0 ? `<span class="stock-pill incoming">COMING ${coming.toLocaleString("ko-KR")}</span>` : ""}
         </div>
       </div>
     `;
@@ -528,11 +545,10 @@
     const groups = new Map();
 
     items.forEach((item) => {
-      const key = `${item.brand}__${item.category}__${item.product_name}`;
+      const key = `${item.category}__${item.product_name}`;
 
       if (!groups.has(key)) {
         groups.set(key, {
-          brand: item.brand || "-",
           category: item.category || "-",
           productName: item.product_name || "-",
           items: []
@@ -546,28 +562,33 @@
   }
 
   function inboundCard(group) {
-    const incomingTotal = group.items.reduce((sum, item) => sum + numberValue(item.incoming_qty), 0);
-    const dateLabels = [...new Set(group.items.map((item) => item.date_label).filter(Boolean))];
-    const dateText = dateLabels.length === 1 ? dateLabels[0] : `${dateLabels.length} batches`;
+    const total = group.items.reduce((sum, item) => sum + numberValue(item.total_qty), 0);
+    const available = group.items.reduce((sum, item) => sum + numberValue(item.available_qty), 0);
+    const dp = group.items.reduce((sum, item) => sum + numberValue(item.dp_qty), 0);
+    const coming = group.items.reduce((sum, item) => sum + numberValue(item.coming_qty), 0);
+    const stockDate = group.items.find((item) => item.stock_date)?.stock_date || "";
 
     return `
       <article class="stock-card inbound-card">
         <div class="card-body">
           <div class="meta">
-            <span class="badge dark">${escapeHTML(group.brand)}</span>
+            <span class="badge dark">VITRA</span>
             <span class="badge">${escapeHTML(group.category)}</span>
           </div>
 
           <div class="stock-card-head">
             <div>
               <h2 class="name">${escapeHTML(group.productName)}</h2>
-              <p class="stock-brand">${escapeHTML(group.brand)} INCOMING</p>
+              <p class="stock-brand">VITRA STOCK</p>
             </div>
-            <div class="stock-date">${escapeHTML(dateText)}</div>
+            <div class="stock-date">${stockDate ? `${escapeHTML(stockDate)} 기준` : ""}</div>
           </div>
 
           <div class="stock-summary-strip">
-            <span class="stock-summary-chip">Incoming ${incomingTotal.toLocaleString("ko-KR")} pcs</span>
+            <span class="stock-summary-chip">Total ${total.toLocaleString("ko-KR")} pcs</span>
+            ${available > 0 ? `<span class="stock-summary-chip">Available ${available.toLocaleString("ko-KR")} pcs</span>` : ""}
+            ${dp > 0 ? `<span class="stock-summary-chip">DP ${dp.toLocaleString("ko-KR")} pcs</span>` : ""}
+            ${coming > 0 ? `<span class="stock-summary-chip">Coming ${coming.toLocaleString("ko-KR")} pcs</span>` : ""}
             <span class="stock-summary-chip">${group.items.length.toLocaleString("ko-KR")} specs</span>
           </div>
 
@@ -693,11 +714,11 @@
     productList.classList.add("stock-mode");
 
     if (inboundLoadError) {
-      countText.textContent = "Vitra/Artek 입고 리스트 로딩 실패";
+      countText.textContent = "Vitra Stock 로딩 실패";
       emptyState.hidden = true;
       productList.innerHTML = `
         <section class="empty-state">
-          vitra-artek-stock.csv 파일을 불러오지 못했습니다.<br>
+          vitra-stock.csv 파일을 불러오지 못했습니다.<br>
           GitHub 저장소에 파일이 업로드되어 있는지 확인해주세요.
         </section>
       `;
@@ -705,15 +726,21 @@
     }
 
     const groups = groupInboundItems(items);
-    const incomingTotal = items.reduce((sum, item) => sum + numberValue(item.incoming_qty), 0);
+    const total = items.reduce((sum, item) => sum + numberValue(item.total_qty), 0);
+    const available = items.reduce((sum, item) => sum + numberValue(item.available_qty), 0);
+    const dp = items.reduce((sum, item) => sum + numberValue(item.dp_qty), 0);
+    const coming = items.reduce((sum, item) => sum + numberValue(item.coming_qty), 0);
 
     productList.innerHTML = groups.map(inboundCard).join("");
     countText.textContent =
       `${groups.length.toLocaleString("ko-KR")}개 모델 · ` +
       `${items.length.toLocaleString("ko-KR")}개 스펙 · ` +
-      `Incoming ${incomingTotal.toLocaleString("ko-KR")} pcs`;
+      `Total ${total.toLocaleString("ko-KR")} pcs · ` +
+      `Available ${available.toLocaleString("ko-KR")} · ` +
+      `DP ${dp.toLocaleString("ko-KR")} · ` +
+      `Coming ${coming.toLocaleString("ko-KR")}`;
 
-    emptyState.textContent = "조건에 맞는 Vitra/Artek 입고 제품이 없습니다.";
+    emptyState.textContent = "조건에 맞는 Vitra 재고가 없습니다.";
     emptyState.hidden = items.length !== 0;
   }
 
@@ -762,8 +789,8 @@
       searchInput.placeholder = "Cassina 재고: 제품명, 코드, 패브릭, 컬러 검색";
       hintText.textContent = "Cassina Stock Indoor Collection · 2026.08.03 기준 · AVAILABLE은 현재 주문 가능, COMING은 입고 예정 수량입니다.";
     } else if (isInbound) {
-      searchInput.placeholder = "Vitra/Artek 입고: 제품명, 코드, 컬러, 사양 검색";
-      hintText.textContent = "Vitra/Artek 입고 자료 통합본 · 중복 Packing List/Invoice 제거 · INCOMING은 문서상 입고 수량입니다.";
+      searchInput.placeholder = "Vitra 재고: 제품명, 컬러, 사양 검색";
+      hintText.textContent = "Vitra Stock 26.08.12 기준 · AVAILABLE은 New, DP는 전시 수량, COMING은 to be 수량입니다.";
     } else {
       searchInput.placeholder = "상품명, 브랜드, 디자이너, 소재, 사이즈 검색";
       hintText.textContent = "MORE IMAGE는 쇼룸컷 슬라이드, INFO LINK는 홈페이지 이동입니다.";
@@ -909,7 +936,7 @@
       });
 
       if (!response.ok) {
-        throw new Error(`vitra-artek-stock.csv 로딩 실패: ${response.status}`);
+        throw new Error(`vitra-stock.csv 로딩 실패: ${response.status}`);
       }
 
       const csvText = await response.text();

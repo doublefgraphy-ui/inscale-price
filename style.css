@@ -584,6 +584,35 @@ body {
   font-weight: 800;
 }
 
+
+.stock-pill.dp {
+  background: #f3f0eb;
+  color: #5d574f;
+  border: 1px solid #ded8cf;
+}
+
+.vitra-variant {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.vitra-spec {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.vitra-spec strong {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.vitra-detail {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.4;
+}
+
 .inbound-card .stock-brand {
   color: #111;
 }
